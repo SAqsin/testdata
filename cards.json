@@ -14,7 +14,7 @@
         "range": 3,
         "critical": 15,
         "description": "Throws his boomerang axe at the nearest target across several Hexes",
-        "image": "/s1/troops/executioner.png",
+        "image": "https://crtactics.com/s1/troops/executioner.png",
         "createdAt": "2025-07-24T08:08:02.999Z"
       },
       {
@@ -30,7 +30,7 @@
         "range": 1,
         "critical": 15,
         "description": "A slow, but heavily armored melee fighter. Nothing gets past herâ€¦",
-        "image": "/s1/troops/pekka.png",
+        "image": "https://crtactics.com/s1/troops/pekka.png",
         "createdAt": "2025-07-24T08:08:03.577Z"
       },
       {
@@ -46,7 +46,7 @@
         "range": 1,
         "critical": 15,
         "description": "Jumps and strikes the largest group of enemies every few seconds, dealing damage and stunning enemies in its Hex Radius for 2s",
-        "image": "/s1/troops/bandit.png",
+        "image": "https://crtactics.com/s1/troops/bandit.png",
         "createdAt": "2025-07-24T08:08:04.451Z"
       },
       {
@@ -62,7 +62,7 @@
         "range": 1,
         "critical": 15,
         "description": "Jumps and strikes the largest group of enemies every Few seconds, dealing Damage and stunning enemies in its Hex Radius for 2s",
-        "image": "/s1/troops/mega-knight.png",
+        "image": "https://crtactics.com/s1/troops/mega-knight.png",
         "createdAt": "2025-07-24T08:08:05.018Z"
       }
     ],
@@ -71,7 +71,7 @@
     "name": "Ace",
     "description": "Combat Start: Highest Merge Level Troop is Captain. When the Captain defeats enemy Troops, your team gains +20% Hit Speed (4s)",
     "type": "origin",
-    "icon": "/s1/traits/ace.png",
+    "icon": "https://crtactics.com/s1/traits/ace.png",
     "bonuses": [
       {
         "effect": "Captain gains 30% bonus Damage",
@@ -99,7 +99,7 @@
         "range": 1,
         "critical": 15,
         "description": "Who needs all that armor when you've got wicked range and hot pink hair?",
-        "image": "/s1/troops/archer.png",
+        "image": "https://crtactics.com/s1/troops/archer.png",
         "createdAt": "2025-07-24T08:08:01.005Z"
       },
       {
@@ -115,7 +115,7 @@
         "range": 1,
         "critical": 15,
         "description": "An all-around melee attacker with a mean mustache",
-        "image": "/s1/troops/barbarian.png",
+        "image": "https://crtactics.com/s1/troops/barbarian.png",
         "createdAt": "2025-07-24T08:08:01.289Z"
       },
       {
@@ -131,7 +131,7 @@
         "range": 1,
         "critical": 15,
         "description": "A melee master who channels her rage into area Damage",
-        "image": "/s1/troops/valkyrie.png",
+        "image": "https://crtactics.com/s1/troops/valkyrie.png",
         "createdAt": "2025-07-24T08:08:04.157Z"
       },
       {
@@ -147,7 +147,7 @@
         "range": 5,
         "critical": 15,
         "description": "Fires multiple arrows at her closest enemies. When her HP drops below 50%, she'll turn invisible and deal bonus Damage",
-        "image": "/s1/troops/archer-queen.png",
+        "image": "https://crtactics.com/s1/troops/archer-queen.png",
         "createdAt": "2025-07-24T08:08:05.882Z"
       }
     ],
@@ -156,7 +156,7 @@
     "name": "Clan",
     "description": "Once per round, Clans rapidly heal and gain bonus Hit Speed at 50% HP",
     "type": "origin",
-    "icon": "/s1/traits/clan.png",
+    "icon": "https://crtactics.com/s1/traits/clan.png",
     "bonuses": [
       {
         "effect": "+30% of max HP and Hit Speed",
@@ -184,7 +184,7 @@
         "range": 1,
         "critical": 15,
         "description": "Goblin speed and melee skills eliminate the need for that pesky armor",
-        "image": "/s1/troops/goblin.png",
+        "image": "https://crtactics.com/s1/troops/goblin.png",
         "createdAt": "2025-07-24T08:08:01.862Z"
       },
       {
@@ -200,7 +200,7 @@
         "range": 3,
         "critical": 15,
         "description": "Spears that slice through wind at such a wide range that he doesn't even need armor",
-        "image": "/s1/troops/spear-goblin.png",
+        "image": "https://crtactics.com/s1/troops/spear-goblin.png",
         "createdAt": "2025-07-24T08:08:02.428Z"
       },
       {
@@ -216,7 +216,7 @@
         "range": 4,
         "critical": 15,
         "description": "An unarmored ranged attacker who runs fast, shoots far, and chews gum",
-        "image": "/s1/troops/dart-goblin.png",
+        "image": "https://crtactics.com/s1/troops/dart-goblin.png",
         "createdAt": "2025-07-24T08:08:02.719Z"
       },
       {
@@ -232,7 +232,7 @@
         "range": 1,
         "critical": 15,
         "description": "Fires a rocket at the farthest enemy after certain hits, dealing 50% bonus Damage and stunning them for 1.5s",
-        "image": "/s1/troops/goblin-machine.png",
+        "image": "https://crtactics.com/s1/troops/goblin-machine.png",
         "createdAt": "2025-07-24T08:08:04.736Z"
       }
     ],
@@ -241,7 +241,7 @@
     "name": "Goblin",
     "description": "You'll get an extra random Goblin for free next round",
     "type": "origin",
-    "icon": "/s1/traits/goblin.png",
+    "icon": "https://crtactics.com/s1/traits/goblin.png",
     "bonuses": [
       {
         "effect": "Gain a 2-Elixir Goblin",
@@ -269,7 +269,7 @@
         "range": 1,
         "critical": 15,
         "description": "One of the toughest melee fighters in the kingdom",
-        "image": "/s1/troops/knight.png",
+        "image": "https://crtactics.com/s1/troops/knight.png",
         "createdAt": "2025-07-24T08:08:02.147Z"
       },
       {
@@ -285,7 +285,7 @@
         "range": 1,
         "critical": 15,
         "description": "Combat Start: Charges at the nearest target, dealing double Damage, pushing back enemies and stunning them for 2s",
-        "image": "/s1/troops/prince.png",
+        "image": "https://crtactics.com/s1/troops/prince.png",
         "createdAt": "2025-07-24T08:08:03.866Z"
       },
       {
@@ -301,7 +301,7 @@
         "range": 6,
         "critical": 15,
         "description": "Fires flaming arrows at the farthest enemy, dealing Damage in a 2-Hex Radius",
-        "image": "/s1/troops/princess.png",
+        "image": "https://crtactics.com/s1/troops/princess.png",
         "createdAt": "2025-07-24T08:08:05.299Z"
       },
       {
@@ -317,7 +317,7 @@
         "range": 1,
         "critical": 15,
         "description": "Dashes to the lowest HP enemy after defeating an enemy and deals bonus Damage",
-        "image": "/s1/troops/golden-knight.png",
+        "image": "https://crtactics.com/s1/troops/golden-knight.png",
         "createdAt": "2025-07-24T08:08:06.167Z"
       }
     ],
@@ -326,7 +326,7 @@
     "name": "Noble",
     "description": "Frontline Troops take less Damage while backline Troops gain bonus Damage",
     "type": "origin",
-    "icon": "/s1/traits/noble.png",
+    "icon": "https://crtactics.com/s1/traits/noble.png",
     "bonuses": [
       {
         "effect": "20%",
@@ -354,7 +354,7 @@
         "range": 3,
         "critical": 15,
         "description": "Throws a bomb at the nearest enemy, dealing Damage in a 2-Hex Radius",
-        "image": "/s1/troops/bomber.png",
+        "image": "https://crtactics.com/s1/troops/bomber.png",
         "createdAt": "2025-07-24T08:08:01.582Z"
       },
       {
@@ -370,7 +370,7 @@
         "range": 1,
         "critical": 15,
         "description": "Upon defeat, he drops a bomb that explodes after 1.5s, dealing Damage and stunning enemies in his Hex Radius for 2s",
-        "image": "/s1/troops/giant-skeleton.png",
+        "image": "https://crtactics.com/s1/troops/giant-skeleton.png",
         "createdAt": "2025-07-24T08:08:03.286Z"
       },
       {
@@ -386,7 +386,7 @@
         "range": 1,
         "critical": 15,
         "description": "Becomes invisible for a short time after 3 hits",
-        "image": "/s1/troops/royal-ghost.png",
+        "image": "https://crtactics.com/s1/troops/royal-ghost.png",
         "createdAt": "2025-07-24T08:08:05.594Z"
       },
       {
@@ -402,7 +402,7 @@
         "range": 1,
         "critical": 15,
         "description": "Deals Damage to enemies in a cone radius and summons a Skeleton for every enemy he defeats",
-        "image": "/s1/troops/skeleton-king.png",
+        "image": "https://crtactics.com/s1/troops/skeleton-king.png",
         "createdAt": "2025-07-24T08:08:06.459Z"
       }
     ],
@@ -411,7 +411,7 @@
     "name": "Undead",
     "description": "Combat Start: The enemy with the highest HP is cursed, and your Undead gain 20% bonus Damage when that enemy is defeated",
     "type": "origin",
-    "icon": "/s1/traits/undead.png",
+    "icon": "https://crtactics.com/s1/traits/undead.png",
     "bonuses": [
       {
         "effect": "Curses 1 enemy, max HP cut by 25%",
@@ -439,7 +439,7 @@
         "range": 1,
         "critical": 15,
         "description": "Goblin speed and melee skills eliminate the need for that pesky armor",
-        "image": "/s1/troops/goblin.png",
+        "image": "https://crtactics.com/s1/troops/goblin.png",
         "createdAt": "2025-07-24T08:08:01.862Z"
       },
       {
@@ -455,7 +455,7 @@
         "range": 1,
         "critical": 15,
         "description": "Becomes invisible for a short time after 3 hits",
-        "image": "/s1/troops/royal-ghost.png",
+        "image": "https://crtactics.com/s1/troops/royal-ghost.png",
         "createdAt": "2025-07-24T08:08:05.594Z"
       },
       {
@@ -471,7 +471,7 @@
         "range": 1,
         "critical": 15,
         "description": "Dashes to the lowest HP enemy after defeating an enemy and deals bonus Damage",
-        "image": "/s1/troops/golden-knight.png",
+        "image": "https://crtactics.com/s1/troops/golden-knight.png",
         "createdAt": "2025-07-24T08:08:06.167Z"
       }
     ],
@@ -480,7 +480,7 @@
     "name": "Assassin",
     "description": "Combat Start: Assassins will leap to the enemy's backline Troops",
     "type": "role",
-    "icon": "/s1/traits/assassin.png",
+    "icon": "https://crtactics.com/s1/traits/assassin.png",
     "bonuses": [
       {
         "effect": "+35% Critical Chance and Critical Damage",
@@ -504,7 +504,7 @@
         "range": 1,
         "critical": 15,
         "description": "A melee master who channels her rage into area Damage",
-        "image": "/s1/troops/valkyrie.png",
+        "image": "https://crtactics.com/s1/troops/valkyrie.png",
         "createdAt": "2025-07-24T08:08:04.157Z"
       },
       {
@@ -520,7 +520,7 @@
         "range": 1,
         "critical": 15,
         "description": "Jumps and strikes the largest group of enemies every few seconds, dealing damage and stunning enemies in its Hex Radius for 2s",
-        "image": "/s1/troops/bandit.png",
+        "image": "https://crtactics.com/s1/troops/bandit.png",
         "createdAt": "2025-07-24T08:08:04.451Z"
       },
       {
@@ -536,7 +536,7 @@
         "range": 5,
         "critical": 15,
         "description": "Fires multiple arrows at her closest enemies. When her HP drops below 50%, she'll turn invisible and deal bonus Damage",
-        "image": "/s1/troops/archer-queen.png",
+        "image": "https://crtactics.com/s1/troops/archer-queen.png",
         "createdAt": "2025-07-24T08:08:05.882Z"
       }
     ],
@@ -545,7 +545,7 @@
     "name": "Avenger",
     "description": "Avengers gain bonus Damage, with the last woman standing gaining double Damage",
     "type": "role",
-    "icon": "/s1/traits/avenger.png",
+    "icon": "https://crtactics.com/s1/traits/avenger.png",
     "bonuses": [
       {
         "effect": "+30%",
@@ -569,7 +569,7 @@
         "range": 1,
         "critical": 15,
         "description": "An all-around melee attacker with a mean mustache",
-        "image": "/s1/troops/barbarian.png",
+        "image": "https://crtactics.com/s1/troops/barbarian.png",
         "createdAt": "2025-07-24T08:08:01.289Z"
       },
       {
@@ -585,7 +585,7 @@
         "range": 1,
         "critical": 15,
         "description": "Upon defeat, he drops a bomb that explodes after 1.5s, dealing Damage and stunning enemies in his Hex Radius for 2s",
-        "image": "/s1/troops/giant-skeleton.png",
+        "image": "https://crtactics.com/s1/troops/giant-skeleton.png",
         "createdAt": "2025-07-24T08:08:03.286Z"
       },
       {
@@ -601,7 +601,7 @@
         "range": 1,
         "critical": 15,
         "description": "Combat Start: Charges at the nearest target, dealing double Damage, pushing back enemies and stunning them for 2s",
-        "image": "/s1/troops/prince.png",
+        "image": "https://crtactics.com/s1/troops/prince.png",
         "createdAt": "2025-07-24T08:08:03.866Z"
       },
       {
@@ -617,7 +617,7 @@
         "range": 1,
         "critical": 15,
         "description": "Jumps and strikes the largest group of enemies every Few seconds, dealing Damage and stunning enemies in its Hex Radius for 2s",
-        "image": "/s1/troops/mega-knight.png",
+        "image": "https://crtactics.com/s1/troops/mega-knight.png",
         "createdAt": "2025-07-24T08:08:05.018Z"
       }
     ],
@@ -626,7 +626,7 @@
     "name": "Brawler",
     "description": "Brawlers gain bonus max HP",
     "type": "role",
-    "icon": "/s1/traits/brawler.png",
+    "icon": "https://crtactics.com/s1/traits/brawler.png",
     "bonuses": [
       {
         "effect": "+30%",
@@ -654,7 +654,7 @@
         "range": 1,
         "critical": 15,
         "description": "One of the toughest melee fighters in the kingdom",
-        "image": "/s1/troops/knight.png",
+        "image": "https://crtactics.com/s1/troops/knight.png",
         "createdAt": "2025-07-24T08:08:02.147Z"
       },
       {
@@ -670,7 +670,7 @@
         "range": 1,
         "critical": 15,
         "description": "A slow, but heavily armored melee fighter. Nothing gets past herâ€¦",
-        "image": "/s1/troops/pekka.png",
+        "image": "https://crtactics.com/s1/troops/pekka.png",
         "createdAt": "2025-07-24T08:08:03.577Z"
       },
       {
@@ -686,7 +686,7 @@
         "range": 1,
         "critical": 15,
         "description": "Fires a rocket at the farthest enemy after certain hits, dealing 50% bonus Damage and stunning them for 1.5s",
-        "image": "/s1/troops/goblin-machine.png",
+        "image": "https://crtactics.com/s1/troops/goblin-machine.png",
         "createdAt": "2025-07-24T08:08:04.736Z"
       },
       {
@@ -702,7 +702,7 @@
         "range": 1,
         "critical": 15,
         "description": "Deals Damage to enemies in a cone radius and summons a Skeleton for every enemy he defeats",
-        "image": "/s1/troops/skeleton-king.png",
+        "image": "https://crtactics.com/s1/troops/skeleton-king.png",
         "createdAt": "2025-07-24T08:08:06.459Z"
       }
     ],
@@ -711,7 +711,7 @@
     "name": "Juggernaut",
     "description": "Combat Start: Troops behind Juggernauts gain an 8s Shield",
     "type": "role",
-    "icon": "/s1/traits/juggernaut.png",
+    "icon": "https://crtactics.com/s1/traits/juggernaut.png",
     "bonuses": [
       {
         "effect": "+15% bonus Shield, Juggernauts + 30%",
@@ -739,7 +739,7 @@
         "range": 1,
         "critical": 15,
         "description": "Who needs all that armor when you've got wicked range and hot pink hair?",
-        "image": "/s1/troops/archer.png",
+        "image": "https://crtactics.com/s1/troops/archer.png",
         "createdAt": "2025-07-24T08:08:01.005Z"
       },
       {
@@ -755,7 +755,7 @@
         "range": 4,
         "critical": 15,
         "description": "An unarmored ranged attacker who runs fast, shoots far, and chews gum",
-        "image": "/s1/troops/dart-goblin.png",
+        "image": "https://crtactics.com/s1/troops/dart-goblin.png",
         "createdAt": "2025-07-24T08:08:02.719Z"
       },
       {
@@ -771,7 +771,7 @@
         "range": 6,
         "critical": 15,
         "description": "Fires flaming arrows at the farthest enemy, dealing Damage in a 2-Hex Radius",
-        "image": "/s1/troops/princess.png",
+        "image": "https://crtactics.com/s1/troops/princess.png",
         "createdAt": "2025-07-24T08:08:05.299Z"
       }
     ],
@@ -780,7 +780,7 @@
     "name": "Ranger",
     "description": "Rangers gain Hit Speed per attack, stacking up to 15x",
     "type": "role",
-    "icon": "/s1/traits/ranger.png",
+    "icon": "https://crtactics.com/s1/traits/ranger.png",
     "bonuses": [
       {
         "effect": "15%",
@@ -804,7 +804,7 @@
         "range": 3,
         "critical": 15,
         "description": "Throws a bomb at the nearest enemy, dealing Damage in a 2-Hex Radius",
-        "image": "/s1/troops/bomber.png",
+        "image": "https://crtactics.com/s1/troops/bomber.png",
         "createdAt": "2025-07-24T08:08:01.582Z"
       },
       {
@@ -820,7 +820,7 @@
         "range": 3,
         "critical": 15,
         "description": "Spears that slice through wind at such a wide range that he doesn't even need armor",
-        "image": "/s1/troops/spear-goblin.png",
+        "image": "https://crtactics.com/s1/troops/spear-goblin.png",
         "createdAt": "2025-07-24T08:08:02.428Z"
       },
       {
@@ -836,7 +836,7 @@
         "range": 3,
         "critical": 15,
         "description": "Throws his boomerang axe at the nearest target across several Hexes",
-        "image": "/s1/troops/executioner.png",
+        "image": "https://crtactics.com/s1/troops/executioner.png",
         "createdAt": "2025-07-24T08:08:02.999Z"
       }
     ],
@@ -845,7 +845,7 @@
     "name": "Thrower",
     "description": "Throwers gain +1 Attack Range and deal more Damage to distant targets",
     "type": "role",
-    "icon": "/s1/traits/thrower.png",
+    "icon": "https://crtactics.com/s1/traits/thrower.png",
     "bonuses": [
       {
         "effect": "+10% Damage per Hex",
