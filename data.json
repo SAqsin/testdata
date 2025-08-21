@@ -132,7 +132,7 @@
       "range": 5,
       "critical": 15,
       "description": "Fires multiple arrows at her closest enemies. When her HP drops below 50%, she'll turn invisible and deal bonus Damage",
-      "image": "https://saqsin.github.io/testdata/images/archer-queen.png",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/archer-queen.png",
       "createdAt": "2025-07-24T08:08:05.882Z",
       "traits" : ["s1_clan","s1_avenger"]
     },
