@@ -541,13 +541,13 @@
     {
       "id" : "royale_king",
       "name" : "Royale King",
-      "image" : "https://clashroyale.inbox.supercell.com/9jtsgmsiuthj/1ruoV7s1NTUbWFU8I7xh7L/6407845ff3b0cdcc65c8b2031c8d49bc/royaleking_mt.png?fm=webp&w=1681",
+      "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/images/royaleking_ruler.png",
       "ability" : "Royal Commission: Losing grants you +4 Elixir"
     },
     {
       "id" : "spirit_empress",
       "name" : "Spirit Empress",
-      "image" : "https://clashroyale.inbox.supercell.com/9jtsgmsiuthj/4vLnn416fAgO7p0sQMgS2N/ec538c784146ed7048e720d6e68a4135/spiritempress_mt.png?fm=webp&w=1681",
+      "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/images/spiritempress_ruler.png",
       "ability" : "Fusion Foresight: Every merge grants you +1 bonus Elixir"
     }
   ]
