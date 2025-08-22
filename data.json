@@ -30,7 +30,7 @@
       "range": 1,
       "critical": 15,
       "description": "A slow, but heavily armored melee fighter. Nothing gets past herâ€¦",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/pekka.png",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/pekka.jpeg",
       "createdAt": "2025-07-24T08:08:03.577Z",
       "traits" : ["s1_ace","s1_juggernaut"]
     },
@@ -217,7 +217,7 @@
       "range": 1,
       "critical": 15,
       "description": "One of the toughest melee fighters in the kingdom",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/knight.png",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/knight.jpeg",
       "createdAt": "2025-07-24T08:08:02.147Z",
       "traits" : ["s1_noble","s1_juggernaut"]
     },
