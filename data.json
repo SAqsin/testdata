@@ -348,7 +348,7 @@
       "name": "Ace",
       "description": "Combat Start: Highest Merge Level Troop is Captain. When the Captain defeats enemy Troops, your team gains +20% Hit Speed (4s)",
       "type": "origin",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/ace.png",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/ace_trait.png",
       "bonuses": [
         {
           "effect": "Captain gains 30% bonus Damage",
@@ -367,7 +367,7 @@
       "name": "Clan",
       "description": "Once per round, Clans rapidly heal and gain bonus Hit Speed at 50% HP",
       "type": "origin",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/clan.png",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/clan_trait.png",
       "bonuses": [
         {
           "effect": "+30% of max HP and Hit Speed",
@@ -386,7 +386,7 @@
       "name": "Goblin",
       "description": "You'll get an extra random Goblin for free next round",
       "type": "origin",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/goblin.png",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/goblin_trait.png",
       "bonuses": [
         {
           "effect": "Gain a 2-Elixir Goblin",
@@ -405,7 +405,7 @@
       "name": "Noble",
       "description": "Frontline Troops take less Damage while backline Troops gain bonus Damage",
       "type": "origin",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/noble.png",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/noble_trait.png",
       "bonuses": [
         {
           "effect": "20%",
@@ -424,7 +424,7 @@
       "name": "Undead",
       "description": "Combat Start: The enemy with the highest HP is cursed, and your Undead gain 20% bonus Damage when that enemy is defeated",
       "type": "origin",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/undead.png",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/undead_trait.png",
       "bonuses": [
         {
           "effect": "Curses 1 enemy, max HP cut by 25%",
@@ -443,7 +443,7 @@
       "name": "Assassin",
       "description": "Combat Start: Assassins will leap to the enemy's backline Troops",
       "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/assassin.png",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/assassin_trait.png",
       "bonuses": [
         {
           "effect": "+35% Critical Chance and Critical Damage",
@@ -459,7 +459,7 @@
       "name": "Avenger",
       "description": "Avengers gain bonus Damage, with the last woman standing gaining double Damage",
       "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/avenger.png",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/avenger_trait.png",
       "bonuses": [
         {
           "effect": "+30%",
@@ -474,7 +474,7 @@
       "name": "Brawler",
       "description": "Brawlers gain bonus max HP",
       "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/brawler.png",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/brawler_trait.png",
       "bonuses": [
         {
           "effect": "+30%",
@@ -493,7 +493,7 @@
       "name": "Juggernaut",
       "description": "Combat Start: Troops behind Juggernauts gain an 8s Shield",
       "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/juggernaut.png",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/juggernaut_trait.png",
       "bonuses": [
         {
           "effect": "+15% bonus Shield, Juggernauts + 30%",
@@ -512,7 +512,7 @@
       "name": "Ranger",
       "description": "Rangers gain Hit Speed per attack, stacking up to 15x",
       "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/ranger.png",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/ranger_trait.png",
       "bonuses": [
         {
           "effect": "15%",
@@ -527,7 +527,7 @@
       "name": "Thrower",
       "description": "Throwers gain +1 Attack Range and deal more Damage to distant targets",
       "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/thrower.png",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/thrower_trait.png",
       "bonuses": [
         {
           "effect": "+10% Damage per Hex",
