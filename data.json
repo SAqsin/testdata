@@ -13,7 +13,7 @@
       "range": 3,
       "critical": 15,
       "description": "Throws his boomerang axe at the nearest target across several Hexes",
-      "image": "https://crtactics.com/s1/troops/executioner.png",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/executioner.png",
       "createdAt": "2025-07-24T08:08:02.999Z",
       "traits" : ["s1_ace","s1_thrower"]
     },
@@ -30,7 +30,7 @@
       "range": 1,
       "critical": 15,
       "description": "A slow, but heavily armored melee fighter. Nothing gets past herâ€¦",
-      "image": "https://crtactics.com/s1/troops/pekka.png",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/pekka.png",
       "createdAt": "2025-07-24T08:08:03.577Z",
       "traits" : ["s1_ace","s1_juggernaut"]
     },
@@ -47,7 +47,7 @@
       "range": 1,
       "critical": 15,
       "description": "Jumps and strikes the largest group of enemies every few seconds, dealing damage and stunning enemies in its Hex Radius for 2s",
-      "image": "https://crtactics.com/s1/troops/bandit.png",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/bandit.png",
       "createdAt": "2025-07-24T08:08:04.451Z",
       "traits" : ["s1_ace","s1_avenger"]
     },
@@ -64,7 +64,7 @@
       "range": 1,
       "critical": 15,
       "description": "Jumps and strikes the largest group of enemies every Few seconds, dealing Damage and stunning enemies in its Hex Radius for 2s",
-      "image": "https://crtactics.com/s1/troops/mega-knight.png",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/mega-knight.png",
       "createdAt": "2025-07-24T08:08:05.018Z",
       "traits" : ["s1_ace","s1_brawler"]
     },
@@ -81,7 +81,7 @@
       "range": 1,
       "critical": 15,
       "description": "Who needs all that armor when you've got wicked range and hot pink hair?",
-      "image": "https://crtactics.com/s1/troops/archer.png",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/archer.png",
       "createdAt": "2025-07-24T08:08:01.005Z",
       "traits" : ["s1_clan","s1_ranger"]
     },
@@ -98,7 +98,7 @@
       "range": 1,
       "critical": 15,
       "description": "An all-around melee attacker with a mean mustache",
-      "image": "https://crtactics.com/s1/troops/barbarian.png",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/barbarian.png",
       "createdAt": "2025-07-24T08:08:01.289Z",
       "traits" : ["s1_clan","s1_brawler"]
     },
@@ -115,7 +115,7 @@
       "range": 1,
       "critical": 15,
       "description": "A melee master who channels her rage into area Damage",
-      "image": "https://crtactics.com/s1/troops/valkyrie.png",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/valkyrie.png",
       "createdAt": "2025-07-24T08:08:04.157Z",
       "traits" : ["s1_clan","s1_avenger"]
     },
@@ -149,7 +149,7 @@
       "range": 1,
       "critical": 15,
       "description": "Goblin speed and melee skills eliminate the need for that pesky armor",
-      "image": "https://crtactics.com/s1/troops/goblin.png",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/goblin.png",
       "createdAt": "2025-07-24T08:08:01.862Z",
       "traits" : ["s1_goblin","s1_assassin"]
     },
@@ -166,7 +166,7 @@
       "range": 3,
       "critical": 15,
       "description": "Spears that slice through wind at such a wide range that he doesn't even need armor",
-      "image": "https://crtactics.com/s1/troops/spear-goblin.png",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/spear-goblin.png",
       "createdAt": "2025-07-24T08:08:02.428Z",
       "traits" : ["s1_goblin","s1_thrower"]
     },
@@ -183,7 +183,7 @@
       "range": 4,
       "critical": 15,
       "description": "An unarmored ranged attacker who runs fast, shoots far, and chews gum",
-      "image": "https://crtactics.com/s1/troops/dart-goblin.png",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/dart-goblin.png",
       "createdAt": "2025-07-24T08:08:02.719Z",
       "traits" : ["s1_goblin","s1_ranger"]
     },
@@ -200,7 +200,7 @@
       "range": 1,
       "critical": 15,
       "description": "Fires a rocket at the farthest enemy after certain hits, dealing 50% bonus Damage and stunning them for 1.5s",
-      "image": "https://crtactics.com/s1/troops/goblin-machine.png",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/goblin-machine.png",
       "createdAt": "2025-07-24T08:08:04.736Z",
       "traits" : ["s1_goblin","s1_juggernaut"]
     },
@@ -217,7 +217,7 @@
       "range": 1,
       "critical": 15,
       "description": "One of the toughest melee fighters in the kingdom",
-      "image": "https://crtactics.com/s1/troops/knight.png",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/knight.png",
       "createdAt": "2025-07-24T08:08:02.147Z",
       "traits" : ["s1_noble","s1_juggernaut"]
     },
@@ -234,7 +234,7 @@
       "range": 1,
       "critical": 15,
       "description": "Combat Start: Charges at the nearest target, dealing double Damage, pushing back enemies and stunning them for 2s",
-      "image": "https://crtactics.com/s1/troops/prince.png",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/prince.png",
       "createdAt": "2025-07-24T08:08:03.866Z",
       "traits" : ["s1_noble","s1_brawler"]
     },
@@ -251,7 +251,7 @@
       "range": 6,
       "critical": 15,
       "description": "Fires flaming arrows at the farthest enemy, dealing Damage in a 2-Hex Radius",
-      "image": "https://crtactics.com/s1/troops/princess.png",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/princess.png",
       "createdAt": "2025-07-24T08:08:05.299Z",
       "traits" : ["s1_noble","s1_ranger"]
     },
@@ -268,7 +268,7 @@
       "range": 1,
       "critical": 15,
       "description": "Dashes to the lowest HP enemy after defeating an enemy and deals bonus Damage",
-      "image": "https://crtactics.com/s1/troops/golden-knight.png",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/golden-knight.png",
       "createdAt": "2025-07-24T08:08:06.167Z",
       "traits" : ["s1_noble","s1_assassin"]
     },
@@ -285,7 +285,7 @@
       "range": 3,
       "critical": 15,
       "description": "Throws a bomb at the nearest enemy, dealing Damage in a 2-Hex Radius",
-      "image": "https://crtactics.com/s1/troops/bomber.png",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/bomber.png",
       "createdAt": "2025-07-24T08:08:01.582Z",
       "traits" : ["s1_undead","s1_thrower"]
     },
@@ -302,7 +302,7 @@
       "range": 1,
       "critical": 15,
       "description": "Upon defeat, he drops a bomb that explodes after 1.5s, dealing Damage and stunning enemies in his Hex Radius for 2s",
-      "image": "https://crtactics.com/s1/troops/giant-skeleton.png",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/giant-skeleton.png",
       "createdAt": "2025-07-24T08:08:03.286Z",
       "traits" : ["s1_undead","s1_brawler"]
     },
@@ -319,7 +319,7 @@
       "range": 1,
       "critical": 15,
       "description": "Becomes invisible for a short time after 3 hits",
-      "image": "https://crtactics.com/s1/troops/royal-ghost.png",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/royal-ghost.png",
       "createdAt": "2025-07-24T08:08:05.594Z",
       "traits" : ["s1_undead","s1_assassin"]
     },
@@ -336,7 +336,7 @@
       "range": 1,
       "critical": 15,
       "description": "Deals Damage to enemies in a cone radius and summons a Skeleton for every enemy he defeats",
-      "image": "https://crtactics.com/s1/troops/skeleton-king.png",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/skeleton-king.png",
       "createdAt": "2025-07-24T08:08:06.459Z",
       "traits" : ["s1_undead","s1_juggernaut"]
     }
