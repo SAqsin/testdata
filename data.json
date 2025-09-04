@@ -47,7 +47,7 @@
       "range": 1,
       "critical": 15,
       "description": "Jumps and strikes the largest group of enemies every few seconds, dealing damage and stunning enemies in its Hex Radius for 2s",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/bandit.webp",
+      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/bandit_aslsra.jpg",
       "createdAt": "2025-07-24T08:08:04.451Z",
       "traits" : ["s1_ace","s1_avenger"]
     },
@@ -64,7 +64,7 @@
       "range": 1,
       "critical": 15,
       "description": "Jumps and strikes the largest group of enemies every Few seconds, dealing Damage and stunning enemies in its Hex Radius for 2s",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/mega-knight.webp",
+      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/mega-knight_x0xlih.jpg",
       "createdAt": "2025-07-24T08:08:05.018Z",
       "traits" : ["s1_ace","s1_brawler"]
     },
@@ -81,7 +81,7 @@
       "range": 1,
       "critical": 15,
       "description": "Who needs all that armor when you've got wicked range and hot pink hair?",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/archer.webp",
+      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/archer_gex4fx.jpg",
       "createdAt": "2025-07-24T08:08:01.005Z",
       "traits" : ["s1_clan","s1_ranger"]
     },
@@ -98,7 +98,7 @@
       "range": 1,
       "critical": 15,
       "description": "An all-around melee attacker with a mean mustache",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/barbarian.webp",
+      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/barbarian_siscbb.jpg",
       "createdAt": "2025-07-24T08:08:01.289Z",
       "traits" : ["s1_clan","s1_brawler"]
     },
@@ -115,7 +115,7 @@
       "range": 1,
       "critical": 15,
       "description": "A melee master who channels her rage into area Damage",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/valkyrie.webp",
+      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/valkyrie_elt8pw.jpg",
       "createdAt": "2025-07-24T08:08:04.157Z",
       "traits" : ["s1_clan","s1_avenger"]
     },
@@ -132,7 +132,7 @@
       "range": 5,
       "critical": 15,
       "description": "Fires multiple arrows at her closest enemies. When her HP drops below 50%, she'll turn invisible and deal bonus Damage",
-      "image": "https://i.imgur.com/fqk0wRc.jpeg",
+      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/archer-queen_qqpgsc.jpg",
       "createdAt": "2025-07-24T08:08:05.882Z",
       "traits" : ["s1_clan","s1_avenger"]
     },
@@ -149,7 +149,7 @@
       "range": 1,
       "critical": 15,
       "description": "Goblin speed and melee skills eliminate the need for that pesky armor",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/goblin.webp",
+      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/goblin_bgkr1u.jpg",
       "createdAt": "2025-07-24T08:08:01.862Z",
       "traits" : ["s1_goblin","s1_assassin"]
     },
@@ -166,7 +166,7 @@
       "range": 3,
       "critical": 15,
       "description": "Spears that slice through wind at such a wide range that he doesn't even need armor",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/spear-goblin.webp",
+      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/spear-goblin_novaou.jpg",
       "createdAt": "2025-07-24T08:08:02.428Z",
       "traits" : ["s1_goblin","s1_thrower"]
     },
@@ -183,7 +183,7 @@
       "range": 4,
       "critical": 15,
       "description": "An unarmored ranged attacker who runs fast, shoots far, and chews gum",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/dart-goblin.webp",
+      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/dart-goblin_ayq6wn.jpg",
       "createdAt": "2025-07-24T08:08:02.719Z",
       "traits" : ["s1_goblin","s1_ranger"]
     },
@@ -200,7 +200,7 @@
       "range": 1,
       "critical": 15,
       "description": "Fires a rocket at the farthest enemy after certain hits, dealing 50% bonus Damage and stunning them for 1.5s",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/goblin-machine.webp",
+      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/goblin-machine_yqhabt.jpg",
       "createdAt": "2025-07-24T08:08:04.736Z",
       "traits" : ["s1_goblin","s1_juggernaut"]
     },
