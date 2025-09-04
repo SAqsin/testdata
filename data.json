@@ -132,7 +132,7 @@
       "range": 5,
       "critical": 15,
       "description": "Fires multiple arrows at her closest enemies. When her HP drops below 50%, she'll turn invisible and deal bonus Damage",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/archer-queen.webp",
+      "image": "https://imgur.com/fqk0wRc",
       "createdAt": "2025-07-24T08:08:05.882Z",
       "traits" : ["s1_clan","s1_avenger"]
     },
@@ -348,7 +348,7 @@
       "name": "Ace",
       "description": "Combat Start: Highest Merge Level Troop is Captain. When the Captain defeats enemy Troops, your team gains +20% Hit Speed (4s)",
       "type": "origin",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/ace_trait.webp",
+      "icon": "https://imgur.com/dTqKcVr",
       "bonuses": [
         {
           "effect": "Captain gains 30% bonus Damage",
