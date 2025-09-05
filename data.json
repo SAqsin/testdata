@@ -1,8 +1,7 @@
 {
   "troops" : [
     {
-      "id": "s1_executioner",
-      "seasonId": "s1",
+      "id": "executioner",
       "name": "Executioner",
       "bio": null,
       "elixir": 3,
@@ -13,13 +12,11 @@
       "range": 3,
       "critical": 15,
       "description": "Throws his boomerang axe at the nearest target across several Hexes",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/executioner.png",
-      "createdAt": "2025-07-24T08:08:02.999Z",
-      "traits" : ["s1_ace","s1_thrower"]
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/executioner.webp",
+      "traits" : ["ace","thrower"]
     },
     {
-      "id": "s1_pekka",
-      "seasonId": "s1",
+      "id": "pekka",
       "name": "P.E.K.K.A",
       "bio": null,
       "elixir": 3,
@@ -29,14 +26,12 @@
       "hitSpeed": "2.5",
       "range": 1,
       "critical": 15,
-      "description": "A slow, but heavily armored melee fighter. Nothing gets past herâ€¦",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/pekka.png",
-      "createdAt": "2025-07-24T08:08:03.577Z",
-      "traits" : ["s1_ace","s1_juggernaut"]
+      "description": "A slow, but heavily armored melee fighter. Nothing gets past her..",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/pekka.webp",
+      "traits" : ["ace","juggernaut"]
     },
     {
-      "id": "s1_bandit",
-      "seasonId": "s1",
+      "id": "bandit",
       "name": "Bandit",
       "bio": null,
       "elixir": 4,
@@ -47,13 +42,11 @@
       "range": 1,
       "critical": 15,
       "description": "Jumps and strikes the largest group of enemies every few seconds, dealing damage and stunning enemies in its Hex Radius for 2s",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/bandit.png",
-      "createdAt": "2025-07-24T08:08:04.451Z",
-      "traits" : ["s1_ace","s1_avenger"]
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/bandit.webp",
+      "traits" : ["ace","avenger"]
     },
     {
-      "id": "s1_megaknight",
-      "seasonId": "s1",
+      "id": "megaknight",
       "name": "Mega Knight",
       "bio": null,
       "elixir": 4,
@@ -64,13 +57,11 @@
       "range": 1,
       "critical": 15,
       "description": "Jumps and strikes the largest group of enemies every Few seconds, dealing Damage and stunning enemies in its Hex Radius for 2s",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/mega-knight.png",
-      "createdAt": "2025-07-24T08:08:05.018Z",
-      "traits" : ["s1_ace","s1_brawler"]
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/mega-knight.webp",
+      "traits" : ["ace","brawler"]
     },
     {
-      "id": "s1_archer",
-      "seasonId": "s1",
+      "id": "archer",
       "name": "Archer",
       "bio": null,
       "elixir": 2,
@@ -81,13 +72,11 @@
       "range": 1,
       "critical": 15,
       "description": "Who needs all that armor when you've got wicked range and hot pink hair?",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/archer.png",
-      "createdAt": "2025-07-24T08:08:01.005Z",
-      "traits" : ["s1_clan","s1_ranger"]
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/archer.webp",
+      "traits" : ["clan","ranger"]
     },
     {
-      "id": "s1_barbarian",
-      "seasonId": "s1",
+      "id": "barbarian",
       "name": "Barbarian",
       "bio": null,
       "elixir": 2,
@@ -98,13 +87,11 @@
       "range": 1,
       "critical": 15,
       "description": "An all-around melee attacker with a mean mustache",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/barbarian.png",
-      "createdAt": "2025-07-24T08:08:01.289Z",
-      "traits" : ["s1_clan","s1_brawler"]
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/barbarian.webp",
+      "traits" : ["clan","brawler"]
     },
     {
-      "id": "s1_valkyrie",
-      "seasonId": "s1",
+      "id": "valkyrie",
       "name": "Valkyrie",
       "bio": null,
       "elixir": 3,
@@ -115,13 +102,11 @@
       "range": 1,
       "critical": 15,
       "description": "A melee master who channels her rage into area Damage",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/valkyrie.png",
-      "createdAt": "2025-07-24T08:08:04.157Z",
-      "traits" : ["s1_clan","s1_avenger"]
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/valkyrie.webp",
+      "traits" : ["clan","avenger"]
     },
     {
-      "id": "s1_archerqueen",
-      "seasonId": "s1",
+      "id": "archerqueen",
       "name": "Archer Queen",
       "bio": null,
       "elixir": 5,
@@ -132,13 +117,11 @@
       "range": 5,
       "critical": 15,
       "description": "Fires multiple arrows at her closest enemies. When her HP drops below 50%, she'll turn invisible and deal bonus Damage",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/archer-queen.png",
-      "createdAt": "2025-07-24T08:08:05.882Z",
-      "traits" : ["s1_clan","s1_avenger"]
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/archer-queen.webp",
+      "traits" : ["clan","avenger"]
     },
     {
-      "id": "s1_goblin",
-      "seasonId": "s1",
+      "id": "goblin",
       "name": "Goblin",
       "bio": null,
       "elixir": 2,
@@ -149,13 +132,11 @@
       "range": 1,
       "critical": 15,
       "description": "Goblin speed and melee skills eliminate the need for that pesky armor",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/goblin.png",
-      "createdAt": "2025-07-24T08:08:01.862Z",
-      "traits" : ["s1_goblin","s1_assassin"]
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/goblin.webp",
+      "traits" : ["goblin","assassin"]
     },
     {
-      "id": "s1_speargoblin",
-      "seasonId": "s1",
+      "id": "speargoblin",
       "name": "Spear Goblin",
       "bio": null,
       "elixir": 2,
@@ -166,13 +147,11 @@
       "range": 3,
       "critical": 15,
       "description": "Spears that slice through wind at such a wide range that he doesn't even need armor",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/spear-goblin.png",
-      "createdAt": "2025-07-24T08:08:02.428Z",
-      "traits" : ["s1_goblin","s1_thrower"]
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/spear-goblin.webp",
+      "traits" : ["goblin","thrower"]
     },
     {
-      "id": "s1_dartgoblin",
-      "seasonId": "s1",
+      "id": "dartgoblin",
       "name": "Dart Goblin",
       "bio": null,
       "elixir": 3,
@@ -183,13 +162,11 @@
       "range": 4,
       "critical": 15,
       "description": "An unarmored ranged attacker who runs fast, shoots far, and chews gum",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/dart-goblin.png",
-      "createdAt": "2025-07-24T08:08:02.719Z",
-      "traits" : ["s1_goblin","s1_ranger"]
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/dart-goblin.webp",
+      "traits" : ["goblin","ranger"]
     },
     {
-      "id": "s1_goblinmachine",
-      "seasonId": "s1",
+      "id": "goblinmachine",
       "name": "Goblin Machine",
       "bio": null,
       "elixir": 4,
@@ -200,13 +177,11 @@
       "range": 1,
       "critical": 15,
       "description": "Fires a rocket at the farthest enemy after certain hits, dealing 50% bonus Damage and stunning them for 1.5s",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/goblin-machine.png",
-      "createdAt": "2025-07-24T08:08:04.736Z",
-      "traits" : ["s1_goblin","s1_juggernaut"]
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/goblin-machine.webp",
+      "traits" : ["goblin","juggernaut"]
     },
     {
-      "id": "s1_knight",
-      "seasonId": "s1",
+      "id": "knight",
       "name": "Knight",
       "bio": null,
       "elixir": 2,
@@ -217,13 +192,11 @@
       "range": 1,
       "critical": 15,
       "description": "One of the toughest melee fighters in the kingdom",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/knight.png",
-      "createdAt": "2025-07-24T08:08:02.147Z",
-      "traits" : ["s1_noble","s1_juggernaut"]
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/knight.webp",
+      "traits" : ["noble","juggernaut"]
     },
     {
-      "id": "s1_prince",
-      "seasonId": "s1",
+      "id": "prince",
       "name": "Prince",
       "bio": null,
       "elixir": 3,
@@ -234,13 +207,11 @@
       "range": 1,
       "critical": 15,
       "description": "Combat Start: Charges at the nearest target, dealing double Damage, pushing back enemies and stunning them for 2s",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/prince.png",
-      "createdAt": "2025-07-24T08:08:03.866Z",
-      "traits" : ["s1_noble","s1_brawler"]
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/prince.webp",
+      "traits" : ["noble","brawler"]
     },
     {
-      "id": "s1_princess",
-      "seasonId": "s1",
+      "id": "princess",
       "name": "Princess",
       "bio": null,
       "elixir": 4,
@@ -251,13 +222,11 @@
       "range": 6,
       "critical": 15,
       "description": "Fires flaming arrows at the farthest enemy, dealing Damage in a 2-Hex Radius",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/princess.png",
-      "createdAt": "2025-07-24T08:08:05.299Z",
-      "traits" : ["s1_noble","s1_ranger"]
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/princess.webp",
+      "traits" : ["noble","ranger"]
     },
     {
-      "id": "s1_goldenknight",
-      "seasonId": "s1",
+      "id": "goldenknight",
       "name": "Golden Knight",
       "bio": null,
       "elixir": 5,
@@ -268,13 +237,11 @@
       "range": 1,
       "critical": 15,
       "description": "Dashes to the lowest HP enemy after defeating an enemy and deals bonus Damage",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/golden-knight.png",
-      "createdAt": "2025-07-24T08:08:06.167Z",
-      "traits" : ["s1_noble","s1_assassin"]
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/golden-knight.webp"
+      "traits" : ["noble","assassin"]
     },
     {
-      "id": "s1_bomber",
-      "seasonId": "s1",
+      "id": "bomber",
       "name": "Bomber",
       "bio": null,
       "elixir": 2,
@@ -285,13 +252,11 @@
       "range": 3,
       "critical": 15,
       "description": "Throws a bomb at the nearest enemy, dealing Damage in a 2-Hex Radius",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/bomber.png",
-      "createdAt": "2025-07-24T08:08:01.582Z",
-      "traits" : ["s1_undead","s1_thrower"]
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/bomber.webp",
+      "traits" : ["undead","thrower"]
     },
     {
-      "id": "s1_giantskeleton",
-      "seasonId": "s1",
+      "id": "giantskeleton",
       "name": "Giant Skeleton",
       "bio": null,
       "elixir": 3,
@@ -302,13 +267,11 @@
       "range": 1,
       "critical": 15,
       "description": "Upon defeat, he drops a bomb that explodes after 1.5s, dealing Damage and stunning enemies in his Hex Radius for 2s",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/giant-skeleton.png",
-      "createdAt": "2025-07-24T08:08:03.286Z",
-      "traits" : ["s1_undead","s1_brawler"]
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/giant-skeleton.webp",
+      "traits" : ["undead","brawler"]
     },
     {
-      "id": "s1_royalghost",
-      "seasonId": "s1",
+      "id": "royalghost",
       "name": "Royal Ghost",
       "bio": null,
       "elixir": 4,
@@ -319,13 +282,11 @@
       "range": 1,
       "critical": 15,
       "description": "Becomes invisible for a short time after 3 hits",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/royal-ghost.png",
-      "createdAt": "2025-07-24T08:08:05.594Z",
-      "traits" : ["s1_undead","s1_assassin"]
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/royal-ghost.webp",
+      "traits" : ["undead","assassin"]
     },
     {
-      "id": "s1_skeletonking",
-      "seasonId": "s1",
+      "id": "skeletonking",
       "name": "Skeleton King",
       "bio": null,
       "elixir": 5,
@@ -336,19 +297,17 @@
       "range": 1,
       "critical": 15,
       "description": "Deals Damage to enemies in a cone radius and summons a Skeleton for every enemy he defeats",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/skeleton-king.png",
-      "createdAt": "2025-07-24T08:08:06.459Z",
-      "traits" : ["s1_undead","s1_juggernaut"]
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/skeleton-king.webp",
+      "traits" : ["undead","juggernaut"]
     }
   ],
   "traits" : [
     {
-      "id": "s1_ace",
-      "seasonId": "s1",
+      "id": "ace",
       "name": "Ace",
       "description": "Combat Start: Highest Merge Level Troop is Captain. When the Captain defeats enemy Troops, your team gains +20% Hit Speed (4s)",
       "type": "origin",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/ace_trait.png",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/ace_trait.webp",
       "bonuses": [
         {
           "effect": "Captain gains 30% bonus Damage",
@@ -358,16 +317,14 @@
           "effect": "Captain gains 60% bonus Damage and gains +30% HP of Damage dealt",
           "threshold": 4
         }
-      ],
-      "createdAt": "2025-07-24T08:08:00.319Z"
+      ]
     },
     {
-      "id": "s1_clan",
-      "seasonId": "s1",
+      "id": "clan",
       "name": "Clan",
       "description": "Once per round, Clans rapidly heal and gain bonus Hit Speed at 50% HP",
       "type": "origin",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/clan_trait.png",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/clan_trait.webp",
       "bonuses": [
         {
           "effect": "+30% of max HP and Hit Speed",
@@ -377,16 +334,14 @@
           "effect": "+60% of max HP and Hit Speed for Clans, +30% for the team",
           "threshold": 4
         }
-      ],
-      "createdAt": "2025-07-24T08:07:59.718Z"
+      ]
     },
     {
-      "id": "s1_goblin",
-      "seasonId": "s1",
+      "id": "goblin",
       "name": "Goblin",
       "description": "You'll get an extra random Goblin for free next round",
       "type": "origin",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/goblin_trait.png",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/goblin_trait.webp",
       "bonuses": [
         {
           "effect": "Gain a 2-Elixir Goblin",
@@ -396,16 +351,14 @@
           "effect": "+60% chance of gaining a 3 or 4-Elixir Goblin",
           "threshold": 4
         }
-      ],
-      "createdAt": "2025-07-24T08:08:00.125Z"
+      ]
     },
     {
-      "id": "s1_noble",
-      "seasonId": "s1",
+      "id": "noble",
       "name": "Noble",
       "description": "Frontline Troops take less Damage while backline Troops gain bonus Damage",
       "type": "origin",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/noble_trait.png",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/noble_trait.webp",
       "bonuses": [
         {
           "effect": "20%",
@@ -415,16 +368,14 @@
           "effect": "40%",
           "threshold": 4
         }
-      ],
-      "createdAt": "2025-07-24T08:08:00.026Z"
+      ]
     },
     {
-      "id": "s1_undead",
-      "seasonId": "s1",
+      "id": "undead",
       "name": "Undead",
       "description": "Combat Start: The enemy with the highest HP is cursed, and your Undead gain 20% bonus Damage when that enemy is defeated",
       "type": "origin",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/undead_trait.png",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/undead_trait.webp",
       "bonuses": [
         {
           "effect": "Curses 1 enemy, max HP cut by 25%",
@@ -434,47 +385,41 @@
           "effect": "Curses 2 enemies, max HP cut by 50%",
           "threshold": 4
         }
-      ],
-      "createdAt": "2025-07-24T08:08:00.223Z"
+      ]
     },
     {
-      "id": "s1_assassin",
-      "seasonId": "s1",
+      "id": "assassin",
       "name": "Assassin",
       "description": "Combat Start: Assassins will leap to the enemy's backline Troops",
       "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/assassin_trait.png",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/assassin_trait.webp",
       "bonuses": [
         {
           "effect": "+35% Critical Chance and Critical Damage",
           "threshold": 3
         }
-      ],
-      "createdAt": "2025-07-24T08:08:00.607Z"
+      ]
     },
     {
 
-      "id": "s1_avenger",
-      "seasonId": "s1",
+      "id": "avenger",
       "name": "Avenger",
       "description": "Avengers gain bonus Damage, with the last woman standing gaining double Damage",
       "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/avenger_trait.png",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/avenger_trait.webp",
       "bonuses": [
         {
           "effect": "+30%",
           "threshold": 3
         }
-      ],
-      "createdAt": "2025-07-24T08:08:00.900Z"
+      ]
     },
     {
-      "id": "s1_brawler",
-      "seasonId": "s1",
+      "id": "brawler",
       "name": "Brawler",
       "description": "Brawlers gain bonus max HP",
       "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/brawler_trait.png",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/brawler_trait.webp",
       "bonuses": [
         {
           "effect": "+30%",
@@ -484,16 +429,14 @@
           "effect": "+60% for Brawlers, +30% for the team",
           "threshold": 4
         }
-      ],
-      "createdAt": "2025-07-24T08:08:00.416Z"
+      ]
     },
     {
-      "id": "s1_juggernaut",
-      "seasonId": "s1",
+      "id": "juggernaut",
       "name": "Juggernaut",
       "description": "Combat Start: Troops behind Juggernauts gain an 8s Shield",
       "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/juggernaut_trait.png",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/juggernaut_trait.webp",
       "bonuses": [
         {
           "effect": "+15% bonus Shield, Juggernauts + 30%",
@@ -503,51 +446,46 @@
           "effect": "+30% bonus Shield, Juggernauts + 60%",
           "threshold": 4
         }
-      ],
-      "createdAt": "2025-07-24T08:08:00.805Z"
+      ]
     },
     {
-      "id": "s1_ranger",
-      "seasonId": "s1",
+      "id": "ranger",
       "name": "Ranger",
       "description": "Rangers gain Hit Speed per attack, stacking up to 15x",
       "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/ranger_trait.png",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/ranger_trait.webp",
       "bonuses": [
         {
           "effect": "15%",
           "threshold": 3
         }
-      ],
-      "createdAt": "2025-07-24T08:08:00.512Z"
+      ]
     },
     {
-      "id": "s1_thrower",
-      "seasonId": "s1",
+      "id": "thrower",
       "name": "Thrower",
       "description": "Throwers gain +1 Attack Range and deal more Damage to distant targets",
       "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/thrower_trait.png",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/thrower_trait.webp",
       "bonuses": [
         {
           "effect": "+10% Damage per Hex",
           "threshold": 3
         }
-      ],
-      "createdAt": "2025-07-24T08:08:00.699Z"
+      ]
     }
   ],
   "rulers" : [
     {
       "id" : "royale_king",
       "name" : "Royale King",
-      "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/images/royaleking_ruler.png",
+      "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/royaleking_ruler.webp",
       "ability" : "Royal Commission: Losing grants you +4 Elixir"
     },
     {
       "id" : "spirit_empress",
       "name" : "Spirit Empress",
-      "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/images/spiritempress_ruler.png",
+      "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/spiritempress_ruler.webp",
       "ability" : "Fusion Foresight: Every merge grants you +1 bonus Elixir"
     }
   ]
