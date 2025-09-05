@@ -13,7 +13,7 @@
       "range": 3,
       "critical": 15,
       "description": "Throws his boomerang axe at the nearest target across several Hexes",
-      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/executioner_ofdele.jpg",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/executioner.png",
       "createdAt": "2025-07-24T08:08:02.999Z",
       "traits" : ["s1_ace","s1_thrower"]
     },
@@ -30,7 +30,7 @@
       "range": 1,
       "critical": 15,
       "description": "A slow, but heavily armored melee fighter. Nothing gets past herâ€¦",
-      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/pekka_sqrpr8.jpg",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/pekka.png",
       "createdAt": "2025-07-24T08:08:03.577Z",
       "traits" : ["s1_ace","s1_juggernaut"]
     },
@@ -47,7 +47,7 @@
       "range": 1,
       "critical": 15,
       "description": "Jumps and strikes the largest group of enemies every few seconds, dealing damage and stunning enemies in its Hex Radius for 2s",
-      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/bandit_aslsra.jpg",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/bandit.png",
       "createdAt": "2025-07-24T08:08:04.451Z",
       "traits" : ["s1_ace","s1_avenger"]
     },
@@ -64,7 +64,7 @@
       "range": 1,
       "critical": 15,
       "description": "Jumps and strikes the largest group of enemies every Few seconds, dealing Damage and stunning enemies in its Hex Radius for 2s",
-      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/mega-knight_x0xlih.jpg",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/mega-knight.png",
       "createdAt": "2025-07-24T08:08:05.018Z",
       "traits" : ["s1_ace","s1_brawler"]
     },
@@ -81,7 +81,7 @@
       "range": 1,
       "critical": 15,
       "description": "Who needs all that armor when you've got wicked range and hot pink hair?",
-      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/archer_gex4fx.jpg",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/archer.png",
       "createdAt": "2025-07-24T08:08:01.005Z",
       "traits" : ["s1_clan","s1_ranger"]
     },
@@ -98,7 +98,7 @@
       "range": 1,
       "critical": 15,
       "description": "An all-around melee attacker with a mean mustache",
-      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/barbarian_siscbb.jpg",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/barbarian.png",
       "createdAt": "2025-07-24T08:08:01.289Z",
       "traits" : ["s1_clan","s1_brawler"]
     },
@@ -115,7 +115,7 @@
       "range": 1,
       "critical": 15,
       "description": "A melee master who channels her rage into area Damage",
-      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/valkyrie_elt8pw.jpg",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/valkyrie.png",
       "createdAt": "2025-07-24T08:08:04.157Z",
       "traits" : ["s1_clan","s1_avenger"]
     },
@@ -132,7 +132,7 @@
       "range": 5,
       "critical": 15,
       "description": "Fires multiple arrows at her closest enemies. When her HP drops below 50%, she'll turn invisible and deal bonus Damage",
-      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/archer-queen_qqpgsc.jpg",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/archer-queen.png",
       "createdAt": "2025-07-24T08:08:05.882Z",
       "traits" : ["s1_clan","s1_avenger"]
     },
@@ -149,7 +149,7 @@
       "range": 1,
       "critical": 15,
       "description": "Goblin speed and melee skills eliminate the need for that pesky armor",
-      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/goblin_bgkr1u.jpg",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/goblin.png",
       "createdAt": "2025-07-24T08:08:01.862Z",
       "traits" : ["s1_goblin","s1_assassin"]
     },
@@ -166,7 +166,7 @@
       "range": 3,
       "critical": 15,
       "description": "Spears that slice through wind at such a wide range that he doesn't even need armor",
-      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/spear-goblin_novaou.jpg",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/spear-goblin.png",
       "createdAt": "2025-07-24T08:08:02.428Z",
       "traits" : ["s1_goblin","s1_thrower"]
     },
@@ -183,7 +183,7 @@
       "range": 4,
       "critical": 15,
       "description": "An unarmored ranged attacker who runs fast, shoots far, and chews gum",
-      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/dart-goblin_ayq6wn.jpg",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/dart-goblin.png",
       "createdAt": "2025-07-24T08:08:02.719Z",
       "traits" : ["s1_goblin","s1_ranger"]
     },
@@ -200,7 +200,7 @@
       "range": 1,
       "critical": 15,
       "description": "Fires a rocket at the farthest enemy after certain hits, dealing 50% bonus Damage and stunning them for 1.5s",
-      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/goblin-machine_yqhabt.jpg",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/goblin-machine.png",
       "createdAt": "2025-07-24T08:08:04.736Z",
       "traits" : ["s1_goblin","s1_juggernaut"]
     },
@@ -217,7 +217,7 @@
       "range": 1,
       "critical": 15,
       "description": "One of the toughest melee fighters in the kingdom",
-      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/knight_cbkbjq.jpg",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/knight.png",
       "createdAt": "2025-07-24T08:08:02.147Z",
       "traits" : ["s1_noble","s1_juggernaut"]
     },
@@ -234,7 +234,7 @@
       "range": 1,
       "critical": 15,
       "description": "Combat Start: Charges at the nearest target, dealing double Damage, pushing back enemies and stunning them for 2s",
-      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/prince_ww9w2p.jpg",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/prince.png",
       "createdAt": "2025-07-24T08:08:03.866Z",
       "traits" : ["s1_noble","s1_brawler"]
     },
@@ -251,7 +251,7 @@
       "range": 6,
       "critical": 15,
       "description": "Fires flaming arrows at the farthest enemy, dealing Damage in a 2-Hex Radius",
-      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/princess_b9vbyj.jpg",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/princess.png",
       "createdAt": "2025-07-24T08:08:05.299Z",
       "traits" : ["s1_noble","s1_ranger"]
     },
@@ -268,7 +268,7 @@
       "range": 1,
       "critical": 15,
       "description": "Dashes to the lowest HP enemy after defeating an enemy and deals bonus Damage",
-      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/golden-knight_a1c809.jpg",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/golden-knight.png",
       "createdAt": "2025-07-24T08:08:06.167Z",
       "traits" : ["s1_noble","s1_assassin"]
     },
@@ -285,7 +285,7 @@
       "range": 3,
       "critical": 15,
       "description": "Throws a bomb at the nearest enemy, dealing Damage in a 2-Hex Radius",
-      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/v1757017266/bomber_nostjs.jpg",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/bomber.png",
       "createdAt": "2025-07-24T08:08:01.582Z",
       "traits" : ["s1_undead","s1_thrower"]
     },
@@ -302,7 +302,7 @@
       "range": 1,
       "critical": 15,
       "description": "Upon defeat, he drops a bomb that explodes after 1.5s, dealing Damage and stunning enemies in his Hex Radius for 2s",
-      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/v1757017267/giant-skeleton_yyyauh.jpg",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/giant-skeleton.png",
       "createdAt": "2025-07-24T08:08:03.286Z",
       "traits" : ["s1_undead","s1_brawler"]
     },
@@ -319,7 +319,7 @@
       "range": 1,
       "critical": 15,
       "description": "Becomes invisible for a short time after 3 hits",
-      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/v1757017268/royal-ghost_j08jct.jpg",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/royal-ghost.png",
       "createdAt": "2025-07-24T08:08:05.594Z",
       "traits" : ["s1_undead","s1_assassin"]
     },
@@ -336,7 +336,7 @@
       "range": 1,
       "critical": 15,
       "description": "Deals Damage to enemies in a cone radius and summons a Skeleton for every enemy he defeats",
-      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/v1757017269/skeleton-king_vlrlth.jpg",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/images/skeleton-king.png",
       "createdAt": "2025-07-24T08:08:06.459Z",
       "traits" : ["s1_undead","s1_juggernaut"]
     }
@@ -348,7 +348,7 @@
       "name": "Ace",
       "description": "Combat Start: Highest Merge Level Troop is Captain. When the Captain defeats enemy Troops, your team gains +20% Hit Speed (4s)",
       "type": "origin",
-      "icon": "https://res.cloudinary.com/dxhxsubd6/image/upload/v1757017266/ace_trait_obmbac.jpg",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/ace_trait.png",
       "bonuses": [
         {
           "effect": "Captain gains 30% bonus Damage",
@@ -367,7 +367,7 @@
       "name": "Clan",
       "description": "Once per round, Clans rapidly heal and gain bonus Hit Speed at 50% HP",
       "type": "origin",
-      "icon": "https://res.cloudinary.com/dxhxsubd6/image/upload/v1757017267/clan_trait_ire4xq.jpg",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/clan_trait.png",
       "bonuses": [
         {
           "effect": "+30% of max HP and Hit Speed",
@@ -386,7 +386,7 @@
       "name": "Goblin",
       "description": "You'll get an extra random Goblin for free next round",
       "type": "origin",
-      "icon": "https://res.cloudinary.com/dxhxsubd6/image/upload/v1757017268/goblin_trait_vxj1as.jpg",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/goblin_trait.png",
       "bonuses": [
         {
           "effect": "Gain a 2-Elixir Goblin",
@@ -405,7 +405,7 @@
       "name": "Noble",
       "description": "Frontline Troops take less Damage while backline Troops gain bonus Damage",
       "type": "origin",
-      "icon": "https://res.cloudinary.com/dxhxsubd6/image/upload/v1757017268/noble_trait_g9jvyd.jpg",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/noble_trait.png",
       "bonuses": [
         {
           "effect": "20%",
@@ -424,7 +424,7 @@
       "name": "Undead",
       "description": "Combat Start: The enemy with the highest HP is cursed, and your Undead gain 20% bonus Damage when that enemy is defeated",
       "type": "origin",
-      "icon": "https://res.cloudinary.com/dxhxsubd6/image/upload/v1757017266/undead_trait_k5qvxn.jpg",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/undead_trait.png",
       "bonuses": [
         {
           "effect": "Curses 1 enemy, max HP cut by 25%",
@@ -443,7 +443,7 @@
       "name": "Assassin",
       "description": "Combat Start: Assassins will leap to the enemy's backline Troops",
       "type": "role",
-      "icon": "https://res.cloudinary.com/dxhxsubd6/image/upload/v1757017267/assassin_trait_srzhwy.jpg",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/assassin_trait.png",
       "bonuses": [
         {
           "effect": "+35% Critical Chance and Critical Damage",
@@ -459,7 +459,7 @@
       "name": "Avenger",
       "description": "Avengers gain bonus Damage, with the last woman standing gaining double Damage",
       "type": "role",
-      "icon": "https://res.cloudinary.com/dxhxsubd6/image/upload/v1757017266/avenger_trait_bomkks.jpg",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/avenger_trait.png",
       "bonuses": [
         {
           "effect": "+30%",
@@ -474,7 +474,7 @@
       "name": "Brawler",
       "description": "Brawlers gain bonus max HP",
       "type": "role",
-      "icon": "https://res.cloudinary.com/dxhxsubd6/image/upload/v1757017267/brawler_trait_ok8acv.jpg",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/brawler_trait.png",
       "bonuses": [
         {
           "effect": "+30%",
@@ -493,7 +493,7 @@
       "name": "Juggernaut",
       "description": "Combat Start: Troops behind Juggernauts gain an 8s Shield",
       "type": "role",
-      "icon": "https://res.cloudinary.com/dxhxsubd6/image/upload/v1757017268/juggernaut_trait_kgl7hj.jpg",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/juggernaut_trait.png",
       "bonuses": [
         {
           "effect": "+15% bonus Shield, Juggernauts + 30%",
@@ -512,7 +512,7 @@
       "name": "Ranger",
       "description": "Rangers gain Hit Speed per attack, stacking up to 15x",
       "type": "role",
-      "icon": "https://res.cloudinary.com/dxhxsubd6/image/upload/v1757017268/ranger_trait_oa4uon.jpg",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/ranger_trait.png",
       "bonuses": [
         {
           "effect": "15%",
@@ -527,7 +527,7 @@
       "name": "Thrower",
       "description": "Throwers gain +1 Attack Range and deal more Damage to distant targets",
       "type": "role",
-      "icon": "https://res.cloudinary.com/dxhxsubd6/image/upload/v1757017266/thrower_trait_o9c2p6.jpg",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/images/thrower_trait.png",
       "bonuses": [
         {
           "effect": "+10% Damage per Hex",
@@ -541,13 +541,13 @@
     {
       "id" : "royale_king",
       "name" : "Royale King",
-      "image" : "https://res.cloudinary.com/dxhxsubd6/image/upload/v1757017269/royaleking_ruler_te5mai.jpg",
+      "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/images/royaleking_ruler.png",
       "ability" : "Royal Commission: Losing grants you +4 Elixir"
     },
     {
       "id" : "spirit_empress",
       "name" : "Spirit Empress",
-      "image" : "https://res.cloudinary.com/dxhxsubd6/image/upload/v1757017266/spiritempress_ruler_icrpsc.jpg",
+      "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/images/spiritempress_ruler.png",
       "ability" : "Fusion Foresight: Every merge grants you +1 bonus Elixir"
     }
   ]
