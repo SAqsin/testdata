@@ -217,7 +217,7 @@
       "range": 1,
       "critical": 15,
       "description": "One of the toughest melee fighters in the kingdom",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/knight.webp",
+      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/knight_cbkbjq.jpg",
       "createdAt": "2025-07-24T08:08:02.147Z",
       "traits" : ["s1_noble","s1_juggernaut"]
     },
@@ -234,7 +234,7 @@
       "range": 1,
       "critical": 15,
       "description": "Combat Start: Charges at the nearest target, dealing double Damage, pushing back enemies and stunning them for 2s",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/prince.webp",
+      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/prince_ww9w2p.jpg",
       "createdAt": "2025-07-24T08:08:03.866Z",
       "traits" : ["s1_noble","s1_brawler"]
     },
@@ -251,7 +251,7 @@
       "range": 6,
       "critical": 15,
       "description": "Fires flaming arrows at the farthest enemy, dealing Damage in a 2-Hex Radius",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/princess.webp",
+      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/princess_b9vbyj.jpg",
       "createdAt": "2025-07-24T08:08:05.299Z",
       "traits" : ["s1_noble","s1_ranger"]
     },
@@ -268,7 +268,7 @@
       "range": 1,
       "critical": 15,
       "description": "Dashes to the lowest HP enemy after defeating an enemy and deals bonus Damage",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/golden-knight.webp",
+      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/golden-knight_a1c809.jpg",
       "createdAt": "2025-07-24T08:08:06.167Z",
       "traits" : ["s1_noble","s1_assassin"]
     },
@@ -285,7 +285,7 @@
       "range": 3,
       "critical": 15,
       "description": "Throws a bomb at the nearest enemy, dealing Damage in a 2-Hex Radius",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/bomber.webp",
+      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/v1757017266/bomber_nostjs.jpg",
       "createdAt": "2025-07-24T08:08:01.582Z",
       "traits" : ["s1_undead","s1_thrower"]
     },
@@ -302,7 +302,7 @@
       "range": 1,
       "critical": 15,
       "description": "Upon defeat, he drops a bomb that explodes after 1.5s, dealing Damage and stunning enemies in his Hex Radius for 2s",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/giant-skeleton.webp",
+      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/v1757017267/giant-skeleton_yyyauh.jpg",
       "createdAt": "2025-07-24T08:08:03.286Z",
       "traits" : ["s1_undead","s1_brawler"]
     },
@@ -319,7 +319,7 @@
       "range": 1,
       "critical": 15,
       "description": "Becomes invisible for a short time after 3 hits",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/royal-ghost.webp",
+      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/v1757017268/royal-ghost_j08jct.jpg",
       "createdAt": "2025-07-24T08:08:05.594Z",
       "traits" : ["s1_undead","s1_assassin"]
     },
@@ -336,7 +336,7 @@
       "range": 1,
       "critical": 15,
       "description": "Deals Damage to enemies in a cone radius and summons a Skeleton for every enemy he defeats",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/skeleton-king.webp",
+      "image": "https://res.cloudinary.com/dxhxsubd6/image/upload/v1757017269/skeleton-king_vlrlth.jpg",
       "createdAt": "2025-07-24T08:08:06.459Z",
       "traits" : ["s1_undead","s1_juggernaut"]
     }
@@ -348,7 +348,7 @@
       "name": "Ace",
       "description": "Combat Start: Highest Merge Level Troop is Captain. When the Captain defeats enemy Troops, your team gains +20% Hit Speed (4s)",
       "type": "origin",
-      "icon": "https://imgur.com/dTqKcVr",
+      "icon": "https://res.cloudinary.com/dxhxsubd6/image/upload/v1757017266/ace_trait_obmbac.jpg",
       "bonuses": [
         {
           "effect": "Captain gains 30% bonus Damage",
@@ -367,7 +367,7 @@
       "name": "Clan",
       "description": "Once per round, Clans rapidly heal and gain bonus Hit Speed at 50% HP",
       "type": "origin",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/clan_trait.webp",
+      "icon": "https://res.cloudinary.com/dxhxsubd6/image/upload/v1757017267/clan_trait_ire4xq.jpg",
       "bonuses": [
         {
           "effect": "+30% of max HP and Hit Speed",
@@ -386,7 +386,7 @@
       "name": "Goblin",
       "description": "You'll get an extra random Goblin for free next round",
       "type": "origin",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/goblin_trait.webp",
+      "icon": "https://res.cloudinary.com/dxhxsubd6/image/upload/v1757017268/goblin_trait_vxj1as.jpg",
       "bonuses": [
         {
           "effect": "Gain a 2-Elixir Goblin",
@@ -405,7 +405,7 @@
       "name": "Noble",
       "description": "Frontline Troops take less Damage while backline Troops gain bonus Damage",
       "type": "origin",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/noble_trait.webp",
+      "icon": "https://res.cloudinary.com/dxhxsubd6/image/upload/v1757017268/noble_trait_g9jvyd.jpg",
       "bonuses": [
         {
           "effect": "20%",
@@ -424,7 +424,7 @@
       "name": "Undead",
       "description": "Combat Start: The enemy with the highest HP is cursed, and your Undead gain 20% bonus Damage when that enemy is defeated",
       "type": "origin",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/undead_trait.webp",
+      "icon": "https://res.cloudinary.com/dxhxsubd6/image/upload/v1757017266/undead_trait_k5qvxn.jpg",
       "bonuses": [
         {
           "effect": "Curses 1 enemy, max HP cut by 25%",
@@ -443,7 +443,7 @@
       "name": "Assassin",
       "description": "Combat Start: Assassins will leap to the enemy's backline Troops",
       "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/assassin_trait.webp",
+      "icon": "https://res.cloudinary.com/dxhxsubd6/image/upload/v1757017267/assassin_trait_srzhwy.jpg",
       "bonuses": [
         {
           "effect": "+35% Critical Chance and Critical Damage",
@@ -459,7 +459,7 @@
       "name": "Avenger",
       "description": "Avengers gain bonus Damage, with the last woman standing gaining double Damage",
       "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/avenger_trait.webp",
+      "icon": "https://res.cloudinary.com/dxhxsubd6/image/upload/v1757017266/avenger_trait_bomkks.jpg",
       "bonuses": [
         {
           "effect": "+30%",
@@ -474,7 +474,7 @@
       "name": "Brawler",
       "description": "Brawlers gain bonus max HP",
       "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/brawler_trait.webp",
+      "icon": "https://res.cloudinary.com/dxhxsubd6/image/upload/v1757017267/brawler_trait_ok8acv.jpg",
       "bonuses": [
         {
           "effect": "+30%",
@@ -493,7 +493,7 @@
       "name": "Juggernaut",
       "description": "Combat Start: Troops behind Juggernauts gain an 8s Shield",
       "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/juggernaut_trait.webp",
+      "icon": "https://res.cloudinary.com/dxhxsubd6/image/upload/v1757017268/juggernaut_trait_kgl7hj.jpg",
       "bonuses": [
         {
           "effect": "+15% bonus Shield, Juggernauts + 30%",
@@ -512,7 +512,7 @@
       "name": "Ranger",
       "description": "Rangers gain Hit Speed per attack, stacking up to 15x",
       "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/ranger_trait.webp",
+      "icon": "https://res.cloudinary.com/dxhxsubd6/image/upload/v1757017268/ranger_trait_oa4uon.jpg",
       "bonuses": [
         {
           "effect": "15%",
@@ -527,7 +527,7 @@
       "name": "Thrower",
       "description": "Throwers gain +1 Attack Range and deal more Damage to distant targets",
       "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/thrower_trait.webp",
+      "icon": "https://res.cloudinary.com/dxhxsubd6/image/upload/v1757017266/thrower_trait_o9c2p6.jpg",
       "bonuses": [
         {
           "effect": "+10% Damage per Hex",
@@ -541,13 +541,13 @@
     {
       "id" : "royale_king",
       "name" : "Royale King",
-      "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/royaleking_ruler.webp",
+      "image" : "https://res.cloudinary.com/dxhxsubd6/image/upload/v1757017269/royaleking_ruler_te5mai.jpg",
       "ability" : "Royal Commission: Losing grants you +4 Elixir"
     },
     {
       "id" : "spirit_empress",
       "name" : "Spirit Empress",
-      "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/spiritempress_ruler.webp",
+      "image" : "https://res.cloudinary.com/dxhxsubd6/image/upload/v1757017266/spiritempress_ruler_icrpsc.jpg",
       "ability" : "Fusion Foresight: Every merge grants you +1 bonus Elixir"
     }
   ]
