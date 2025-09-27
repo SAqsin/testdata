@@ -43,7 +43,7 @@
       "critical": 15,
       "description": "Burps big fireballs that deal damage in a wide area",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/babydragon.webp",
-      "traits" : ["fire","blaster"]
+      "traits" : ["fire","thrower"]
     },
     {
       "id": "musketeer",
@@ -58,7 +58,7 @@
       "critical": 15,
       "description": "A tanky gunner who pushes 3 enemies back every few hits",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/musketeer.webp",
-      "traits" : ["noble","blaster"]
+      "traits" : ["noble","thrower"]
     },
     {
       "id": "electrogiant",
@@ -118,7 +118,7 @@
       "critical": 15,
       "description": "Throws his boomerang axe at the nearest target across several Hexes",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/executioner.webp",
-      "traits" : ["ace","blaster"]
+      "traits" : ["ace","thrower"]
     },
     {
       "id": "pekka",
@@ -253,7 +253,7 @@
       "critical": 15,
       "description": "Spears that slice through wind at such a wide range that he doesn't even need armor",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/spear-goblin.webp",
-      "traits" : ["goblin","blaster"]
+      "traits" : ["goblin","thrower"]
     },
     {
       "id": "dartgoblin",
@@ -572,11 +572,11 @@
       ]
     },
     {
-      "id": "blaster",
+      "id": "thrower",
       "name": "Blaster",
       "description": "Blasters gain +1 Range and extra damage based on distance",
       "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/blaster_trait.webp",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/thrower_trait.webp",
       "bonuses": [
         {
           "effect": "+10% damage per hex",
