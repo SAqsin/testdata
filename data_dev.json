@@ -28,7 +28,7 @@
       "critical": 15,
       "description": "Shoots lightning with his hands, stunning multiple enemies every few seconds",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/electrowizard.webp",
-      "traits" : ["fire","blaster"]
+      "traits" : ["electric","mage"]
     },
     {
       "id": "babydragon",
