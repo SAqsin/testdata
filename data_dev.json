@@ -132,7 +132,7 @@
       "range": 1,
       "critical": 15,
       "description": "A slow, but heavily armored melee fighter. Nothing gets past her..",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp_dev/pekka.webp",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/pekka.webp",
       "traits" : ["ace","avenger"]
     },
     {
@@ -207,7 +207,7 @@
       "range": 1,
       "critical": 15,
       "description": "A melee master who channels her rage into area Damage",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp_dev/valkyrie.webp",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/valkyrie.webp",
       "traits" : ["clan","juggernaut"]
     },
     {
