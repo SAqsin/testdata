@@ -1,6 +1,21 @@
 {
   "troops" : [
     {
+      "id": "dummy",
+      "name": "Dummy",
+      "bio": null,
+      "elixir": 0,
+      "hp": 0,
+      "dps": 0,
+      "damage": 0,
+      "hitSpeed": "0",
+      "range": 0,
+      "critical": 0,
+      "description": "Start with a Dummy",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/dummy.webp",
+      "traits" : []
+    },
+    {
       "id": "witch",
       "name": "Witch",
       "bio": null,
