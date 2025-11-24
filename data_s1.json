@@ -357,7 +357,7 @@
       "range": 1,
       "critical": 15,
       "description": "Dashes to the lowest HP enemy after defeating an enemy and deals bonus Damage",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/golden-knight.webp"
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/golden-knight.webp",
       "traits" : ["noble","assassin"]
     },
     {
