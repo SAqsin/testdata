@@ -49,7 +49,7 @@
       "id": "monk",
       "name": "Monk",
       "bio": null,
-      "elixir": 3,
+      "elixir": 5,
       "hp": 763,
       "dps": 65,
       "damage": 65,
