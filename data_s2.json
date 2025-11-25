@@ -42,7 +42,7 @@
       "range": 3,
       "critical": 15,
       "description": "A slow, tanky ranger whose crown is heavier than his cannon",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/musketeer.webp",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/royal_giant.webp",
       "traits" : ["giant","ranger"]
     },
     {
