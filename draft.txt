@@ -1,0 +1,7 @@
+{
+      "id" : "echo_sage",
+      "name" : "Echo Sage",
+      "team_size_multiplayer" : 0,
+      "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/echo_sage_ruler.webp",
+      "ability" : "Striking Clone. The Echo to knock out the nearest enemy, or enemies, after charging"
+}
