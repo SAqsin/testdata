@@ -1,5 +1,5 @@
 {
-  "season" : 3,
+  "season" : 4,
   "troops" : [
     {
       "id": "dummy",
@@ -636,6 +636,13 @@
       "team_size_multiplayer" : -1,
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/battle_machine_ruler.webp",
       "ability" : "Brings one random 1/2/3/4-Star building into battle in Rounds 1/3/5/8, -1 max Team Size"
+    },
+    {
+      "id" : "echo_sage",
+      "name" : "Echo Sage",
+      "team_size_multiplayer" : 0,
+      "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/echo_sage_ruler.webp",
+      "ability" : "Striking Clone. The Echo to knock out the nearest enemy, or enemies, after charging"
     }
   ]
 }
