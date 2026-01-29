@@ -22,5 +22,6 @@
     }
   ],
   "model" : "abc",
-  "instruction" : "abc"
+  "instruction" : "abc",
+  "upgradeOffer": "abc"
 }
