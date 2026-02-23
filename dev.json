@@ -486,6 +486,19 @@
       ]
     },
     {
+      "id": "fire",
+      "name": "Fire",
+      "description": "Dragons take less damage from and deal bonus damage to melee troops",
+      "type": "origin",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/fire_trait.webp",
+      "bonuses": [
+        {
+          "effect": "Each Fire is individually powered up\nWizard deals bonus damage per attack, stacking up to 6x\nBaby Dragon and surrounding troops gain bonus hit and movement speed",
+          "threshold": 2
+        }
+      ]
+    },
+    {
       "id": "ace",
       "name": "Ace",
       "description": "All Aces gain +20% Hit Speed at combat start. Your strongest Ace becomes the Captain instead of the strongest Troop with the highest Merge Level",
