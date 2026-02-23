@@ -610,14 +610,14 @@
     },
     {
 
-      "id": "tank",
+      "id": "titan",
       "name": "Tank",
-      "description": "Tanka take less damage, due to their unusual size, of course!",
+      "description": "Titans gain special effects",
       "type": "role",
       "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/tank_trait.webp",
       "bonuses": [
         {
-          "effect": "-40",
+          "effect": "Giant and surrounding troops take less damage\nRoyal Giant and surrounding troops deal bonus damage",
           "threshold": 2
         }
       ]
