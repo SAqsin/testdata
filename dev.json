@@ -287,21 +287,6 @@
       "traits" : ["goblin","assassin"]
     },
     {
-      "id": "speargoblin",
-      "name": "Spear Goblin",
-      "bio": null,
-      "elixir": 2,
-      "hp": 390,
-      "dps": 117,
-      "damage": 195,
-      "hitSpeed": "1.66",
-      "range": 3,
-      "critical": 15,
-      "description": "Spears that slice through wind at such a wide range that he doesn't even need armor",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/spear-goblin.webp",
-      "traits" : ["goblin","thrower"]
-    },
-    {
       "id": "dartgoblin",
       "name": "Dart Goblin",
       "bio": null,
