@@ -417,7 +417,7 @@
       "name": "Dragon",
       "description": "Dragons take less damage from and deal bonus damage to melee troops",
       "type": "origin",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/dragon_trait.webp",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/dagon_trait.webp",
       "bonuses": [
         {
           "effect": "-50% damage taken, +50% damage",
