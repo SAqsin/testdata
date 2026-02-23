@@ -182,21 +182,6 @@
       "traits" : ["undead","ranger"]
     },
     {
-      "id": "executioner",
-      "name": "Executioner",
-      "bio": null,
-      "elixir": 3,
-      "hp": 826,
-      "dps": 130,
-      "damage": 130,
-      "hitSpeed": "2",
-      "range": 4,
-      "critical": 15,
-      "description": "Throws his boomerang axe at the nearest target across several Hexes",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/executioner.webp",
-      "traits" : ["ace","thrower"]
-    },
-    {
       "id": "pekka",
       "name": "P.E.K.K.A",
       "bio": null,
