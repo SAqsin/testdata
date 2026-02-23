@@ -18,7 +18,7 @@
     },
     {
       "id": "giant",
-      "name": Giant",
+      "name": "Giant",
       "bio": null,
       "elixir": 3,
       "hp": 625,
@@ -33,7 +33,7 @@
     },
     {
       "id": "goblin_demolisher",
-      "name": Goblin Demolisher",
+      "name": "Goblin Demolisher",
       "bio": null,
       "elixir": 3,
       "hp": 625,
