@@ -152,21 +152,6 @@
       "traits" : ["noble","superstar"]
     },
     {
-      "id": "electrogiant",
-      "name": "Electro Giant",
-      "bio": null,
-      "elixir": 3,
-      "hp": 1418,
-      "dps": 66,
-      "damage": 94,
-      "hitSpeed": "1.42",
-      "range": 1,
-      "critical": 15,
-      "description": "Summons an electric field around himself, dealing damage and stunning nearby enemies every second",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/electrogiant.webp",
-      "traits" : ["giant","superstar"]
-    },
-    {
       "id": "wizard",
       "name": "Wizard",
       "bio": null,
@@ -390,21 +375,6 @@
       "description": "Dashes to the lowest HP enemy after defeating an enemy and deals bonus Damage",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/golden-knight.webp",
       "traits" : ["noble","assassin"]
-    },
-    {
-      "id": "royalghost",
-      "name": "Royal Ghost",
-      "bio": null,
-      "elixir": 4,
-      "hp": 897,
-      "dps": 148,
-      "damage": 123,
-      "hitSpeed": "0.83",
-      "range": 1,
-      "critical": 15,
-      "description": "Becomes invisible for a short time after 3 hits",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/royal-ghost.webp",
-      "traits" : ["undead","assassin"]
     },
     {
       "id": "skeletonking",
