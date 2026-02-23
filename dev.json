@@ -17,19 +17,34 @@
       "traits" : []
     },
     {
-      "id": "mini_pekka",
-      "name": "Mini P.E.K.K.A",
+      "id": "giant",
+      "name": Giant",
       "bio": null,
-      "elixir": 2,
+      "elixir": 3,
       "hp": 625,
       "dps": 134,
       "damage": 224,
       "hitSpeed": "1.66",
       "range": 1,
       "critical": 15,
-      "description": "A lightly armored heavy hitter with a soft spot for pancakes",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/mini_pekka.webp",
-      "traits" : ["pekka","brutalist"]
+      "description": "Throws the nearest enemy every few seconds, dealing damage based on target's max HP",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/giant.webp",
+      "traits" : ["titan","superstar"]
+    },
+    {
+      "id": "goblin_demolisher",
+      "name": Goblin Demolisher",
+      "bio": null,
+      "elixir": 3,
+      "hp": 625,
+      "dps": 134,
+      "damage": 224,
+      "hitSpeed": "1.66",
+      "range": 1,
+      "critical": 15,
+      "description": "Rushes to the lowest HP enemy and detonates below 50% HP, dealing AoE damage",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/goblin_demolisher.webp",
+      "traits" : ["goblin","warrior"]
     },
     {
       "id": "mini_pekka",
@@ -394,6 +409,83 @@
   ],
   "traits" : [
     {
+      "id": "warrior",
+      "name": "Warrior",
+      "description": "Warriors gain bonus damage and hit speed (8s after battle starts)",
+      "type": "origin",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/warrior_trait.webp",
+      "bonuses": [
+        {
+          "effect": "+30% damage, +30% Hit Speed",
+          "threshold": 2
+        },
+        {
+          "effect": "+60% damage, +60% Hit Speed",
+          "threshold": 4
+        }
+      ]
+    },
+    {
+      "id": "tank",
+      "name": "Tank",
+      "description": "Tanks heal rapidly when below 50% HP",
+      "type": "origin",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/tank_trait.webp",
+      "bonuses": [
+        {
+          "effect": "+40% max HP",
+          "threshold": 2
+        },
+        {
+          "effect": "+80% max HP",
+          "threshold": 4
+        }
+      ]
+    },
+    {
+      "id": "marksman",
+      "name": "Marksman",
+      "description": "Marksmen gain +1 range and deal bonus damage to targets 4+ tiles away",
+      "type": "origin",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/marksman_trait.webp",
+      "bonuses": [
+        {
+          "effect": "+30% damage",
+          "threshold": 2
+        },
+        {
+          "effect": "+60% damage",
+          "threshold": 4
+        }
+      ]
+    },
+    {
+      "id": "hinder",
+      "name": "Hinder",
+      "description": "Hinders have a 40% chance to slow enemies’ hit and movement speed for 3s with each hit",
+      "type": "origin",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/hinder_trait.webp",
+      "bonuses": [
+        {
+          "effect": "-30% Hit and Movement Speed",
+          "threshold": 2
+        }
+      ]
+    },
+    {
+      "id": "dragon",
+      "name": "Dragon",
+      "description": "Dragons take less damage from and deal bonus damage to melee troops",
+      "type": "origin",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/dragon_trait.webp",
+      "bonuses": [
+        {
+          "effect": "-50% damage taken, +50% damage",
+          "threshold": 2
+        }
+      ]
+    },
+    {
       "id": "ace",
       "name": "Ace",
       "description": "All Aces gain +20% Hit Speed at combat start. Your strongest Ace becomes the Captain instead of the strongest Troop with the highest Merge Level",
@@ -505,96 +597,15 @@
     },
     {
 
-      "id": "giant",
-      "name": "Giant",
-      "description": "Giants take less damage, due to their unusual size, of course!",
+      "id": "tank",
+      "name": "Tank",
+      "description": "Tanka take less damage, due to their unusual size, of course!",
       "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/giant_trait.webp",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/tank_trait.webp",
       "bonuses": [
         {
           "effect": "-40",
           "threshold": 2
-        }
-      ]
-    },
-    {
-      "id": "brawler",
-      "name": "Brawler",
-      "description": "Brawlers gain even more max bonus HP and no longer heal teammates at 4 active troops",
-      "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/brawler_trait.webp",
-      "bonuses": [
-        {
-          "effect": "+50%",
-          "threshold": 2
-        },
-        {
-          "effect": "100%",
-          "threshold": 4
-        }
-      ]
-    },
-    {
-      "id": "ranger",
-      "name": "Ranger",
-      "description": "Rangers gain Hit Speed per attack, stacking up to 15x. Ranger buffs are now activated at 2 & 4 troops, instead of 3",
-      "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/ranger_trait.webp",
-      "bonuses": [
-        {
-          "effect": "10%",
-          "threshold": 2
-        },
-        {
-          "effect": "15%",
-          "threshold": 4
-        }
-      ]
-    },
-    {
-      "id": "thrower",
-      "name": "Blaster",
-      "description": "Blasters gain +1 Range and extra damage based on distance",
-      "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/thrower_trait.webp",
-      "bonuses": [
-        {
-          "effect": "+10% damage per hex",
-          "threshold": 2
-        },
-        {
-          "effect": "+20% damage per hex",
-          "threshold": 4
-        }
-      ]
-    },
-    {
-      "id": "pekka",
-      "name": "P.E.K.K.A",
-      "description": "This Trait allows its troops to do extra damage, and after taking down a troop, they’ll magically heal!",
-      "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/pekka_trait.webp",
-      "bonuses": [
-        {
-          "effect": "+30% damage, heals 30% of max HP",
-          "threshold": 2
-        }
-      ]
-    },
-    {
-      "id": "brutalist",
-      "name": "Brutalist",
-      "description": "Brutalists gain bonus hit speed, marking enemies with each hit. Enemy targets lose HP after 4 marks",
-      "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/brutalist_trait.webp",
-      "bonuses": [
-        {
-          "effect": "+30%, -20% of max HP",
-          "threshold": 2
-        },
-        {
-          "effect": "+60%, -40% of max HP",
-          "threshold": 4
         }
       ]
     },
