@@ -44,7 +44,7 @@
       "critical": 15,
       "description": "Burps big fireballs that deal damage in a wide area",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/babydragon.webp",
-      "traits" : ["fire","thrower"]
+      "traits" : ["fire","dragon"]
     },
     {
       "id": "archer",
@@ -59,7 +59,7 @@
       "critical": 15,
       "description": "Who needs all that armor when you've got wicked range and hot pink hair?",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/archer.webp",
-      "traits" : ["clan","ranger"]
+      "traits" : ["clan","marksman"]
     },
     {
       "id": "knight",
@@ -74,7 +74,7 @@
       "critical": 15,
       "description": "One of the toughest melee fighters in the kingdom",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/knight.webp",
-      "traits" : ["noble","juggernaut"]
+      "traits" : ["noble","tank"]
     },
     {
       "id": "goblin_demolisher",
@@ -104,7 +104,7 @@
       "critical": 15,
       "description": "A slow, tanky ranger whose crown is heavier than his cannon",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/royal_giant.webp",
-      "traits" : ["giant","ranger"]
+      "traits" : ["titan","marksman"]
     },
     {
       "id": "monk",
@@ -119,7 +119,7 @@
       "critical": 15,
       "description": "Creates a Shield that deflects damage onto the offender and heals Monk for a few seconds every few hits",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/monk.webp",
-      "traits" : ["ace","superstar"]
+      "traits" : ["ace","tank"]
     },
     {
       "id": "witch",
@@ -134,7 +134,7 @@
       "critical": 15,
       "description": "Every few seconds, she summons Skeletons with 50% of her max HP and attack damage",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/witch.webp",
-      "traits" : ["undead","superstar"]
+      "traits" : ["undead","hinder"]
     },
     {
       "id": "musketeer",
@@ -149,7 +149,7 @@
       "critical": 15,
       "description": "A tanky gunner who pushes 3 enemies back every few hits",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/musketeer.webp",
-      "traits" : ["noble","superstar"]
+      "traits" : ["noble","marksman"]
     },
     {
       "id": "wizard",
@@ -164,7 +164,7 @@
       "critical": 15,
       "description": "Throws a fireball at enemies in the area",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/wizard.webp",
-      "traits" : ["clan","thrower"]
+      "traits" : ["fire","hinder"]
     },
     {
       "id": "skeletondragons",
@@ -179,7 +179,7 @@
       "critical": 15,
       "description": "Splits to create a new Skeleton Dragon after every few attacks",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/skeletondragons.webp",
-      "traits" : ["undead","ranger"]
+      "traits" : ["undead","dragon"]
     },
     {
       "id": "pekka",
@@ -194,22 +194,7 @@
       "critical": 15,
       "description": "A slow, but heavily armored melee fighter. Nothing gets past her..",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/pekka.webp",
-      "traits" : ["pekka","brawler"]
-    },
-    {
-      "id": "bandit",
-      "name": "Bandit",
-      "bio": null,
-      "elixir": 4,
-      "hp": 897,
-      "dps": 80,
-      "damage": 89,
-      "hitSpeed": "1.11",
-      "range": 1,
-      "critical": 15,
-      "description": "Jumps and strikes the largest group of enemies every few seconds, dealing damage and stunning enemies in its Hex Radius for 2s",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/bandit.webp",
-      "traits" : ["ace","assassin"]
+      "traits" : ["ace","superstar"]
     },
     {
       "id": "barbarian",
@@ -224,7 +209,7 @@
       "critical": 15,
       "description": "An all-around melee attacker with a mean mustache",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/barbarian.webp",
-      "traits" : ["clan","brawler"]
+      "traits" : ["clan","warrior"]
     },
     {
       "id": "valkyrie",
@@ -239,7 +224,7 @@
       "critical": 15,
       "description": "A melee master who channels her rage into area Damage",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/valkyrie.webp",
-      "traits" : ["clan","brutalist"]
+      "traits" : ["clan","tank"]
     },
     {
       "id": "archerqueen",
@@ -254,7 +239,7 @@
       "critical": 15,
       "description": "Fires multiple arrows at her closest enemies. When her HP drops below 50%, she'll turn invisible and deal bonus Damage",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/archer-queen.webp",
-      "traits" : ["clan","ranger"]
+      "traits" : ["clan","superstar"]
     },
     {
       "id": "goblin",
@@ -284,7 +269,7 @@
       "critical": 15,
       "description": "An unarmored ranged attacker who runs fast, shoots far, and chews gum",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/dart-goblin.webp",
-      "traits" : ["goblin","ranger"]
+      "traits" : ["goblin","marksman"]
     },
     {
       "id": "goblinmachine",
@@ -299,7 +284,7 @@
       "critical": 15,
       "description": "Fires a rocket at the farthest enemy after certain hits, dealing 50% bonus Damage and stunning them for 1.5s",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/goblin-machine.webp",
-      "traits" : ["goblin","brutalist"]
+      "traits" : ["goblin","superstar"]
     },
     {
       "id": "prince",
@@ -314,7 +299,7 @@
       "critical": 15,
       "description": "Combat Start: Charges at the nearest target, dealing double Damage, pushing back enemies and stunning them for 2s",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/prince.webp",
-      "traits" : ["noble","brawler"]
+      "traits" : ["noble","warrior"]
     },
     {
       "id": "goldenknight",
@@ -344,7 +329,7 @@
       "critical": 15,
       "description": "Deals Damage to enemies in a cone radius and summons a Skeleton for every enemy he defeats",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/skeleton-king.webp",
-      "traits" : ["undead","brutalist"]
+      "traits" : ["undead","warrior"]
     }
   ],
   "traits" : [
@@ -551,7 +536,7 @@
     {
 
       "id": "titan",
-      "name": "Tank",
+      "name": "Titan",
       "description": "Titans gain special effects",
       "type": "role",
       "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/tank_trait.webp",
