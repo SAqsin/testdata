@@ -347,21 +347,6 @@
       "traits" : ["noble","brawler"]
     },
     {
-      "id": "princess",
-      "name": "Princess",
-      "bio": null,
-      "elixir": 4,
-      "hp": 672,
-      "dps": 66,
-      "damage": 133,
-      "hitSpeed": "2",
-      "range": 6,
-      "critical": 15,
-      "description": "Fires flaming arrows at the farthest enemy, dealing Damage in a 2-Hex Radius",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/princess.webp",
-      "traits" : ["noble","thrower"]
-    },
-    {
       "id": "goldenknight",
       "name": "Golden Knight",
       "bio": null,
