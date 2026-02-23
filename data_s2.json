@@ -1,5 +1,5 @@
 {
-  "season" : 4,
+  "season" : 7,
   "troops" : [
     {
       "id": "dummy",
@@ -17,25 +17,85 @@
       "traits" : []
     },
     {
-      "id": "mini_pekka",
-      "name": "Mini P.E.K.K.A",
+      "id": "giant",
+      "name": "Giant",
       "bio": null,
-      "elixir": 2,
+      "elixir": 3,
       "hp": 625,
       "dps": 134,
       "damage": 224,
       "hitSpeed": "1.66",
       "range": 1,
       "critical": 15,
-      "description": "A lightly armored heavy hitter with a soft spot for pancakes",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/mini_pekka.webp",
-      "traits" : ["pekka","brutalist"]
+      "description": "Throws the nearest enemy every few seconds, dealing damage based on target's max HP",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/giant.webp",
+      "traits" : ["titan","superstar"]
+    },
+    {
+      "id": "babydragon",
+      "name": "Baby Dragon",
+      "bio": null,
+      "elixir": 4,
+      "hp": 763,
+      "dps": 65,
+      "damage": 65,
+      "hitSpeed": "1",
+      "range": 3,
+      "critical": 15,
+      "description": "Burps big fireballs that deal damage in a wide area",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/babydragon.webp",
+      "traits" : ["fire","dragon"]
+    },
+    {
+      "id": "archer",
+      "name": "Archer",
+      "bio": null,
+      "elixir": 2,
+      "hp": 480,
+      "dps": 84,
+      "damage": 84,
+      "hitSpeed": "1",
+      "range": 1,
+      "critical": 15,
+      "description": "Who needs all that armor when you've got wicked range and hot pink hair?",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/archer.webp",
+      "traits" : ["clan","marksman"]
+    },
+    {
+      "id": "knight",
+      "name": "Knight",
+      "bio": null,
+      "elixir": 2,
+      "hp": 1200,
+      "dps": 42,
+      "damage": 60,
+      "hitSpeed": "1.42",
+      "range": 1,
+      "critical": 15,
+      "description": "One of the toughest melee fighters in the kingdom",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/knight.webp",
+      "traits" : ["noble","tank"]
+    },
+    {
+      "id": "goblin_demolisher",
+      "name": "Goblin Demolisher",
+      "bio": null,
+      "elixir": 3,
+      "hp": 625,
+      "dps": 134,
+      "damage": 224,
+      "hitSpeed": "1.66",
+      "range": 1,
+      "critical": 15,
+      "description": "Rushes to the lowest HP enemy and detonates below 50% HP, dealing AoE damage",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/goblin_demolisher.webp",
+      "traits" : ["goblin","warrior"]
     },
     {
       "id": "royal_giant",
       "name": "Royal Giant",
       "bio": null,
-      "elixir": 2,
+      "elixir": 3,
       "hp": 1170,
       "dps": 62,
       "damage": 104,
@@ -44,7 +104,22 @@
       "critical": 15,
       "description": "A slow, tanky ranger whose crown is heavier than his cannon",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/royal_giant.webp",
-      "traits" : ["giant","ranger"]
+      "traits" : ["titan","marksman"]
+    },
+    {
+      "id": "giantskeleton",
+      "name": "Giant Skeleton",
+      "bio": null,
+      "elixir": 3,
+      "hp": 981,
+      "dps": 33,
+      "damage": 54,
+      "hitSpeed": "1.66",
+      "range": 1,
+      "critical": 15,
+      "description": "Upon defeat, he drops a bomb that explodes after 1.5s, dealing Damage and stunning enemies in his Hex Radius for 2s",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/giant-skeleton.webp",
+      "traits" : ["undead","tank"]
     },
     {
       "id": "monk",
@@ -59,7 +134,7 @@
       "critical": 15,
       "description": "Creates a Shield that deflects damage onto the offender and heals Monk for a few seconds every few hits",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/monk.webp",
-      "traits" : ["ace","superstar"]
+      "traits" : ["ace","tank"]
     },
     {
       "id": "witch",
@@ -74,7 +149,7 @@
       "critical": 15,
       "description": "Every few seconds, she summons Skeletons with 50% of her max HP and attack damage",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/witch.webp",
-      "traits" : ["undead","superstar"]
+      "traits" : ["undead","hinder"]
     },
     {
       "id": "musketeer",
@@ -89,22 +164,7 @@
       "critical": 15,
       "description": "A tanky gunner who pushes 3 enemies back every few hits",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/musketeer.webp",
-      "traits" : ["noble","superstar"]
-    },
-    {
-      "id": "electrogiant",
-      "name": "Electro Giant",
-      "bio": null,
-      "elixir": 3,
-      "hp": 1418,
-      "dps": 66,
-      "damage": 94,
-      "hitSpeed": "1.42",
-      "range": 1,
-      "critical": 15,
-      "description": "Summons an electric field around himself, dealing damage and stunning nearby enemies every second",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/electrogiant.webp",
-      "traits" : ["giant","superstar"]
+      "traits" : ["noble","marksman"]
     },
     {
       "id": "wizard",
@@ -119,7 +179,7 @@
       "critical": 15,
       "description": "Throws a fireball at enemies in the area",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/wizard.webp",
-      "traits" : ["clan","thrower"]
+      "traits" : ["fire","hinder"]
     },
     {
       "id": "skeletondragons",
@@ -134,28 +194,13 @@
       "critical": 15,
       "description": "Splits to create a new Skeleton Dragon after every few attacks",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/skeletondragons.webp",
-      "traits" : ["undead","ranger"]
-    },
-    {
-      "id": "executioner",
-      "name": "Executioner",
-      "bio": null,
-      "elixir": 3,
-      "hp": 826,
-      "dps": 130,
-      "damage": 130,
-      "hitSpeed": "2",
-      "range": 4,
-      "critical": 15,
-      "description": "Throws his boomerang axe at the nearest target across several Hexes",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/executioner.webp",
-      "traits" : ["ace","thrower"]
+      "traits" : ["undead","dragon"]
     },
     {
       "id": "pekka",
       "name": "P.E.K.K.A",
       "bio": null,
-      "elixir": 3,
+      "elixir": 4,
       "hp": 1418,
       "dps": 156,
       "damage": 390,
@@ -164,37 +209,7 @@
       "critical": 15,
       "description": "A slow, but heavily armored melee fighter. Nothing gets past her..",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/pekka.webp",
-      "traits" : ["pekka","brawler"]
-    },
-    {
-      "id": "bandit",
-      "name": "Bandit",
-      "bio": null,
-      "elixir": 4,
-      "hp": 897,
-      "dps": 80,
-      "damage": 89,
-      "hitSpeed": "1.11",
-      "range": 1,
-      "critical": 15,
-      "description": "Jumps and strikes the largest group of enemies every few seconds, dealing damage and stunning enemies in its Hex Radius for 2s",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/bandit.webp",
-      "traits" : ["ace","assassin"]
-    },
-    {
-      "id": "megaknight",
-      "name": "Mega Knight",
-      "bio": null,
-      "elixir": 4,
-      "hp": 1680,
-      "dps": 66,
-      "damage": 111,
-      "hitSpeed": "1.66",
-      "range": 1,
-      "critical": 15,
-      "description": "Jumps and strikes the largest group of enemies every Few seconds, dealing Damage and stunning enemies in its Hex Radius for 2s",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/mega-knight.webp",
-      "traits" : ["ace","brawler"]
+      "traits" : ["ace","superstar"]
     },
     {
       "id": "barbarian",
@@ -209,7 +224,7 @@
       "critical": 15,
       "description": "An all-around melee attacker with a mean mustache",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/barbarian.webp",
-      "traits" : ["clan","brawler"]
+      "traits" : ["clan","warrior"]
     },
     {
       "id": "valkyrie",
@@ -224,7 +239,7 @@
       "critical": 15,
       "description": "A melee master who channels her rage into area Damage",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/valkyrie.webp",
-      "traits" : ["clan","brutalist"]
+      "traits" : ["clan","tank"]
     },
     {
       "id": "archerqueen",
@@ -239,7 +254,7 @@
       "critical": 15,
       "description": "Fires multiple arrows at her closest enemies. When her HP drops below 50%, she'll turn invisible and deal bonus Damage",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/archer-queen.webp",
-      "traits" : ["clan","ranger"]
+      "traits" : ["clan","superstar"]
     },
     {
       "id": "goblin",
@@ -257,25 +272,10 @@
       "traits" : ["goblin","assassin"]
     },
     {
-      "id": "speargoblin",
-      "name": "Spear Goblin",
-      "bio": null,
-      "elixir": 2,
-      "hp": 390,
-      "dps": 117,
-      "damage": 195,
-      "hitSpeed": "1.66",
-      "range": 3,
-      "critical": 15,
-      "description": "Spears that slice through wind at such a wide range that he doesn't even need armor",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/spear-goblin.webp",
-      "traits" : ["goblin","thrower"]
-    },
-    {
       "id": "dartgoblin",
       "name": "Dart Goblin",
       "bio": null,
-      "elixir": 3,
+      "elixir": 2,
       "hp": 687,
       "dps": 104,
       "damage": 87,
@@ -284,7 +284,7 @@
       "critical": 15,
       "description": "An unarmored ranged attacker who runs fast, shoots far, and chews gum",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/dart-goblin.webp",
-      "traits" : ["goblin","ranger"]
+      "traits" : ["goblin","marksman"]
     },
     {
       "id": "goblinmachine",
@@ -299,13 +299,13 @@
       "critical": 15,
       "description": "Fires a rocket at the farthest enemy after certain hits, dealing 50% bonus Damage and stunning them for 1.5s",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/goblin-machine.webp",
-      "traits" : ["goblin","brutalist"]
+      "traits" : ["goblin","superstar"]
     },
     {
       "id": "prince",
       "name": "Prince",
       "bio": null,
-      "elixir": 3,
+      "elixir": 4,
       "hp": 945,
       "dps": 123,
       "damage": 176,
@@ -314,22 +314,7 @@
       "critical": 15,
       "description": "Combat Start: Charges at the nearest target, dealing double Damage, pushing back enemies and stunning them for 2s",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/prince.webp",
-      "traits" : ["noble","brawler"]
-    },
-    {
-      "id": "princess",
-      "name": "Princess",
-      "bio": null,
-      "elixir": 4,
-      "hp": 672,
-      "dps": 66,
-      "damage": 133,
-      "hitSpeed": "2",
-      "range": 6,
-      "critical": 15,
-      "description": "Fires flaming arrows at the farthest enemy, dealing Damage in a 2-Hex Radius",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/princess.webp",
-      "traits" : ["noble","thrower"]
+      "traits" : ["noble","warrior"]
     },
     {
       "id": "goldenknight",
@@ -347,21 +332,6 @@
       "traits" : ["noble","assassin"]
     },
     {
-      "id": "royalghost",
-      "name": "Royal Ghost",
-      "bio": null,
-      "elixir": 4,
-      "hp": 897,
-      "dps": 148,
-      "damage": 123,
-      "hitSpeed": "0.83",
-      "range": 1,
-      "critical": 15,
-      "description": "Becomes invisible for a short time after 3 hits",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/royal-ghost.webp",
-      "traits" : ["undead","assassin"]
-    },
-    {
       "id": "skeletonking",
       "name": "Skeleton King",
       "bio": null,
@@ -374,10 +344,100 @@
       "critical": 15,
       "description": "Deals Damage to enemies in a cone radius and summons a Skeleton for every enemy he defeats",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/skeleton-king.webp",
-      "traits" : ["undead","brutalist"]
+      "traits" : ["undead","warrior"]
     }
   ],
   "traits" : [
+    {
+      "id": "warrior",
+      "name": "Warrior",
+      "description": "Warriors gain bonus damage and hit speed (8s after battle starts)",
+      "type": "origin",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/warrior_trait.webp",
+      "bonuses": [
+        {
+          "effect": "+30% damage, +30% Hit Speed",
+          "threshold": 2
+        },
+        {
+          "effect": "+60% damage, +60% Hit Speed",
+          "threshold": 4
+        }
+      ]
+    },
+    {
+      "id": "tank",
+      "name": "Tank",
+      "description": "Tanks heal rapidly when below 50% HP",
+      "type": "origin",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/tank_trait.webp",
+      "bonuses": [
+        {
+          "effect": "+40% max HP",
+          "threshold": 2
+        },
+        {
+          "effect": "+80% max HP",
+          "threshold": 4
+        }
+      ]
+    },
+    {
+      "id": "marksman",
+      "name": "Marksman",
+      "description": "Marksmen gain +1 range and deal bonus damage to targets 4+ tiles away",
+      "type": "origin",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/marksman_trait.webp",
+      "bonuses": [
+        {
+          "effect": "+30% damage",
+          "threshold": 2
+        },
+        {
+          "effect": "+60% damage",
+          "threshold": 4
+        }
+      ]
+    },
+    {
+      "id": "hinder",
+      "name": "Hinder",
+      "description": "Hinders have a 40% chance to slow enemies’ hit and movement speed for 3s with each hit",
+      "type": "origin",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/hinder_trait.webp",
+      "bonuses": [
+        {
+          "effect": "-30% Hit and Movement Speed",
+          "threshold": 2
+        }
+      ]
+    },
+    {
+      "id": "dragon",
+      "name": "Dragon",
+      "description": "Dragons take less damage from and deal bonus damage to melee troops",
+      "type": "origin",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/dragon_trait.webp",
+      "bonuses": [
+        {
+          "effect": "-50% damage taken, +50% damage",
+          "threshold": 2
+        }
+      ]
+    },
+    {
+      "id": "fire",
+      "name": "Fire",
+      "description": "Dragons take less damage from and deal bonus damage to melee troops",
+      "type": "origin",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/fire_trait.webp",
+      "bonuses": [
+        {
+          "effect": "Each Fire is individually powered up\nWizard deals bonus damage per attack, stacking up to 6x\nBaby Dragon and surrounding troops gain bonus hit and movement speed",
+          "threshold": 2
+        }
+      ]
+    },
     {
       "id": "ace",
       "name": "Ace",
@@ -490,96 +550,15 @@
     },
     {
 
-      "id": "giant",
-      "name": "Giant",
-      "description": "Giants take less damage, due to their unusual size, of course!",
+      "id": "titan",
+      "name": "Titan",
+      "description": "Titans gain special effects",
       "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/giant_trait.webp",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/tank_trait.webp",
       "bonuses": [
         {
-          "effect": "-40",
+          "effect": "Giant and surrounding troops take less damage\nRoyal Giant and surrounding troops deal bonus damage",
           "threshold": 2
-        }
-      ]
-    },
-    {
-      "id": "brawler",
-      "name": "Brawler",
-      "description": "Brawlers gain even more max bonus HP and no longer heal teammates at 4 active troops",
-      "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/brawler_trait.webp",
-      "bonuses": [
-        {
-          "effect": "+50%",
-          "threshold": 2
-        },
-        {
-          "effect": "100%",
-          "threshold": 4
-        }
-      ]
-    },
-    {
-      "id": "ranger",
-      "name": "Ranger",
-      "description": "Rangers gain Hit Speed per attack, stacking up to 15x. Ranger buffs are now activated at 2 & 4 troops, instead of 3",
-      "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/ranger_trait.webp",
-      "bonuses": [
-        {
-          "effect": "10%",
-          "threshold": 2
-        },
-        {
-          "effect": "15%",
-          "threshold": 4
-        }
-      ]
-    },
-    {
-      "id": "thrower",
-      "name": "Blaster",
-      "description": "Blasters gain +1 Range and extra damage based on distance",
-      "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/thrower_trait.webp",
-      "bonuses": [
-        {
-          "effect": "+10% damage per hex",
-          "threshold": 2
-        },
-        {
-          "effect": "+20% damage per hex",
-          "threshold": 4
-        }
-      ]
-    },
-    {
-      "id": "pekka",
-      "name": "P.E.K.K.A",
-      "description": "This Trait allows its troops to do extra damage, and after taking down a troop, they’ll magically heal!",
-      "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/pekka_trait.webp",
-      "bonuses": [
-        {
-          "effect": "+30% damage, heals 30% of max HP",
-          "threshold": 2
-        }
-      ]
-    },
-    {
-      "id": "brutalist",
-      "name": "Brutalist",
-      "description": "Brutalists gain bonus hit speed, marking enemies with each hit. Enemy targets lose HP after 4 marks",
-      "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/brutalist_trait.webp",
-      "bonuses": [
-        {
-          "effect": "+30%, -20% of max HP",
-          "threshold": 2
-        },
-        {
-          "effect": "+60%, -40% of max HP",
-          "threshold": 4
         }
       ]
     },
@@ -643,6 +622,13 @@
       "team_size_multiplayer" : 0,
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/echo_sage_ruler.webp",
       "ability" : "Striking Clone. The Echo to knock out the nearest enemy, or enemies, after charging"
+    },
+    {
+      "id" : "dagger_duchess",
+      "name" : "Dagger Duchess",
+      "team_size_multiplayer" : 0,
+      "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/dagger_duchess_ruler.webp",
+      "ability" : "Dagger Donation – Leaves you a Dagger to equip to any troop"
     }
   ]
 }
