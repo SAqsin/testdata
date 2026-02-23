@@ -107,6 +107,21 @@
       "traits" : ["titan","marksman"]
     },
     {
+      "id": "giantskeleton",
+      "name": "Giant Skeleton",
+      "bio": null,
+      "elixir": 3,
+      "hp": 981,
+      "dps": 33,
+      "damage": 54,
+      "hitSpeed": "1.66",
+      "range": 1,
+      "critical": 15,
+      "description": "Upon defeat, he drops a bomb that explodes after 1.5s, dealing Damage and stunning enemies in his Hex Radius for 2s",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/giant-skeleton.webp",
+      "traits" : ["undead","tank"]
+    },
+    {
       "id": "monk",
       "name": "Monk",
       "bio": null,
