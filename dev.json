@@ -92,21 +92,6 @@
       "traits" : ["goblin","warrior"]
     },
     {
-      "id": "mini_pekka",
-      "name": "Mini P.E.K.K.A",
-      "bio": null,
-      "elixir": 2,
-      "hp": 625,
-      "dps": 134,
-      "damage": 224,
-      "hitSpeed": "1.66",
-      "range": 1,
-      "critical": 15,
-      "description": "A lightly armored heavy hitter with a soft spot for pancakes",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/mini_pekka.webp",
-      "traits" : ["pekka","brutalist"]
-    },
-    {
       "id": "royal_giant",
       "name": "Royal Giant",
       "bio": null,
@@ -255,21 +240,6 @@
       "description": "Jumps and strikes the largest group of enemies every few seconds, dealing damage and stunning enemies in its Hex Radius for 2s",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/bandit.webp",
       "traits" : ["ace","assassin"]
-    },
-    {
-      "id": "megaknight",
-      "name": "Mega Knight",
-      "bio": null,
-      "elixir": 4,
-      "hp": 1680,
-      "dps": 66,
-      "damage": 111,
-      "hitSpeed": "1.66",
-      "range": 1,
-      "critical": 15,
-      "description": "Jumps and strikes the largest group of enemies every Few seconds, dealing Damage and stunning enemies in its Hex Radius for 2s",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/mega-knight.webp",
-      "traits" : ["ace","brawler"]
     },
     {
       "id": "barbarian",
