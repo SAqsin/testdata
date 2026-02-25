@@ -554,7 +554,7 @@
       "name": "Titan",
       "description": "Titans gain special effects",
       "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/tank_trait.webp",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/titan_trait.webp",
       "bonuses": [
         {
           "effect": "Giant and surrounding troops take less damage\nRoyal Giant and surrounding troops deal bonus damage",
