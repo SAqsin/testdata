@@ -96,10 +96,10 @@
       "name": "Royal Giant",
       "bio": null,
       "elixir": 3,
-      "hp": 1170,
+      "hp": 1000,
       "dps": 62,
-      "damage": 104,
-      "hitSpeed": "1.66",
+      "damage": 100,
+      "hitSpeed": "2",
       "range": 4,
       "critical": 15,
       "description": "A slow, tanky ranger whose crown is heavier than his cannon",
@@ -201,9 +201,9 @@
       "name": "P.E.K.K.A",
       "bio": null,
       "elixir": 4,
-      "hp": 1418,
+      "hp": 1400,
       "dps": 156,
-      "damage": 390,
+      "damage": 350,
       "hitSpeed": "2.5",
       "range": 1,
       "critical": 15,
@@ -248,8 +248,8 @@
       "elixir": 5,
       "hp": 920,
       "dps": 77,
-      "damage": 97,
-      "hitSpeed": "1.25",
+      "damage": 100,
+      "hitSpeed": "1.66",
       "range": 4,
       "critical": 15,
       "description": "Fires multiple arrows at her closest enemies. When her HP drops below 50%, she'll turn invisible and deal bonus Damage",
@@ -276,7 +276,7 @@
       "name": "Dart Goblin",
       "bio": null,
       "elixir": 2,
-      "hp": 687,
+      "hp": 350,
       "dps": 104,
       "damage": 87,
       "hitSpeed": "0.83",
@@ -306,10 +306,10 @@
       "name": "Prince",
       "bio": null,
       "elixir": 4,
-      "hp": 945,
+      "hp": 1000,
       "dps": 123,
       "damage": 176,
-      "hitSpeed": "1.42",
+      "hitSpeed": "1.66",
       "range": 1,
       "critical": 15,
       "description": "Combat Start: Charges at the nearest target, dealing double Damage, pushing back enemies and stunning them for 2s",
@@ -428,12 +428,12 @@
     {
       "id": "fire",
       "name": "Fire",
-      "description": "Dragons take less damage from and deal bonus damage to melee troops",
+      "description": "Each Fire is individually powered upDragons take less damage from and deal bonus damage to melee troops",
       "type": "origin",
       "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/fire_trait.webp",
       "bonuses": [
         {
-          "effect": "Each Fire is individually powered up\nWizard deals bonus damage per attack, stacking up to 6x\nBaby Dragon and surrounding troops gain bonus hit and movement speed",
+          "effect": "Wizard deals bonus damage per attack, stacking up to 6x\nBaby Dragon and surrounding troops gain bonus hit and movement speed",
           "threshold": 2
         }
       ]
@@ -441,33 +441,29 @@
     {
       "id": "ace",
       "name": "Ace",
-      "description": "All Aces gain +20% Hit Speed at combat start. Your strongest Ace becomes the Captain instead of the strongest Troop with the highest Merge Level",
+      "description": "Aces gain bonus damage",
       "type": "origin",
       "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/ace_trait.webp",
       "bonuses": [
         {
-          "effect": "Captain gains +40% bonus damage",
+          "effect": "40%",
           "threshold": 2
-        },
-        {
-          "effect": "Captain gains +60% bonus damage and +50% HP of damage dealt",
-          "threshold": 4
         }
       ]
     },
     {
       "id": "clan",
       "name": "Clan",
-      "description": "Once per round, Clans rapidly heal and gain bonus Hit Speed at 50% HP",
+      "description": "Team gains bonus HP, Clans gain double",
       "type": "origin",
       "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/clan_trait.webp",
       "bonuses": [
         {
-          "effect": "+30% of max HP and Hit Speed",
+          "effect": "+30% of max HP",
           "threshold": 2
         },
         {
-          "effect": "Heals 60% max HP and gains +60% hit speed",
+          "effect": "+50% of max HP",
           "threshold": 4
         }
       ]
@@ -492,21 +488,17 @@
     {
       "id": "noble",
       "name": "Noble",
-      "description": "Frontline Nobles (not any troops) take less damage, while backline Nobles (not any troops) gain bonus damage. New activation stats for 6 troops in certain modifiers",
+      "description": "Adjacent Nobles take less and gain bonus damage",
       "type": "origin",
       "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/noble_trait.webp",
       "bonuses": [
         {
-          "effect": "-20%, +20%",
+          "effect": "-10% damage taken, +30% damage",
           "threshold": 2
         },
         {
-          "effect": "-30%, +30%",
+          "effect": "-25% damage taken, +50% damage",
           "threshold": 4
-        },
-        {
-          "effect": "-45%, +45%",
-          "threshold": 6
         }
       ]
     },
@@ -565,16 +557,16 @@
     {
       "id": "superstar",
       "name": "Superstar",
-      "description": "Combat Start: Superstars’ ability bar is partially filled. 50% chance to recast after casting their ability",
+      "description": "Filled Ability Bar",
       "type": "role",
       "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/superstar_trait.webp",
       "bonuses": [
         {
-          "effect": "1/3",
+          "effect": "1/3 → 50%",
           "threshold": 2
         },
         {
-          "effect": "2/3",
+          "effect": "2/3 → 100%",
           "threshold": 4
         }
       ]
