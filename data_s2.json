@@ -526,17 +526,13 @@
     {
       "id": "assassin",
       "name": "Assassin",
-      "description": "Combat Start: Assassins will leap to the enemy's backline Troops. Assassin buffs are now activated at 2 & 4 troops, instead of 3",
+      "description": "Combat Start: Assassins will leap to the enemy's backline Troops. Assassin buffs are now activated at 2",
       "type": "role",
       "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/assassin_trait.webp",
       "bonuses": [
         {
-          "effect": "+25% Critical Chance and Critical Damage",
+          "effect": "+30% Hit speed for 3s upon enemy's defeat",
           "threshold": 2
-        },
-        {
-          "effect": "+50% Critical Chance and Critical Damage",
-          "threshold": 4
         }
       ]
     },
