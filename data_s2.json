@@ -505,7 +505,7 @@
     {
       "id": "undead",
       "name": "Undead",
-      "description": "Combat Start: The enemy with the highest HP is cursed, and your Undead gain 20% bonus Damage when that enemy is defeated. New activation stats for 6 troops in certain modifiers",
+      "description": "Combat Start: The enemy with the highest HP is cursed, and your Undead gain 20% bonus Damage when that enemy is defeated",
       "type": "origin",
       "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/undead_trait.webp",
       "bonuses": [
@@ -516,10 +516,6 @@
         {
           "effect": "Curses 2 enemies, max HP cut by 50%",
           "threshold": 4
-        },
-        {
-          "effect": "Curses 4 enemies, max HP cut by 75%",
-          "threshold": 6
         }
       ]
     },
