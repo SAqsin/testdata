@@ -40,7 +40,7 @@
       "dps": 1,
       "damage":14865,
       "hitSpeed": "2",
-      "range": 3,
+      "range": 2,
       "critical": 15,
       "description": "Burps big fireballs that deal damage in a wide area",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/babydragon.webp",
@@ -249,10 +249,10 @@
       "hp": 863,
       "dps": 1,
       "damage": 102,
-      "hitSpeed": "1.66",
+      "hitSpeed": "1.42",
       "range": 4,
       "critical": 15,
-      "description": "Fires multiple arrows at her closest enemies. When her HP drops below 50%, she'll turn invisible and deal bonus Damage",
+      "description": "Becomes invisible and rapidly fires 4 shots every few hits. Hits to Activate Ability 4/3/2/1",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/archer-queen.webp",
       "traits" : ["clan","superstar"]
     },
@@ -351,16 +351,16 @@
     {
       "id": "warrior",
       "name": "Warrior",
-      "description": "Warriors gain bonus damage and hit speed (8s after battle starts)",
+      "description": "Warriors gain bonus damage and hit speed (8s after battle starts). Activation Time: 4s",
       "type": "origin",
       "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/warrior_trait.webp",
       "bonuses": [
         {
-          "effect": "+30% damage, +30% Hit Speed",
+          "effect": "+40% damage, +40% Hit Speed",
           "threshold": 2
         },
         {
-          "effect": "+60% damage, +60% Hit Speed",
+          "effect": "+80% damage, +80% Hit Speed",
           "threshold": 4
         }
       ]
@@ -420,7 +420,7 @@
       "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/dagon_trait.webp",
       "bonuses": [
         {
-          "effect": "-50% damage taken, +50% damage",
+          "effect": "-33% damage taken, +33% damage",
           "threshold": 2
         }
       ]
@@ -570,7 +570,7 @@
       "name" : "Royale King",
       "team_size_multiplayer" : 0,
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/royaleking_ruler.webp",
-      "ability" : "Royal Commission: Losing grants you +4 Elixir"
+      "ability" : "Royal Commission: Losing grants you +4-8 Elixir"
     },
     {
       "id" : "spirit_empress",
@@ -584,7 +584,7 @@
       "name" : "Goblin Queen",
       "team_size_multiplayer" : 0,
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/goblinqueen_ruler.webp",
-      "ability" : "Greener Grin: Defeating an enemy troop grants you a 40% chance of spawning a Goblin"
+      "ability" : "Greener Grin: Defeating an enemy troop grants you a 35% chance of spawning a Goblin"
     },
     {
       "id" : "elixir_loong",
