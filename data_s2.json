@@ -117,7 +117,7 @@
       "hitSpeed": "2",
       "range": 1,
       "critical": 15,
-      "description": "Upon defeat, he drops a bomb that explodes after 1.5s, dealing Damage and stunning enemies in his Hex Radius for 2s",
+      "description": "Upon defeat, he drops a bomb that explodes after 1.5s, dealing Damage and stunning enemies in his Hex Radius for 2sec",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/giant-skeleton.webp",
       "traits" : ["undead","tank"]
     },
@@ -280,7 +280,7 @@
       "dps": 1,
       "damage": 84,
       "hitSpeed": "0.83",
-      "range": 5,
+      "range": 4,
       "critical": 15,
       "description": "An unarmored ranged attacker who runs fast, shoots far, and chews gum",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/dart-goblin.webp",
