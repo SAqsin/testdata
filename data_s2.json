@@ -1,5 +1,5 @@
 {
-  "season" : 7,
+  "season" : 8,
   "troops" : [
     {
       "id": "dummy",
@@ -15,6 +15,66 @@
       "description": "Start with a Dummy",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/dummy.webp",
       "traits" : []
+    },
+    {
+      "id": "executioner",
+      "name": "Executioner",
+      "bio": null,
+      "elixir": 3,
+      "hp": 801,
+      "dps": 1,
+      "damage": 126,
+      "hitSpeed": "1.66",
+      "range": 4,
+      "critical": 15,
+      "description": "Throws his boomerang axe at the nearest target across several Hexes",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/executioner.webp",
+      "traits" : ["ace","hinder"]
+    },
+    {
+      "id": "bandit",
+      "name": "Bandit",
+      "bio": null,
+      "elixir": 4,
+      "hp": 977,
+      "dps": 1,
+      "damage": 108,
+      "hitSpeed": "1.25",
+      "range": 1,
+      "critical": 15,
+      "description": "Jumps and strikes the largest group of enemies every few seconds, dealing damage and stunning enemies in its Hex Radius for 2s",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/bandit.webp",
+      "traits" : ["ace","assassin"]
+    },
+    {
+      "id": "princess",
+      "name": "Princess",
+      "bio": null,
+      "elixir": 4,
+      "hp": 651,
+      "dps": 1,
+      "damage": 173,
+      "hitSpeed": "2.5",
+      "range": 6,
+      "critical": 15,
+      "description": "Fires flaming arrows at the farthest enemy, dealing Damage in a 2-Hex Radius",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/princess.webp",
+      "traits" : ["noble","hinder"]
+    },
+    {
+      "id": "royalghost",
+      "name": "Royal Ghost",
+      "bio": null,
+      "elixir": 3,
+      "hp": 855,
+      "dps": 1,
+      "damage": 127,
+      "hitSpeed": "1.42",
+      "range": 1,
+      "critical": 15,
+      "description": "Becomes invisible for a short time after 3 hits",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/royal-ghost.webp",
+      "traits" : ["undead","assassin"]
     },
     {
       "id": "giant",
