@@ -530,6 +530,10 @@
         {
           "effect": "-30% Hit and Movement Speed",
           "threshold": 2
+        },
+         {
+          "effect": "-30% Hit and Movement Speed",
+          "threshold": 4
         }
       ]
     },
@@ -569,6 +573,10 @@
         {
           "effect": "40%",
           "threshold": 2
+        },
+        {
+          "effect": "40%",
+          "threshold": 4
         }
       ]
     },
@@ -650,6 +658,10 @@
         {
           "effect": "+30% Hit speed for 3s upon enemy's defeat",
           "threshold": 2
+        },
+         {
+          "effect": "+30% Hit speed for 3s upon enemy's defeat",
+          "threshold": 4
         }
       ]
     },
