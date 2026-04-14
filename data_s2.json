@@ -469,6 +469,10 @@
         {
           "effect": "-30% Hit and Movement Speed",
           "threshold": 2
+        },
+        {
+          "effect": "-60% Hit and Movement Speed",
+          "threshold": 4
         }
       ]
     },
@@ -508,6 +512,10 @@
         {
           "effect": "40%",
           "threshold": 2
+        },
+        {
+          "effect": "60%",
+          "threshold": 4
         }
       ]
     },
