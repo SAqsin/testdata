@@ -597,6 +597,10 @@
         {
           "effect": "+30% Hit speed for 3s upon enemy's defeat",
           "threshold": 2
+        },
+        {
+          "effect": "+60% Hit speed for 3s upon enemy's defeat",
+          "threshold": 4
         }
       ]
     },
