@@ -5,6 +5,10 @@
       "flag": "https://raw.githubusercontent.com/saqsin/testdata/main/langs/en.png"
     },
     {
+      "lang": "PT",
+      "flag": "https://raw.githubusercontent.com/saqsin/testdata/main/langs/pt.png"
+    },
+    {
       "lang": "ES",
       "flag": "https://raw.githubusercontent.com/saqsin/testdata/main/langs/es.png"
     },
