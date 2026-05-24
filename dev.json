@@ -1,5 +1,7 @@
 {
   "season" : 9,
+  "cardLevel":"16",
+  "troopLevel":"★ / ★★ / ★★★ / ★★★★"
   "troops" : [
     {
       "id": "dummy",
