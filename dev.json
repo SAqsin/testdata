@@ -29,11 +29,7 @@
       "hitSpeed": "1.66",
       "range": 4,
       "critical": 15,
-      "extraInfo": [
-        {
-          "",""
-        }
-      ],
+      "extraInfo": null,
       "description": "Throws his boomerang axe at the nearest target across several Hexes",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/executioner.webp",
       "traits" : ["ace","hinder"]
@@ -249,10 +245,9 @@
       "hitSpeed": "1.42",
       "range": 4,
       "extraInfo": [
-        {"Attack Radius","2 Hex"}
+        {"key":"Attack Radius","value":"2 Hex"}
       ],
       "critical": 15,
-      "extraInfo": null,
       "description": "Throws a fireball at enemies in the area",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/wizard.webp",
       "traits" : ["fire","hinder"]
@@ -381,8 +376,8 @@
       "hitSpeed": "1.25",
       "range": 1,
       "extraInfo": [
-        {"Hit Requirement","3 / 2 / 1 / 1"},
-        {"Rockets","1 / 2 / 3 / 6"}
+        {"key":"Hit Requirement","value":"3 / 2 / 1 / 1"},
+        {"key":"Rockets","value","1 / 2 / 3 / 6"}
       ],
       "critical": 15,
       "description": "Fires a rocket at the farthest enemy after certain hits, dealing 50% bonus Damage and stunning them for 1.5s",
