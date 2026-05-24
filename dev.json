@@ -29,7 +29,7 @@
       "hitSpeed": "1.66",
       "range": 4,
       "critical": 15,
-      "extraInfo": null,
+      "": null,
       "description": "Throws his boomerang axe at the nearest target across several Hexes",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/executioner.webp",
       "traits" : ["ace","hinder"]
@@ -121,7 +121,7 @@
       "damage": 371,
       "hitSpeed": "1",
       "range": 1,
-      "extraInfo": null,
+      "": null,
       "critical": 15,
       "description": "Who needs all that armor when you've got wicked range and hot pink hair?",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/archer.webp",
@@ -377,7 +377,7 @@
       "range": 1,
       "extraInfo": [
         {"key":"Hit Requirement","value":"3 / 2 / 1 / 1"},
-        {"key":"Rockets","value","1 / 2 / 3 / 6"}
+        {"key":"Rockets","value":"1 / 2 / 3 / 6"}
       ],
       "critical": 15,
       "description": "Fires a rocket at the farthest enemy after certain hits, dealing 50% bonus Damage and stunning them for 1.5s",
