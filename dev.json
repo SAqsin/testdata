@@ -248,6 +248,9 @@
       "damage": 579,
       "hitSpeed": "1.42",
       "range": 4,
+      "extraInfo": [
+        {"Attack Radius","2 Hex"}
+      ],
       "critical": 15,
       "extraInfo": null,
       "description": "Throws a fireball at enemies in the area",
@@ -370,11 +373,17 @@
       "name": "Goblin Machine",
       "bio": null,
       "elixir": 4,
-      "hp": 1137,
-      "dps": 1,
-      "damage": 93,
+      "hpLevels": "1232 / 2464 / 4929 / 9859",
+      "damageLevels": "101 / 161 / 257 / 410",
+      "hp": 9859,
+      "dps": "Medium",
+      "damage": 410,
       "hitSpeed": "1.25",
       "range": 1,
+      "extraInfo": [
+        {"Hit Requirement","3 / 2 / 1 / 1"},
+        {"Rockets","1 / 2 / 3 / 6"}
+      ],
       "critical": 15,
       "description": "Fires a rocket at the farthest enemy after certain hits, dealing 50% bonus Damage and stunning them for 1.5s",
       "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/goblin-machine.webp",
