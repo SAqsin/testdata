@@ -667,56 +667,81 @@
       "name" : "Royale King",
       "team_size_multiplayer" : 0,
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/royaleking_ruler.webp",
-      "ability" : "Royal Commission: Losing grants you +4-8 Elixir"
+      "ability" : "Royal Commission: Losing grants you +4-8 Elixir",
+      "extraInfo":[
+        {"key":"Quest","value":"Lose 2/3/4 rounds in one game"}
+      ]
     },
     {
       "id" : "spirit_empress",
       "name" : "Spirit Empress",
       "team_size_multiplayer" : 0,
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/spiritempress_ruler.webp",
-      "ability" : "Fusion Foresight: Every merge grants you +1 bonus Elixir"
+      "ability" : "Fusion Foresight: Every merge grants you +1 bonus Elixir",
+       "extraInfo":[
+        {"key":"Quest","value":"Merge 3/15/50 torrps in one game"}
+      ]
     },
     {
       "id" : "goblin_queen",
       "name" : "Goblin Queen",
       "team_size_multiplayer" : 0,
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/goblinqueen_ruler.webp",
-      "ability" : "Greener Grin: Defeating an enemy troop grants you a 35% chance of spawning a Goblin"
+      "ability" : "Greener Grin: Defeating an enemy troop grants you a 35% chance of spawning a Goblin",
+      "ability" : "Fusion Foresight: Every merge grants you +1 bonus Elixir",
+      "extraInfo":[
+        {"key":"Quest","value":"Get 3/10/25 Goblins from Goblin Trait or Goblin Queen's passive ability"}
+      ]
     },
     {
       "id" : "elixir_loong",
       "name" : "Elixir Loong",
       "team_size_multiplayer" : 1,
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/loong_ruler.webp",
-      "ability" : "Endless Spring: Gain +1 Elixir per turn and +1 team size"
+      "ability" : "Endless Spring: Gain +1 Elixir per turn and +1 team size",
+      "extraInfo":[
+        {"key":"Quest","value":"Win 2/3/5 rounds in a row"}
+      ]
     },
     {
       "id" : "battle_machine",
       "name" : "Battle Machine",
       "team_size_multiplayer" : -1,
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/battle_machine_ruler.webp",
-      "ability" : "Brings one random 1/2/3/4-Star building into battle in Rounds 1/3/5/8, -1 max Team Size"
+      "ability" : "Brings one random 1/2/3/4-Star building into battle in Rounds 1/3/5/8, -1 max Team Size",
+      "extraInfo":[
+        {"key":"Quest","value":"Buildings destroy 2/8/20 troops in a row"}
+      ]
     },
     {
       "id" : "echo_sage",
       "name" : "Echo Sage",
       "team_size_multiplayer" : 0,
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/echo_sage_ruler.webp",
-      "ability" : "Striking Clone. The Echo to knock out the nearest enemy, or enemies, after charging"
+      "ability" : "Striking Clone. The Echo to knock out the nearest enemy, or enemies, after charging",
+      "extraInfo":[
+        {"key":"Quest","value":"Buildings destroy 2/8/20 troops in a row"}
+      ]
     },
     {
       "id" : "grand_warden",
       "name" : "Grand Warden",
       "team_size_multiplayer" : 0,
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/grand_warden_ruler.webp",
-      "ability" : "Grand Warden grants a random shield to the lowest-HP% ally at 5s and 15s. The second shield impacts a 3-tile radius upon breaking."
+      "ability" : "Grand Warden grants a random shield to the lowest-HP% ally at 5s and 15s. The second shield impacts a 3-tile radius upon breaking.",
+      "extraInfo":[
+        {"key":"Quest","value":"Buildings destroy 2/8/20 troops in a row"}
+      ]
     },
     {
       "id" : "dagger_duchess",
       "name" : "Dagger Duchess",
       "team_size_multiplayer" : 0,
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/dagger_duchess_ruler.webp",
-      "ability" : "Dagger Donation – Leaves you a Dagger to equip to any troop"
+      "ability" : "Dagger Donation – Leaves you a Dagger to equip to any troop",
+      "extraInfo":[
+        {"key":"Quest","value":"Buildings destroy 2/8/20 troops in a row"}
+      ]
     }
   ]
 }
