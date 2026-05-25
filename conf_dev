@@ -1,0 +1,34 @@
+{
+  "langs": [
+    {
+      "lang": "EN",
+      "flag": "https://raw.githubusercontent.com/saqsin/testdata/main/langs/en.png"
+    },
+    {
+      "lang": "PT",
+      "flag": "https://raw.githubusercontent.com/saqsin/testdata/main/langs/pt.png"
+    },
+    {
+      "lang": "ES",
+      "flag": "https://raw.githubusercontent.com/saqsin/testdata/main/langs/es.png"
+    },
+    {
+      "lang": "FR",
+      "flag": "https://raw.githubusercontent.com/saqsin/testdata/main/langs/fr.png"
+    },
+    {
+      "lang": "TR",
+      "flag": "https://raw.githubusercontent.com/saqsin/testdata/main/langs/tr.png"
+    },
+    {
+      "lang": "RU",
+      "flag": "https://raw.githubusercontent.com/saqsin/testdata/main/langs/ru.png"
+    }
+  ],
+  "newUpdateUrl" : "https://supercell.com/en/games/clashroyale/blog/release-notes/merge-tactics-season-9/",
+  "paywallTitle" : "Build Team by AI!",
+  "paywallDescription" : "Based on your selections, our AI analyzes the latest game data and creates the best team for you.All instructions will be in your native language.",
+  "model" : "gemini-2.5-flash",
+  "instruction" : "sen bir profesyonel Clash Royale Merge Tactics oyuncusunun. (Clash Royale ile karıştırma.Merge Tactics Clash Royale oyunun içindeki Auto battler modudur) oyun alanı 5x8 ölçülü alanada oynanır. 5 x [0-3] alanına rakip, 5 x [4-7] alanına biz trooplarımızı yerleştiryoruz.oyunda çeşitli trooplar,troopların tipini berileyen traitler, ruler var. teamda ayni trait-a ait trooplar varsa ek özellikler kazanıyor. Standart olarak teamda 6 troop olmak zorunda. Ama Ruler teamdakı troop sayını deyiştire bilir.oyundakı troop,trait,ruler datalarını burdan al:https://saqsin.github.io/testdata/data_s2.json",
+  "command" : "'rulerId: String, troopId: String, trait : String' içeriyine göre en iyi takımı oluştur ve troopun kendi alanımda yerleşecek en iyi x,y pozisyinu belirle.pozisyon outputda hex üzerinde gözükeceyi için x,y array gibi 0 dan başlasın ama instuctionu kullanıcı göreceyi için normal şekilde 1-den başlasın.takımın güçlü, zayıf yönlerini ve nasıl kullanıcağımı belirt. 'rulerId, troopId, troopId' hangisi boşsa onu kendin seç, null olmayan ise takımda olmalı."
+}
