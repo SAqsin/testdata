@@ -1,4 +1,4 @@
-2{
+{
   "season" : 9,
   "cardLevel":"16",
   "troopLevel":"★ / ★★ / ★★★ / ★★★★"
@@ -111,7 +111,7 @@
     "critical": 15,
     "description": "Jumps and strikes the largest group of enemies every few seconds, dealing damage and stunning enemies in its Hex Radius for 2s",
     "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/bandit.webp",
-    "traits": ["ace", "assassin"],
+    "traits": ["forest"],
     "extraInfo": [
       { "key": "Hit Requirement", "value": "4 / 3 / 2 / 1" },
       { "key": "Bonus Damage", "value": "50% / 50% / 80% / 150%" }
@@ -132,7 +132,7 @@
     "critical": 15,
     "description": "Fires flaming arrows at the farthest enemy, dealing Damage in a 2-Hex Radius",
     "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/princess.webp",
-    "traits": ["noble", "hinder"],
+    "traits": ["noble"],
     "extraInfo": [
       { "key": "Attack Radius", "value": "2 Hex" }
     ]
@@ -152,7 +152,7 @@
     "critical": 15,
     "description": "Becomes invisible for a short time after 3 hits",
     "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/royal-ghost.webp",
-    "traits": ["undead", "assassin"],
+    "traits": ["undead"],
     "extraInfo": [
       { "key": "Cooldown", "value": "6s / 5s / 4s / 3s" }
     ]
@@ -286,7 +286,7 @@
     "critical": 15,
     "description": "Upon defeat, he drops a bomb that explodes after 1.5s, dealing Damage and stunning enemies in his Hex Radius for 2sec",
     "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/giant-skeleton.webp",
-    "traits": ["undead", "tank"],
+    "traits": ["undead"],
     "extraInfo": [
       { "key": "Damage", "value": "200 / 400 / 800 / 1600" },
       { "key": "Radius", "value": "2 / 3 / 4 / 5" },
@@ -674,7 +674,7 @@
     "critical": 15,
     "description": "Deals Damage to enemies in a cone radius and summons a Skeleton for every enemy he defeats",
     "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/skeleton-king.webp",
-    "traits": ["undead", "warrior"],
+    "traits": ["undead"],
     "extraInfo": null
   }
 ],
@@ -768,8 +768,8 @@
       ]
     },
     {
-      "id": "royal",
-      "name": "Royal",
+      "id": "noble",
+      "name": "Noble",
       "description": "Nobles gain bonus and take less damage",
       "type": "origin",
       "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/noble_trait.webp",
