@@ -40,6 +40,63 @@
     ]
   },
   {
+    "id": "magic_archer",
+    "name": "Magic Archer",
+    "bio": null,
+    "elixir": 3,
+    "hpLevels": "728 / 1019 / 1426 / 1995",
+    "damageLevels": "78 / 124 / 198 / 317",
+    "hp": 1995,
+    "dps": "Medium",
+    "damage": 317,
+    "hitSpeed": "1.25",
+    "range": 4,
+    "critical": 15,
+    "description": "Shoots a magic arrow that reflects to next target in 2 Hexes every few hits",
+    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/webp/magic_archer.webp",
+    "traits": ["forest"],
+    "extraInfo": null
+  },
+     {
+    "id": "goblin_cage",
+    "name": "Goblin Cage",
+    "bio": null,
+    "elixir": 4,
+    "hpLevels": "874 / 1574 / 2835 / 5098",
+    "damageLevels": "78 / 124 / 198 / 317",
+    "hp": 5098,
+    "dps": "Medium",
+    "damage": 317,
+    "hitSpeed": "1.25",
+    "range": 4,
+    "critical": 15,
+    "description": "When the Goblin Cage is Destroyed, Goblin Brawler is unleashed into the Arena",
+    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/webp/webp/goblin_cage.webp",
+    "traits": ["goblin"],
+    "extraInfo": null
+  },
+  {
+      "id": "megaknight",
+      "name": "Mega Knight",
+      "bio": null,
+      "elixir": 4,
+      "hpLevels": "1680 / 3025 / 5444 / 9799",
+      "damageLevels": "111 / 156 / 218 / 305",
+      "hp": 9799,
+      "dps": "Medium",
+      "damage": 305,
+      "hitSpeed": "1.66",
+      "range": 1,
+      "critical": 15,
+      "description": "Jumps and strikes the largest group of enemies every Few seconds, dealing Damage and stunning enemies in its Hex Radius for 2s",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/mega-knight.webp",
+      "traits" : ["boss"],
+      "extraInfo": [
+        { "key": "Cooldown", "value": "6s / 5s / 4s / 3s" },
+        { "key": "Hex:", "value": "2 / 2 / 3 / 4" }
+      ]
+    },
+  {
     "id": "bandit",
     "name": "Bandit",
     "bio": null,
@@ -580,6 +637,26 @@
     "traits": ["noble"],
     "extraInfo": [
       { "key": "Bonus Damage", "value": "50% / 80% / 150% / 500%" }
+    ]
+  },
+    {
+    "id": "boss_bandit",
+    "name": "Boss Bandit",
+    "bio": null,
+    "elixir": 5,
+    "hpLevels": "975 / 1365 / 1911 / 2675",
+    "damageLevels": "140 / 280 / 561 / 1123",
+    "hp": 2675,
+    "dps": "Medium",
+    "damage": 1123,
+    "hitSpeed": "1.25",
+    "range": 1,
+    "critical": 20,
+    "description": "Dashes to targets when 3 or 4-Hexes away, dealing double damage. Darts back 3 tiles every few hits.",
+    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/webp/boss_bandit.webp",
+    "traits": ["forest"],
+    "extraInfo": [
+      { "key": "Hit Requirement", "value": "4 / 3 / 2 / 1" }
     ]
   },
   {
