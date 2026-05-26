@@ -680,112 +680,47 @@
 ],
   "traits" : [
     {
-      "id": "warrior",
-      "name": "Warrior",
-      "description": "Warriors gain bonus damage and hit speed (8s after battle starts). Activation Time: 4s",
+      "id": "forest",
+      "name": "Forest",
+      "description": "Lowest HP% Forest gains invisibility and bonus Hit Speed for 2.5s every few seconds",
       "type": "origin",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/warrior_trait.webp",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/webp/forest_trait.webp",
       "bonuses": [
         {
-          "effect": "+40% damage, +40% Hit Speed",
+          "effect": "+30% Hit Speed every 5s",
           "threshold": 2
         },
         {
-          "effect": "+80% damage, +80% Hit Speed",
+          "effect": "+50% Hit Speed every 4s",
           "threshold": 4
+        },
+        {
+          "effect": "+100% Hit Speed every 3s",
+          "threshold": 6
         }
       ]
     },
     {
-      "id": "tank",
-      "name": "Tank",
-      "description": "Tanks heal rapidly when below 50% HP",
+      "id": "boss",
+      "name": "Boss",
+      "description": "Orb Exclusive: Bosses gain bonus damage and HP",
       "type": "origin",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/tank_trait.webp",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/webp/boss_trait.webp",
       "bonuses": [
         {
-          "effect": "+40% max HP",
+          "effect": "+50% of max HP and damage",
+          "threshold": 1
+        },
+        {
+          "effect": "+100% of max HP and damage",
           "threshold": 2
         },
         {
-          "effect": "+80% max HP",
-          "threshold": 4
-        }
-      ]
-    },
-    {
-      "id": "marksman",
-      "name": "Marksman",
-      "description": "Marksmen gain +1 range and deal bonus damage to targets 4+ tiles away",
-      "type": "origin",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/marksman_trait.webp",
-      "bonuses": [
-        {
-          "effect": "+30% damage",
-          "threshold": 2
+          "effect": "+150% of max HP and damage",
+          "threshold": 3
         },
         {
-          "effect": "+60% damage",
-          "threshold": 4
-        }
-      ]
-    },
-    {
-      "id": "hinder",
-      "name": "Hinder",
-      "description": "Hinders have a 40% chance to slow enemies’ hit and movement speed for 3s with each hit",
-      "type": "origin",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/hinder_trait.webp",
-      "bonuses": [
-        {
-          "effect": "-30% Hit and Movement Speed",
-          "threshold": 2
-        },
-        {
-          "effect": "-60% Hit and Movement Speed",
-          "threshold": 4
-        }
-      ]
-    },
-    {
-      "id": "dragon",
-      "name": "Dragon",
-      "description": "Dragons take less damage from and deal bonus damage to melee troops",
-      "type": "origin",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/dagon_trait.webp",
-      "bonuses": [
-        {
-          "effect": "-33% damage taken, +33% damage",
-          "threshold": 2
-        }
-      ]
-    },
-    {
-      "id": "fire",
-      "name": "Fire",
-      "description": "Each Fire is individually powered upDragons take less damage from and deal bonus damage to melee troops",
-      "type": "origin",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/fire_trait.webp",
-      "bonuses": [
-        {
-          "effect": "Wizard deals bonus damage per attack, stacking up to 6x\nBaby Dragon and surrounding troops gain bonus hit and movement speed",
-          "threshold": 2
-        }
-      ]
-    },
-    {
-      "id": "ace",
-      "name": "Ace",
-      "description": "Aces gain bonus damage",
-      "type": "origin",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/ace_trait.webp",
-      "bonuses": [
-        {
-          "effect": "40%",
-          "threshold": 2
-        },
-        {
-          "effect": "60%",
+          "effect": "+400% of max HP and damage",
           "threshold": 4
         }
       ]
@@ -793,127 +728,105 @@
     {
       "id": "clan",
       "name": "Clan",
-      "description": "Team gains bonus HP, Clans gain double",
+      "description": "Clans gain bonus HP and the strongest gains bonus hit speed",
       "type": "origin",
       "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/clan_trait.webp",
       "bonuses": [
         {
-          "effect": "+30% of max HP",
+          "effect": "+20%, +20%",
           "threshold": 2
         },
         {
-          "effect": "+50% of max HP",
+          "effect": "+50%, +50%",
           "threshold": 4
+        },
+        {
+          "effect": "+100%, +100%",
+          "threshold": 6
         }
       ]
     },
     {
       "id": "goblin",
       "name": "Goblin",
-      "description": "You'll get an extra random Goblin for free next round",
+      "description": "Grants an Orb containing a random Goblin, with a fully activated Trait awarding multiple Goblins per round!",
       "type": "origin",
       "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/goblin_trait.webp",
       "bonuses": [
         {
-          "effect": "Gain a 2-Elixir Goblin",
+          "effect": "Gain a 2 or 3-Elixir Goblin",
           "threshold": 2
         },
         {
-          "effect": "+60% chance of gaining a 3 or 4-Elixir Goblin",
+          "effect": "Gain a 3 or 4-Elixir Goblin",
           "threshold": 4
+        },
+        {
+          "effect": "Gain a 2, 3, and 4-Elixir Goblin each round",
+          "threshold": 6
         }
       ]
     },
     {
-      "id": "noble",
-      "name": "Noble",
-      "description": "Adjacent Nobles take less and gain bonus damage",
+      "id": "royal",
+      "name": "Royal",
+      "description": "Nobles gain bonus and take less damage",
       "type": "origin",
       "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/noble_trait.webp",
       "bonuses": [
         {
-          "effect": "-10% damage taken, +30% damage",
+          "effect": "-10% damage taken, +20% damage",
           "threshold": 2
         },
         {
           "effect": "-25% damage taken, +50% damage",
           "threshold": 4
-        }
+        },
+        {
+          "effect": "-50% damage taken, +100% damage",
+          "threshold": 6
+        },
       ]
     },
     {
       "id": "undead",
       "name": "Undead",
-      "description": "Combat Start: The enemy with the highest HP is cursed, and your Undead gain 20% bonus Damage when that enemy is defeated",
+      "description": "Each ally defeated increases all Undeads’ HP and damage for the rest of the game",
       "type": "origin",
       "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/undead_trait.webp",
       "bonuses": [
         {
-          "effect": "Curses 1 enemy, max HP cut by 25%",
+          "effect": "+1%",
           "threshold": 2
         },
         {
-          "effect": "Curses 2 enemies, max HP cut by 50%",
+          "effect": "+2%",
           "threshold": 4
-        }
-      ]
-    },
-    {
-      "id": "assassin",
-      "name": "Assassin",
-      "description": "Combat Start: Assassins will leap to the enemy's backline Troops. Assassin buffs are now activated at 2",
-      "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/assassin_trait.webp",
-      "bonuses": [
-        {
-          "effect": "+30% Hit speed for 3s upon enemy's defeat",
-          "threshold": 2
         },
         {
-          "effect": "+60% Hit speed for 3s upon enemy's defeat",
-          "threshold": 4
-        }
-      ]
-    },
-    {
-
-      "id": "titan",
-      "name": "Titan",
-      "description": "Titans gain special effects",
-      "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/titan_trait.webp",
-      "bonuses": [
-        {
-          "effect": "Giant and surrounding troops take less damage\nRoyal Giant and surrounding troops deal bonus damage",
-          "threshold": 2
-        }
-      ]
-    },
-    {
-      "id": "superstar",
-      "name": "Superstar",
-      "description": "Filled Ability Bar",
-      "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/superstar_trait.webp",
-      "bonuses": [
-        {
-          "effect": "1/3 → 50%",
-          "threshold": 2
+          "effect": "+6%",
+          "threshold": 6
         },
-        {
-          "effect": "2/3 → 100%",
-          "threshold": 4
-        }
       ]
     }
   ],
   "rulers" : [
     {
+      "id" : "tomb_queen",
+      "name" : "Tomb Queen",
+      "team_size_multiplayer" : 0,
+      "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/webp/tomb_queen_ruler.webp",
+      "ability" : "Ability: ombat Start: Spawns a Tombstone and once it's destroyed, she rises from the building to join the fight",
+      "extraInfo":[
+        {"key":"Quest","value":"Tombstone summons 10/25/80 troops in one game"}
+      ]
+    },
+    {
       "id" : "royale_king",
       "name" : "Royale King",
       "team_size_multiplayer" : 0,
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/royaleking_ruler.webp",
-      "ability" : "Royal Commission: Losing grants you +4-8 Elixir",
+      "ability" : "Ability: Losing grants you +4-8 bonus Elixir at random",
       "extraInfo":[
         {"key":"Quest","value":"Lose 2/3/4 rounds in one game"}
       ]
@@ -923,7 +836,7 @@
       "name" : "Spirit Empress",
       "team_size_multiplayer" : 0,
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/spiritempress_ruler.webp",
-      "ability" : "Fusion Foresight: Every merge grants you +1 bonus Elixir",
+      "ability" : "Ability: Every merge grants you +1 bonus Elixir",
        "extraInfo":[
         {"key":"Quest","value":"Merge 3/15/50 torrps in one game"}
       ]
@@ -933,8 +846,7 @@
       "name" : "Goblin Queen",
       "team_size_multiplayer" : 0,
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/goblinqueen_ruler.webp",
-      "ability" : "Greener Grin: Defeating an enemy troop grants you a 35% chance of spawning a Goblin",
-      "ability" : "Fusion Foresight: Every merge grants you +1 bonus Elixir",
+      "ability" : "Abiility: Queen joins Goblin Trait. Defeating an enemy results in a 33% chance of gaining a Goblin",
       "extraInfo":[
         {"key":"Quest","value":"Get 3/10/25 Goblins from Goblin Trait or Goblin Queen's passive ability"}
       ]
@@ -944,7 +856,7 @@
       "name" : "Elixir Loong",
       "team_size_multiplayer" : 1,
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/loong_ruler.webp",
-      "ability" : "Endless Spring: Gain +1 Elixir per turn and +1 team size",
+      "ability" : "Ability: Gain +1 Elixir per round and +1 Team Size",
       "extraInfo":[
         {"key":"Quest","value":"Win 2/3/5 rounds in a row"}
       ]
@@ -954,7 +866,7 @@
       "name" : "Battle Machine",
       "team_size_multiplayer" : -1,
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/battle_machine_ruler.webp",
-      "ability" : "Brings one random 1/2/3/4-Star building into battle in Rounds 1/3/5/8, -1 max Team Size",
+      "ability" : "Ability: Brings one random 1/2/3/4-Star building into battle in Rounds 1/3/5/8, -1 max Team Size",
       "extraInfo":[
         {"key":"Quest","value":"Buildings destroy 2/8/20 troops in a row"}
       ]
@@ -964,9 +876,9 @@
       "name" : "Echo Sage",
       "team_size_multiplayer" : 0,
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/echo_sage_ruler.webp",
-      "ability" : "Striking Clone. The Echo to knock out the nearest enemy, or enemies, after charging",
+      "ability" : "Ability: Summons The Echo who knocks out the nearest enemy, or enemies, after charging",
       "extraInfo":[
-        {"key":"Quest","value":"Buildings destroy 2/8/20 troops in a row"}
+        {"key":"Quest","value":"Knock out 2/6/18 troops in one game"}
       ]
     },
     {
@@ -974,9 +886,9 @@
       "name" : "Grand Warden",
       "team_size_multiplayer" : 0,
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/grand_warden_ruler.webp",
-      "ability" : "Grand Warden grants a random shield to the lowest-HP% ally at 5s and 15s. The second shield impacts a 3-tile radius upon breaking.",
+      "ability" : "Ability: Grants a random Shield to the lowest-HP% ally at 5s and 15s. The second Shield impacts a 3-tile radius upon breaking.",
       "extraInfo":[
-        {"key":"Quest","value":"Buildings destroy 2/8/20 troops in a row"}
+        {"key":"Quest","value":"Shields affect 3/10/25 troops in one game"}
       ]
     },
     {
@@ -984,9 +896,9 @@
       "name" : "Dagger Duchess",
       "team_size_multiplayer" : 0,
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/dagger_duchess_ruler.webp",
-      "ability" : "Dagger Donation – Leaves you a Dagger to equip to any troop",
+      "ability" : "Ability: Leaves you a Dagger to equip to any troop",
       "extraInfo":[
-        {"key":"Quest","value":"Buildings destroy 2/8/20 troops in a row"}
+        {"key":"Quest","value":"Win 1/2/4 rounds in less than 8s"}
       ]
     }
   ]
