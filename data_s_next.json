@@ -93,7 +93,7 @@
       "traits" : ["boss"],
       "extraInfo": [
         { "key": "Cooldown", "value": "6s / 5s / 4s / 3s" },
-        { "key": "Hex:", "value": "2 / 2 / 3 / 4" }
+        { "key": "Hex", "value": "2 / 2 / 3 / 4" }
       ]
     },
   {
