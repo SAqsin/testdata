@@ -755,4 +755,997 @@
       "ability" : "Dagger Donation – Leaves you a Dagger to equip to any troop"
     }
   ]
+}2{
+  "season" : 9,
+  "cardLevel":"16",
+  "troopLevel":"★ / ★★ / ★★★ / ★★★★"
+  "troops" : [
+  {
+    "id": "dummy",
+    "name": "Dummy",
+    "bio": null,
+    "elixir": 0,
+    "hp": 0,
+    "dps": "Medium",
+    "damage": 0,
+    "hitSpeed": "0",
+    "range": 0,
+    "critical": 0,
+    "description": "Start with a Dummy",
+    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/dummy.webp",
+    "traits": [],
+    "extraInfo": null
+  },
+  {
+    "id": "executioner",
+    "name": "Executioner",
+    "bio": null,
+    "elixir": 3,
+    "hpLevels": "826 / 1487 / 2676 / 4817",
+    "damageLevels": "130 / 182 / 254 / 356",
+    "hp": 4817,
+    "dps": "Medium",
+    "damage": 356,
+    "hitSpeed": "1.66",
+    "range": 4,
+    "critical": 15,
+    "description": "Throws his boomerang axe at the nearest target across several Hexes",
+    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/executioner.webp",
+    "traits": ["forest"],
+    "extraInfo": [
+      { "key": "Hex", "value": "1 / 2 / 3 / 4" }
+    ]
+  },
+  {
+    "id": "magic_archer",
+    "name": "Magic Archer",
+    "bio": null,
+    "elixir": 3,
+    "hpLevels": "728 / 1019 / 1426 / 1995",
+    "damageLevels": "78 / 124 / 198 / 317",
+    "hp": 1995,
+    "dps": "Medium",
+    "damage": 317,
+    "hitSpeed": "1.25",
+    "range": 4,
+    "critical": 15,
+    "description": "Shoots a magic arrow that reflects to next target in 2 Hexes every few hits",
+    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/webp/magic_archer.webp",
+    "traits": ["forest"],
+    "extraInfo": null
+  },
+     {
+    "id": "goblin_cage",
+    "name": "Goblin Cage",
+    "bio": null,
+    "elixir": 4,
+    "hpLevels": "874 / 1574 / 2835 / 5098",
+    "damageLevels": "78 / 124 / 198 / 317",
+    "hp": 5098,
+    "dps": "Medium",
+    "damage": 317,
+    "hitSpeed": "1.25",
+    "range": 4,
+    "critical": 15,
+    "description": "When the Goblin Cage is Destroyed, Goblin Brawler is unleashed into the Arena",
+    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/webp/webp/goblin_cage.webp",
+    "traits": ["goblin"],
+    "extraInfo": null
+  },
+  {
+      "id": "megaknight",
+      "name": "Mega Knight",
+      "bio": null,
+      "elixir": 4,
+      "hpLevels": "1680 / 3025 / 5444 / 9799",
+      "damageLevels": "111 / 156 / 218 / 305",
+      "hp": 9799,
+      "dps": "Medium",
+      "damage": 305,
+      "hitSpeed": "1.66",
+      "range": 1,
+      "critical": 15,
+      "description": "Jumps and strikes the largest group of enemies every Few seconds, dealing Damage and stunning enemies in its Hex Radius for 2s",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/mega-knight.webp",
+      "traits" : ["boss"],
+      "extraInfo": [
+        { "key": "Cooldown", "value": "6s / 5s / 4s / 3s" },
+        { "key": "Hex:", "value": "2 / 2 / 3 / 4" }
+      ]
+    },
+  {
+    "id": "bandit",
+    "name": "Bandit",
+    "bio": null,
+    "elixir": 4,
+    "hp": 4128,
+    "hpLevels": "1008 / 1613 / 2580 / 4128",
+    "damageLevels": "111 / 200 / 360 / 647",
+    "dps": "Medium",
+    "damage": 647,
+    "hitSpeed": "1.25",
+    "range": 1,
+    "critical": 15,
+    "description": "Jumps and strikes the largest group of enemies every few seconds, dealing damage and stunning enemies in its Hex Radius for 2s",
+    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/bandit.webp",
+    "traits": ["ace", "assassin"],
+    "extraInfo": [
+      { "key": "Hit Requirement", "value": "4 / 3 / 2 / 1" },
+      { "key": "Bonus Damage", "value": "50% / 50% / 80% / 150%" }
+    ]
+  },
+  {
+    "id": "princess",
+    "name": "Princess",
+    "bio": null,
+    "elixir": 4,
+    "hpLevels": "672 / 1075 / 1719 / 2750",
+    "damageLevels": "179 / 322 / 579 / 1042",
+    "hp": 2750,
+    "dps": "Medium",
+    "damage": 1042,
+    "hitSpeed": "2.5",
+    "range": 6,
+    "critical": 15,
+    "description": "Fires flaming arrows at the farthest enemy, dealing Damage in a 2-Hex Radius",
+    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/princess.webp",
+    "traits": ["noble", "hinder"],
+    "extraInfo": [
+      { "key": "Attack Radius", "value": "2 Hex" }
+    ]
+  },
+  {
+    "id": "royalghost",
+    "name": "Royal Ghost",
+    "bio": null,
+    "elixir": 3,
+    "hp": 5229,
+    "hpLevels": "897 / 1614 / 2905 / 5229",
+    "damageLevels": "133 / 187 / 261 / 365",
+    "dps": "Medium",
+    "damage": 365,
+    "hitSpeed": "1.42",
+    "range": 1,
+    "critical": 15,
+    "description": "Becomes invisible for a short time after 3 hits",
+    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/royal-ghost.webp",
+    "traits": ["undead", "assassin"],
+    "extraInfo": [
+      { "key": "Cooldown", "value": "6s / 5s / 4s / 3s" }
+    ]
+  },
+  {
+    "id": "giant",
+    "name": "Giant",
+    "bio": null,
+    "elixir": 3,
+    "hp": 11003,
+    "dps": "Very Slow",
+    "hpLevels": "1375 / 2750 / 5501 / 11003",
+    "damageLevels": "100 / 139 / 193 / 270",
+    "damage": 270,
+    "hitSpeed": "2.5",
+    "range": 1,
+    "critical": 15,
+    "description": "Throws the nearest enemy every few seconds, dealing damage based on target's max HP",
+    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/giant.webp",
+    "traits": ["clan"],
+    "extraInfo": [
+      { "key": "% of max HP", "value": "20 / 30 / 50 / 80" }
+    ]
+  },
+  {
+    "id": "babydragon",
+    "name": "Baby Dragon",
+    "bio": null,
+    "elixir": 4,
+    "hpLevels": "945 / 1700 / 3060 / 5508",
+    "damageLevels": "118 / 211 / 380 / 685",
+    "hp": 5508,
+    "dps": "Medium",
+    "damage": 685,
+    "hitSpeed": "2",
+    "range": 2,
+    "critical": 15,
+    "description": "Burps big fireballs that deal damage in a wide area",
+    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/babydragon.webp",
+    "traits": ["forest"],
+    "extraInfo": [
+      { "key": "Area Radius", "value": "2 Hex" },
+      { "key": "Fire", "value": "Baby Dragon and Surrounding troops gain +10%/25%/50%/100% bonusHit and Movement Speed" }
+    ]
+  },
+  {
+    "id": "archer",
+    "name": "Archer",
+    "bio": null,
+    "elixir": 2,
+    "hpLevels": "520 / 1040 / 2080 / 4160",
+    "damageLevels": "91 / 145 / 232 / 371",
+    "hp": 4160,
+    "dps": "Medium",
+    "damage": 371,
+    "hitSpeed": "1",
+    "range": 4,
+    "extraInfo": null,
+    "critical": 15,
+    "description": "Who needs all that armor when you've got wicked range and hot pink hair?",
+    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/archer.webp",
+    "traits": ["clan"],
+    "extraInfo": null
+  },
+  {
+    "id": "knight",
+    "name": "Knight",
+    "bio": null,
+    "elixir": 2,
+    "hpLevels": "1300 / 2600 / 5200 / 10400",
+    "damageLevels": "5 / 104 / 166 / 265",
+    "hp": 10400,
+    "dps": "Medium",
+    "damage": 265,
+    "hitSpeed": "1.25",
+    "range": 1,
+    "critical": 15,
+    "description": "One of the toughest melee fighters in the kingdom",
+    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/knight.webp",
+    "traits": ["noble"],
+    "extraInfo": null
+  },
+  {
+    "id": "goblin_demolisher",
+    "name": "Goblin Demolisher",
+    "bio": null,
+    "elixir": 3,
+    "hpLevels": "999 / 1799 / 3238 / 5827",
+    "damageLevels": "124 / 174 / 243 / 339",
+    "hp": 5827,
+    "dps": "Medium",
+    "damage": 339,
+    "hitSpeed": "1.66",
+    "range": 2,
+    "critical": 15,
+    "description": "Rushes to the lowest HP enemy and detonates below 50% HP, dealing AoE damage",
+    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/goblin_demolisher.webp",
+    "traits": ["goblin"],
+    "extraInfo": null
+  },
+  {
+    "id": "royal_giant",
+    "name": "Royal Giant",
+    "bio": null,
+    "elixir": 3,
+    "hpLevels": "1300 / 2600 / 5200 / 10400",
+    "damageLevels": "130 / 208 / 332 / 531",
+    "hp": 10400,
+    "dps": "Medium",
+    "damage": 531,
+    "hitSpeed": "2",
+    "range": 3,
+    "critical": 15,
+    "description": "A slow, tanky ranger whose crown is heavier than his cannon",
+    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/royal_giant.webp",
+    "traits": ["noble"],
+    "extraInfo": null
+  },
+  {
+    "id": "giantskeleton",
+    "name": "Giant Skeleton",
+    "bio": null,
+    "elixir": 3,
+    "hpLevels": "1181 / 2126 / 3827 / 6888",
+    "damageLevels": "83 / 115 / 161 / 224",
+    "hp": 6888,
+    "dps": "Very Slow",
+    "damage": 224,
+    "hitSpeed": "2",
+    "range": 1,
+    "critical": 15,
+    "description": "Upon defeat, he drops a bomb that explodes after 1.5s, dealing Damage and stunning enemies in his Hex Radius for 2sec",
+    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/giant-skeleton.webp",
+    "traits": ["undead", "tank"],
+    "extraInfo": [
+      { "key": "Damage", "value": "200 / 400 / 800 / 1600" },
+      { "key": "Radius", "value": "2 / 3 / 4 / 5" },
+      { "key": "Stun duration", "value": "1 / 2 / 3 / 5" },
+    ]
+  },
+  {
+    "id": "monk",
+    "name": "Monk",
+    "bio": null,
+    "elixir": 5,
+    "hpLevels": "1625 / 3250 / 6500 / 13000",
+    "damageLevels": "87 / 120 / 169 / 236",
+    "hp": 13000,
+    "dps": "Medium",
+    "damage": 236,
+    "hitSpeed": "1",
+    "range": 1,
+    "critical": 15,
+    "description": "Creates a Shield that deflects damage onto the offender and heals Monk for a few seconds every few hits",
+    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/monk.webp",
+    "traits": ["boss"],
+    "extraInfo": [
+      { "key": "Hit Requirement", "value": "5 / 4 / 3 / 3" },
+      { "key": "Heal Percentage", "value": "20% / 30% / 50% / 100%" },
+      { "key": "Shield Damage", "value": "90%" }
+    ]
+  },
+  {
+    "id": "witch",
+    "name": "Witch",
+    "bio": null,
+    "elixir": 4,
+    "hpLevels": "1063 / 1913 / 3443 / 6198",
+    "damageLevels": "87 / 120 / 169 / 236",
+    "hp": 6198,
+    "dps": "Medium",
+    "damage": 168,
+    "hitSpeed": "1.66",
+    "range": 3,
+    "critical": 15,
+    "description": "Every few seconds, she summons Skeletons with 50% of her max HP and attack damage",
+    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/witch.webp",
+    "traits": ["undead"],
+    "extraInfo": [
+      { "key": "Skeletons", "value": "2 / 3 / 4 / 8" }
+    ]
+  },
+  {
+    "id": "musketeer",
+    "name": "Musketeer",
+    "bio": null,
+    "elixir": 3,
+    "hpLevels": "999 / 1799 / 3238 / 5827",
+    "damageLevels": "124 / 223 / 401 / 722",
+    "hp": 5827,
+    "dps": "Medium",
+    "damage": 722,
+    "hitSpeed": "1.42",
+    "range": 4,
+    "critical": 15,
+    "description": "A tanky gunner who pushes 3 enemies back every few hits",
+    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/musketeer.webp",
+    "traits": ["noble"],
+    "extraInfo": [
+      { "key": "Knockback Distance", "value": "2" },
+      { "key": "Hit Requirement", "value": "4 / 3 / 2 / 1" }
+    ]
+  },
+  {
+    "id": "wizard",
+    "name": "Wizard",
+    "bio": null,
+    "elixir": 2,
+    "hpLevels": "999 / 1799 / 3238 / 5827",
+    "damageLevels": "149 / 269 / 483 / 869",
+    "hp": 5827,
+    "dps": "Medium",
+    "damage": 869,
+    "hitSpeed": "1.42",
+    "range": 4,
+    "extraInfo": [
+      { "key": "Attack Radius", "value": "2 Hex" }
+    ],
+    "critical": 15,
+    "description": "Throws a fireball at enemies in the area",
+    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/wizard.webp",
+    "traits": ["clan"]
+  },
+  {
+    "id": "skeletondragons",
+    "name": "Skeleton Dragons",
+    "bio": null,
+    "elixir": 4,
+    "hpLevels": "1040 / 1664 / 2662 / 4258",
+    "damageLevels": "104 / 166 / 265 / 423",
+    "hp": 4258,
+    "dps": "Medium",
+    "damage": 423,
+    "hitSpeed": "1.42",
+    "range": 4,
+    "critical": 15,
+    "description": "Splits to create a new Skeleton Dragon after every few attacks",
+    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/skeletondragons.webp",
+    "traits": ["undead"],
+    "extraInfo": [
+      { "key": "Attack Radius", "value": "2 Hex" }
+    ]
+  },
+  {
+    "id": "pekka",
+    "name": "P.E.K.K.A",
+    "bio": null,
+    "elixir": 4,
+    "hpLevels": "1891 / 3783 / 7566 / 15132",
+    "damageLevels": "413 / 660 / 1055 / 1688",
+    "hp": 15132,
+    "dps": "Very Slow",
+    "damage": 1688,
+    "hitSpeed": "2.5",
+    "range": 1,
+    "critical": 15,
+    "description": "A slow, but heavily armored melee fighter. Nothing gets past her..",
+    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/pekka.webp",
+    "traits": ["boss"],
+    "extraInfo": [
+      { "key": "Hit Requirement", "value": "4 / 3 / 2 / 1" }
+    ]
+  },
+  {
+    "id": "mini_pekka",
+    "name": "Mini Pekka",
+    "bio": null,
+    "elixir": 3,
+    "hpLevels": "874 / 1398 / 2237 / 3578",
+    "damageLevels": "224 / 404 / 726 / 1307",
+    "hp": 3578,
+    "dps": "Medium",
+    "damage": 1307,
+    "hitSpeed": "1.66",
+    "range": 1,
+    "extraInfo": null,
+    "critical": 15,
+    "description": "Cooks a pancake to level up a random ally every few hits",
+    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/mini_pekka.webp",
+    "traits": ["boss"]
+  },
+  {   
+    "id": "bomber",
+      "name": "Bomber",
+      "bio": null,
+      "elixir": 2,
+      "hpLevels": "520 / 1040 / 2080 / 4160",
+      "damageLevels": "117 / 163 / 228 / 319",
+      "hp": 4160,
+      "dps": "Medium",
+      "damage": 319,
+      "hitSpeed": "1.42",
+      "range": 3,
+      "critical": 15,
+      "description": "Throws a bomb at the nearest enemy, dealing Damage in a 2-Hex Radius",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/bomber.webp",
+      "traits" : ["undead"]
+    },
+  {
+    "id": "barbarian",
+    "name": "Barbarian",
+    "bio": null,
+    "elixir": 2,
+    "hpLevels": "910 / 1638 / 2948 / 5306",
+    "damageLevels": "104 / 166 / 265 / 423",
+    "hp": 5306,
+    "dps": "Medium",
+    "damage": 423,
+    "hitSpeed": "1.25",
+    "range": 1,
+    "extraInfo": null,
+    "critical": 15,
+    "description": "An all-around melee attacker with a mean mustache",
+    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/barbarian.webp",
+    "traits": ["clan"]
+  },
+  {
+    "id": "valkyrie",
+    "name": "Valkyrie",
+    "bio": null,
+    "elixir": 3,
+    "hpLevels": "1124 / 2249 / 4498 / 8996",
+    "damageLevels": "149 / 239 / 382 / 611",
+    "hp": 8996,
+    "dps": "Medium",
+    "damage": 611,
+    "hitSpeed": "2",
+    "range": 1,
+    "extraInfo": null,
+    "critical": 15,
+    "description": "A melee master who channels her rage into area Damage",
+    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/valkyrie.webp",
+    "traits": ["clan"]
+  },
+  {
+      "id": "speargoblin",
+      "name": "Spear Goblin",
+      "bio": null,
+      "elixir": 2,
+      "hpLevels": "390 / 780 / 1560 / 3120",
+      "damageLevels": "195 / 312 / 499 / 798",
+      "hp": 3120,
+      "dps": "Medium",
+      "damage": 798,
+      "hitSpeed": "1.6",
+      "range": 3,
+      "critical": 15,
+      "description": "Spears that slice through wind at such a wide range that he doesn't even need armor",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/spear-goblin.webp",
+      "traits" : ["goblin"]
+    },
+    {
+      "id": "firecracker",
+      "name": "Firecracker",
+      "bio": null,
+      "elixir": 2,
+      "hpLevels": "520 / 728 / 1019 / 1426",
+      "damageLevels": "104 / 166 / 265 / 423",
+      "hp": 1426,
+      "dps": "Medium",
+      "damage": 423,
+      "hitSpeed": "1.6",
+      "range": 3,
+      "critical": 15,
+      "description": "Fires a projectile that explodes on impact, damaging enemies behind target in a cone and knocking her back 1 hex every few hits",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/firecracker.webp",
+      "traits" : ["forest"]
+    },
+  {
+    "id": "archerqueen",
+    "name": "Archer Queen",
+    "bio": null,
+    "elixir": 5,
+    "hpLevels": "920 / 1656 / 2980 / 5365",
+    "damageLevels": "109 / 152 / 211 / 296",
+    "hp": 5365,
+    "dps": "Medium",
+    "damage": 296,
+    "hitSpeed": "1.42",
+    "range": 4,
+    "critical": 15,
+    "description": "Becomes invisible and rapidly fires 4 shots every few hits. Hits to Activate Ability 4/3/2/1",
+    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/archer-queen.webp",
+    "traits": ["clan"],
+    "extraInfo": [
+      { "key": "Targets", "value": "2 / 3 / 4 / 6" },
+      { "key": "Targets", "value": "4 / 3 / 2 / 1" },
+    ]
+  },
+  {
+    "id": "goblin",
+    "name": "Goblin",
+    "bio": null,
+    "hpLevels": "455 / 728 / 1164 / 1862",
+    "damageLevels": "117 / 163 / 228 / 319",
+    "elixir": 2,
+    "hp": 1862,
+    "dps": "Medium",
+    "damage": 319,
+    "hitSpeed": "1",
+    "range": 1,
+    "critical": 15,
+    "description": "Goblin speed and melee skills eliminate the need for that pesky armor",
+    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/goblin.webp",
+    "traits": ["goblin"],
+    "extraInfo": null
+  },
+  {
+    "id": "dartgoblin",
+    "name": "Dart Goblin",
+    "bio": null,
+    "elixir": 3,
+    "hpLevels": "562 / 899 / 1439 / 2302",
+    "damageLevels": "124 / 174 / 243 / 339",
+    "hp": 2302,
+    "dps": "Medium",
+    "damage": 339,
+    "hitSpeed": "0.83",
+    "range": 4,
+    "critical": 15,
+    "description": "An unarmored ranged attacker who runs fast, shoots far, and chews gum",
+    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/dart-goblin.webp",
+    "traits": ["goblin"],
+    "extraInfo": null
+  },
+  {
+    "id": "goblinmachine",
+    "name": "Goblin Machine",
+    "bio": null,
+    "elixir": 4,
+    "hpLevels": "1232 / 2464 / 4929 / 9859",
+    "damageLevels": "101 / 161 / 257 / 410",
+    "hp": 9859,
+    "dps": "Medium",
+    "damage": 410,
+    "hitSpeed": "1.25",
+    "range": 1,
+    "extraInfo": [
+      { "key": "Hit Requirement", "value": "3 / 2 / 1 / 1" },
+      { "key": "Rockets", "value": "1 / 2 / 3 / 6" }
+    ],
+    "critical": 15,
+    "description": "Fires a rocket at the farthest enemy after certain hits, dealing 50% bonus Damage and stunning them for 1.5s",
+    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/goblin-machine.webp",
+    "traits": ["goblin"]
+  },
+  {
+    "id": "prince",
+    "name": "Prince",
+    "bio": null,
+    "elixir": 4,
+    "hpLevels": "1063 / 1913 / 3443 / 6198",
+    "damageLevels": "141 / 226 / 361 / 577",
+    "hp": 6198,
+    "dps": "Medium",
+    "damage": 577,
+    "hitSpeed": "1.66",
+    "range": 1,
+    "critical": 15,
+    "description": "Combat Start: Charges at the nearest target, dealing double Damage, pushing back enemies and stunning them for 2s",
+    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/prince.webp",
+    "traits": ["noble"],
+    "extraInfo": [
+      { "key": "Knockback Distance", "value": "2 / 3 / 4 / 5" }
+    ]
+  },
+  {
+    "id": "goldenknight",
+    "name": "Golden Knight",
+    "bio": null,
+    "elixir": 5,
+    "hpLevels": "1300 / 2340 / 4212 / 7581",
+    "damageLevels": "152 / 304 / 608 / 1216",
+    "hp": 7581,
+    "dps": "Medium",
+    "damage": 1216,
+    "hitSpeed": "1",
+    "range": 1,
+    "critical": 15,
+    "description": "Dashes to the lowest HP enemy after defeating an enemy and deals bonus Damage",
+    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/golden-knight.webp",
+    "traits": ["noble"],
+    "extraInfo": [
+      { "key": "Bonus Damage", "value": "50% / 80% / 150% / 500%" }
+    ]
+  },
+    {
+    "id": "boss_bandit",
+    "name": "Boss Bandit",
+    "bio": null,
+    "elixir": 5,
+    "hpLevels": "975 / 1365 / 1911 / 2675",
+    "damageLevels": "140 / 280 / 561 / 1123",
+    "hp": 2675,
+    "dps": "Medium",
+    "damage": 1123,
+    "hitSpeed": "1.25",
+    "range": 1,
+    "critical": 20,
+    "description": "Dashes to targets when 3 or 4-Hexes away, dealing double damage. Darts back 3 tiles every few hits.",
+    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/webp/boss_bandit.webp",
+    "traits": ["forest"],
+    "extraInfo": [
+      { "key": "Hit Requirement", "value": "4 / 3 / 2 / 1" }
+    ]
+  },
+  {
+    "id": "skeletonking",
+    "name": "Skeleton King",
+    "bio": null,
+    "elixir": 5,
+    "hpLevels": "1517 / 3034 / 6068 / 12136",
+    "damageLevels": "152 / 304 / 608 / 1216",
+    "hp": 12136,
+    "dps": "Medium",
+    "damage": 1216,
+    "hitSpeed": "2",
+    "range": 1,
+    "critical": 15,
+    "description": "Deals Damage to enemies in a cone radius and summons a Skeleton for every enemy he defeats",
+    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/skeleton-king.webp",
+    "traits": ["undead", "warrior"],
+    "extraInfo": null
+  }
+],
+  "traits" : [
+    {
+      "id": "warrior",
+      "name": "Warrior",
+      "description": "Warriors gain bonus damage and hit speed (8s after battle starts). Activation Time: 4s",
+      "type": "origin",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/warrior_trait.webp",
+      "bonuses": [
+        {
+          "effect": "+40% damage, +40% Hit Speed",
+          "threshold": 2
+        },
+        {
+          "effect": "+80% damage, +80% Hit Speed",
+          "threshold": 4
+        }
+      ]
+    },
+    {
+      "id": "tank",
+      "name": "Tank",
+      "description": "Tanks heal rapidly when below 50% HP",
+      "type": "origin",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/tank_trait.webp",
+      "bonuses": [
+        {
+          "effect": "+40% max HP",
+          "threshold": 2
+        },
+        {
+          "effect": "+80% max HP",
+          "threshold": 4
+        }
+      ]
+    },
+    {
+      "id": "marksman",
+      "name": "Marksman",
+      "description": "Marksmen gain +1 range and deal bonus damage to targets 4+ tiles away",
+      "type": "origin",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/marksman_trait.webp",
+      "bonuses": [
+        {
+          "effect": "+30% damage",
+          "threshold": 2
+        },
+        {
+          "effect": "+60% damage",
+          "threshold": 4
+        }
+      ]
+    },
+    {
+      "id": "hinder",
+      "name": "Hinder",
+      "description": "Hinders have a 40% chance to slow enemies’ hit and movement speed for 3s with each hit",
+      "type": "origin",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/hinder_trait.webp",
+      "bonuses": [
+        {
+          "effect": "-30% Hit and Movement Speed",
+          "threshold": 2
+        },
+        {
+          "effect": "-60% Hit and Movement Speed",
+          "threshold": 4
+        }
+      ]
+    },
+    {
+      "id": "dragon",
+      "name": "Dragon",
+      "description": "Dragons take less damage from and deal bonus damage to melee troops",
+      "type": "origin",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/dagon_trait.webp",
+      "bonuses": [
+        {
+          "effect": "-33% damage taken, +33% damage",
+          "threshold": 2
+        }
+      ]
+    },
+    {
+      "id": "fire",
+      "name": "Fire",
+      "description": "Each Fire is individually powered upDragons take less damage from and deal bonus damage to melee troops",
+      "type": "origin",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/fire_trait.webp",
+      "bonuses": [
+        {
+          "effect": "Wizard deals bonus damage per attack, stacking up to 6x\nBaby Dragon and surrounding troops gain bonus hit and movement speed",
+          "threshold": 2
+        }
+      ]
+    },
+    {
+      "id": "ace",
+      "name": "Ace",
+      "description": "Aces gain bonus damage",
+      "type": "origin",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/ace_trait.webp",
+      "bonuses": [
+        {
+          "effect": "40%",
+          "threshold": 2
+        },
+        {
+          "effect": "60%",
+          "threshold": 4
+        }
+      ]
+    },
+    {
+      "id": "clan",
+      "name": "Clan",
+      "description": "Team gains bonus HP, Clans gain double",
+      "type": "origin",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/clan_trait.webp",
+      "bonuses": [
+        {
+          "effect": "+30% of max HP",
+          "threshold": 2
+        },
+        {
+          "effect": "+50% of max HP",
+          "threshold": 4
+        }
+      ]
+    },
+    {
+      "id": "goblin",
+      "name": "Goblin",
+      "description": "You'll get an extra random Goblin for free next round",
+      "type": "origin",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/goblin_trait.webp",
+      "bonuses": [
+        {
+          "effect": "Gain a 2-Elixir Goblin",
+          "threshold": 2
+        },
+        {
+          "effect": "+60% chance of gaining a 3 or 4-Elixir Goblin",
+          "threshold": 4
+        }
+      ]
+    },
+    {
+      "id": "noble",
+      "name": "Noble",
+      "description": "Adjacent Nobles take less and gain bonus damage",
+      "type": "origin",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/noble_trait.webp",
+      "bonuses": [
+        {
+          "effect": "-10% damage taken, +30% damage",
+          "threshold": 2
+        },
+        {
+          "effect": "-25% damage taken, +50% damage",
+          "threshold": 4
+        }
+      ]
+    },
+    {
+      "id": "undead",
+      "name": "Undead",
+      "description": "Combat Start: The enemy with the highest HP is cursed, and your Undead gain 20% bonus Damage when that enemy is defeated",
+      "type": "origin",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/undead_trait.webp",
+      "bonuses": [
+        {
+          "effect": "Curses 1 enemy, max HP cut by 25%",
+          "threshold": 2
+        },
+        {
+          "effect": "Curses 2 enemies, max HP cut by 50%",
+          "threshold": 4
+        }
+      ]
+    },
+    {
+      "id": "assassin",
+      "name": "Assassin",
+      "description": "Combat Start: Assassins will leap to the enemy's backline Troops. Assassin buffs are now activated at 2",
+      "type": "role",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/assassin_trait.webp",
+      "bonuses": [
+        {
+          "effect": "+30% Hit speed for 3s upon enemy's defeat",
+          "threshold": 2
+        },
+        {
+          "effect": "+60% Hit speed for 3s upon enemy's defeat",
+          "threshold": 4
+        }
+      ]
+    },
+    {
+
+      "id": "titan",
+      "name": "Titan",
+      "description": "Titans gain special effects",
+      "type": "role",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/titan_trait.webp",
+      "bonuses": [
+        {
+          "effect": "Giant and surrounding troops take less damage\nRoyal Giant and surrounding troops deal bonus damage",
+          "threshold": 2
+        }
+      ]
+    },
+    {
+      "id": "superstar",
+      "name": "Superstar",
+      "description": "Filled Ability Bar",
+      "type": "role",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/superstar_trait.webp",
+      "bonuses": [
+        {
+          "effect": "1/3 → 50%",
+          "threshold": 2
+        },
+        {
+          "effect": "2/3 → 100%",
+          "threshold": 4
+        }
+      ]
+    }
+  ],
+  "rulers" : [
+    {
+      "id" : "royale_king",
+      "name" : "Royale King",
+      "team_size_multiplayer" : 0,
+      "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/royaleking_ruler.webp",
+      "ability" : "Royal Commission: Losing grants you +4-8 Elixir",
+      "extraInfo":[
+        {"key":"Quest","value":"Lose 2/3/4 rounds in one game"}
+      ]
+    },
+    {
+      "id" : "spirit_empress",
+      "name" : "Spirit Empress",
+      "team_size_multiplayer" : 0,
+      "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/spiritempress_ruler.webp",
+      "ability" : "Fusion Foresight: Every merge grants you +1 bonus Elixir",
+       "extraInfo":[
+        {"key":"Quest","value":"Merge 3/15/50 torrps in one game"}
+      ]
+    },
+    {
+      "id" : "goblin_queen",
+      "name" : "Goblin Queen",
+      "team_size_multiplayer" : 0,
+      "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/goblinqueen_ruler.webp",
+      "ability" : "Greener Grin: Defeating an enemy troop grants you a 35% chance of spawning a Goblin",
+      "ability" : "Fusion Foresight: Every merge grants you +1 bonus Elixir",
+      "extraInfo":[
+        {"key":"Quest","value":"Get 3/10/25 Goblins from Goblin Trait or Goblin Queen's passive ability"}
+      ]
+    },
+    {
+      "id" : "elixir_loong",
+      "name" : "Elixir Loong",
+      "team_size_multiplayer" : 1,
+      "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/loong_ruler.webp",
+      "ability" : "Endless Spring: Gain +1 Elixir per turn and +1 team size",
+      "extraInfo":[
+        {"key":"Quest","value":"Win 2/3/5 rounds in a row"}
+      ]
+    },
+    {
+      "id" : "battle_machine",
+      "name" : "Battle Machine",
+      "team_size_multiplayer" : -1,
+      "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/battle_machine_ruler.webp",
+      "ability" : "Brings one random 1/2/3/4-Star building into battle in Rounds 1/3/5/8, -1 max Team Size",
+      "extraInfo":[
+        {"key":"Quest","value":"Buildings destroy 2/8/20 troops in a row"}
+      ]
+    },
+    {
+      "id" : "echo_sage",
+      "name" : "Echo Sage",
+      "team_size_multiplayer" : 0,
+      "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/echo_sage_ruler.webp",
+      "ability" : "Striking Clone. The Echo to knock out the nearest enemy, or enemies, after charging",
+      "extraInfo":[
+        {"key":"Quest","value":"Buildings destroy 2/8/20 troops in a row"}
+      ]
+    },
+    {
+      "id" : "grand_warden",
+      "name" : "Grand Warden",
+      "team_size_multiplayer" : 0,
+      "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/grand_warden_ruler.webp",
+      "ability" : "Grand Warden grants a random shield to the lowest-HP% ally at 5s and 15s. The second shield impacts a 3-tile radius upon breaking.",
+      "extraInfo":[
+        {"key":"Quest","value":"Buildings destroy 2/8/20 troops in a row"}
+      ]
+    },
+    {
+      "id" : "dagger_duchess",
+      "name" : "Dagger Duchess",
+      "team_size_multiplayer" : 0,
+      "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/dagger_duchess_ruler.webp",
+      "ability" : "Dagger Donation – Leaves you a Dagger to equip to any troop",
+      "extraInfo":[
+        {"key":"Quest","value":"Buildings destroy 2/8/20 troops in a row"}
+      ]
+    }
+  ]
 }
+
