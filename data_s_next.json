@@ -214,8 +214,7 @@
     "critical": 15,
     "description": "Who needs all that armor when you've got wicked range and hot pink hair?",
     "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/archer.webp",
-    "traits": ["clan"],
-    "extraInfo": null
+    "traits": ["clan"]
   },
   {
     "id": "knight",
