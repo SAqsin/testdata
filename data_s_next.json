@@ -290,7 +290,7 @@
     "extraInfo": [
       { "key": "Damage", "value": "200 / 400 / 800 / 1600" },
       { "key": "Radius", "value": "2 / 3 / 4 / 5" },
-      { "key": "Stun duration", "value": "1 / 2 / 3 / 5" },
+      { "key": "Stun duration", "value": "1 / 2 / 3 / 5" }
     ]
   },
   {
@@ -539,7 +539,7 @@
     "traits": ["clan"],
     "extraInfo": [
       { "key": "Targets", "value": "2 / 3 / 4 / 6" },
-      { "key": "Targets", "value": "4 / 3 / 2 / 1" },
+      { "key": "Targets", "value": "4 / 3 / 2 / 1" }
     ]
   },
   {
@@ -785,7 +785,7 @@
         {
           "effect": "-50% damage taken, +100% damage",
           "threshold": 6
-        },
+        }
       ]
     },
     {
@@ -806,7 +806,7 @@
         {
           "effect": "+6%",
           "threshold": 6
-        },
+        }
       ]
     }
   ],
