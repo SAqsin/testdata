@@ -360,6 +360,41 @@
     ]
   },
   {
+    "id": "mini_pekka",
+    "name": "Mini Pekka",
+    "bio": null,
+    "elixir": 3,
+    "hpLevels": "874 / 1398 / 2237 / 3578",
+    "damageLevels": "224 / 404 / 726 / 1307",
+    "hp": 3578,
+    "dps": "Medium",
+    "damage": 1307,
+    "hitSpeed": "1.66",
+    "range": 1,
+    "extraInfo": null,
+    "critical": 15,
+    "description": "Cooks a pancake to level up a random ally every few hits",
+    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/mini_pekka.webp",
+    "traits": ["boss"]
+  },
+  {   
+    "id": "bomber",
+      "name": "Bomber",
+      "bio": null,
+      "elixir": 2,
+      "hpLevels": "520 / 1040 / 2080 / 4160",
+      "damageLevels": "117 / 163 / 228 / 319",
+      "hp": 4160,
+      "dps": "Medium",
+      "damage": 319,
+      "hitSpeed": "1.42",
+      "range": 3,
+      "critical": 15,
+      "description": "Throws a bomb at the nearest enemy, dealing Damage in a 2-Hex Radius",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/bomber.webp",
+      "traits" : ["undead"]
+    },
+  {
     "id": "barbarian",
     "name": "Barbarian",
     "bio": null,
@@ -395,6 +430,40 @@
     "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/valkyrie.webp",
     "traits": ["clan"]
   },
+  {
+      "id": "speargoblin",
+      "name": "Spear Goblin",
+      "bio": null,
+      "elixir": 2,
+      "hpLevels": "390 / 780 / 1560 / 3120",
+      "damageLevels": "195 / 312 / 499 / 798",
+      "hp": 3120,
+      "dps": "Medium",
+      "damage": 798,
+      "hitSpeed": "1.6",
+      "range": 3,
+      "critical": 15,
+      "description": "Spears that slice through wind at such a wide range that he doesn't even need armor",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/spear-goblin.webp",
+      "traits" : ["goblin"]
+    },
+    {
+      "id": "firecracker",
+      "name": "Firecracker",
+      "bio": null,
+      "elixir": 2,
+      "hpLevels": "520 / 728 / 1019 / 1426",
+      "damageLevels": "104 / 166 / 265 / 423",
+      "hp": 1426,
+      "dps": "Medium",
+      "damage": 423,
+      "hitSpeed": "1.6",
+      "range": 3,
+      "critical": 15,
+      "description": "Fires a projectile that explodes on impact, damaging enemies behind target in a cone and knocking her back 1 hex every few hits",
+      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/firecracker.webp",
+      "traits" : ["forest"]
+    },
   {
     "id": "archerqueen",
     "name": "Archer Queen",
@@ -471,24 +540,26 @@
     "critical": 15,
     "description": "Fires a rocket at the farthest enemy after certain hits, dealing 50% bonus Damage and stunning them for 1.5s",
     "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/goblin-machine.webp",
-    "traits": ["goblin", "superstar"]
+    "traits": ["goblin"]
   },
   {
     "id": "prince",
     "name": "Prince",
     "bio": null,
     "elixir": 4,
-    "hp": 1280,
+    "hpLevels": "1063 / 1913 / 3443 / 6198",
+    "damageLevels": "141 / 226 / 361 / 577",
+    "hp": 6198,
     "dps": "Medium",
-    "damage": 174,
+    "damage": 577,
     "hitSpeed": "1.66",
     "range": 1,
     "critical": 15,
     "description": "Combat Start: Charges at the nearest target, dealing double Damage, pushing back enemies and stunning them for 2s",
     "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/prince.webp",
-    "traits": ["noble", "warrior"],
+    "traits": ["noble"],
     "extraInfo": [
-      { "key": "Hit Requirement", "value": "3 / 2 / 1 / 1" }
+      { "key": "Knockback Distance", "value": "2 / 3 / 4 / 5" }
     ]
   },
   {
@@ -496,17 +567,19 @@
     "name": "Golden Knight",
     "bio": null,
     "elixir": 5,
-    "hp": 1220,
+    "hpLevels": "1300 / 2340 / 4212 / 7581",
+    "damageLevels": "152 / 304 / 608 / 1216",
+    "hp": 7581,
     "dps": "Medium",
-    "damage": 142,
+    "damage": 1216,
     "hitSpeed": "1",
     "range": 1,
     "critical": 15,
     "description": "Dashes to the lowest HP enemy after defeating an enemy and deals bonus Damage",
     "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/golden-knight.webp",
-    "traits": ["noble", "assassin"],
+    "traits": ["noble"],
     "extraInfo": [
-      { "key": "Hit Requirement", "value": "3 / 2 / 1 / 1" }
+      { "key": "Bonus Damage", "value": "50% / 80% / 150% / 500%" }
     ]
   },
   {
@@ -514,18 +587,18 @@
     "name": "Skeleton King",
     "bio": null,
     "elixir": 5,
-    "hp": 1423,
+    "hpLevels": "1517 / 3034 / 6068 / 12136",
+    "damageLevels": "152 / 304 / 608 / 1216",
+    "hp": 12136,
     "dps": "Medium",
-    "damage": 142,
+    "damage": 1216,
     "hitSpeed": "2",
     "range": 1,
     "critical": 15,
     "description": "Deals Damage to enemies in a cone radius and summons a Skeleton for every enemy he defeats",
     "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/skeleton-king.webp",
     "traits": ["undead", "warrior"],
-    "extraInfo": [
-      { "key": "Hit Requirement", "value": "3 / 2 / 1 / 1" }
-    ]
+    "extraInfo": null
   }
 ],
   "traits" : [
