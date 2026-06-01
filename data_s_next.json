@@ -813,6 +813,7 @@
     {
       "id" : "tomb_queen",
       "name" : "Tomb Queen",
+      "hp" : "10",
       "team_size_multiplayer" : 0,
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/tomb_queen_ruler.webp",
       "ability" : "Ability: ombat Start: Spawns a Tombstone and once it's destroyed, she rises from the building to join the fight",
@@ -823,6 +824,7 @@
     {
       "id" : "royale_king",
       "name" : "Royale King",
+      "hp" : "10",
       "team_size_multiplayer" : 0,
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/royaleking_ruler.webp",
       "ability" : "Ability: Losing grants you +4-8 bonus Elixir at random",
@@ -833,6 +835,7 @@
     {
       "id" : "spirit_empress",
       "name" : "Spirit Empress",
+      "hp" : "10",
       "team_size_multiplayer" : 0,
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/spiritempress_ruler.webp",
       "ability" : "Ability: Every merge grants you +1 bonus Elixir",
@@ -843,6 +846,7 @@
     {
       "id" : "goblin_queen",
       "name" : "Goblin Queen",
+      "hp" : "10",
       "team_size_multiplayer" : 0,
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/goblinqueen_ruler.webp",
       "ability" : "Abiility: Queen joins Goblin Trait. Defeating an enemy results in a 33% chance of gaining a Goblin",
@@ -853,6 +857,7 @@
     {
       "id" : "elixir_loong",
       "name" : "Elixir Loong",
+      "hp" : "10",
       "team_size_multiplayer" : 1,
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/loong_ruler.webp",
       "ability" : "Ability: Gain +1 Elixir per round and +1 Team Size",
@@ -863,6 +868,7 @@
     {
       "id" : "battle_machine",
       "name" : "Battle Machine",
+      "hp" : "10",
       "team_size_multiplayer" : -1,
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/battle_machine_ruler.webp",
       "ability" : "Ability: Brings one random 1/2/3/4-Star building into battle in Rounds 1/3/5/8, -1 max Team Size",
@@ -873,6 +879,7 @@
     {
       "id" : "echo_sage",
       "name" : "Echo Sage",
+      "hp" : "10",
       "team_size_multiplayer" : 0,
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/echo_sage_ruler.webp",
       "ability" : "Ability: Summons The Echo who knocks out the nearest enemy, or enemies, after charging",
@@ -883,6 +890,7 @@
     {
       "id" : "grand_warden",
       "name" : "Grand Warden",
+      "hp" : "10",
       "team_size_multiplayer" : 0,
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/grand_warden_ruler.webp",
       "ability" : "Ability: Grants a random Shield to the lowest-HP% ally at 5s and 15s. The second Shield impacts a 3-tile radius upon breaking.",
@@ -893,6 +901,7 @@
     {
       "id" : "dagger_duchess",
       "name" : "Dagger Duchess",
+      "hp" : "10",
       "team_size_multiplayer" : 0,
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/dagger_duchess_ruler.webp",
       "ability" : "Ability: Leaves you a Dagger to equip to any troop",
