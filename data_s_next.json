@@ -846,7 +846,7 @@
     {
       "id" : "goblin_queen",
       "name" : "Goblin Queen",
-      "hp" : "10",
+      "hp" : "12",
       "team_size_multiplayer" : 0,
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/goblinqueen_ruler.webp",
       "ability" : "Abiility: Queen joins Goblin Trait. Defeating an enemy results in a 33% chance of gaining a Goblin",
