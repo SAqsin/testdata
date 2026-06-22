@@ -818,7 +818,7 @@
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/tomb_queen_ruler.webp",
       "ability" : "Ability: ombat Start: Spawns a Tombstone and once it's destroyed, she rises from the building to join the fight",
       "extraInfo":[
-        {"key":"Quest","value":"Tombstone summons 10/25/80 troops in one game"}
+        {"key":"Quest","value":"Tombstone summons 3/20/60 troops in one game"}
       ]
     },
     {
@@ -829,7 +829,7 @@
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/royaleking_ruler.webp",
       "ability" : "Ability: Losing grants you +4-8 bonus Elixir at random",
       "extraInfo":[
-        {"key":"Quest","value":"Lose 2/3/4 rounds in one game"}
+        {"key":"Quest","value":"Lose 1/2/4 rounds in one game"}
       ]
     },
     {
@@ -873,7 +873,7 @@
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/battle_machine_ruler.webp",
       "ability" : "Ability: Brings one random 1/2/3/4-Star building into battle in Rounds 1/3/5/8, -1 max Team Size",
       "extraInfo":[
-        {"key":"Quest","value":"Buildings destroy 2/8/20 troops in a row"}
+        {"key":"Quest","value":"Buildings destroy 1/5/15 troops in a row"}
       ]
     },
     {
@@ -895,7 +895,7 @@
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/grand_warden_ruler.webp",
       "ability" : "Ability: Grants a random Shield to the lowest-HP% ally at 5s and 15s. The second Shield impacts a 3-tile radius upon breaking.",
       "extraInfo":[
-        {"key":"Quest","value":"Shields affect 3/10/25 troops in one game"}
+        {"key":"Quest","value":"Shields affect 2/8/20 troops in one game"}
       ]
     },
     {
