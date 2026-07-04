@@ -816,7 +816,7 @@
       "hp" : "10",
       "team_size_multiplayer" : 0,
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/tomb_queen_ruler.webp",
-      "ability" : "Ability: ombat Start: Spawns a Tombstone and once it's destroyed, she rises from the building to join the fight",
+      "ability" : "Ability: Combat Start: Spawns a Tombstone and once it's destroyed, she rises from the building to join the fight",
       "extraInfo":[
         {"key":"Quest","value":"Tombstone summons 3/20/60 troops in one game"}
       ]
