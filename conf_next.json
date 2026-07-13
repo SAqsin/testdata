@@ -25,7 +25,7 @@
       "flag": "https://raw.githubusercontent.com/saqsin/testdata/main/langs/ru.png"
     }
   ],
-  "newUpdateUrl" : "https://supercell.com/en/games/clashroyale/blog/release-notes/merge-tactics-season-9/",
+  "newUpdateUrl" : "https://supercell.com/en/games/clashroyale/blog/release-notes/merge-tactics-season-10/",
   "paywallTitle" : "Build Team by AI!",
   "paywallDescription" : "Based on your selections, our AI analyzes the latest game data and creates the best team for you.All instructions will be in your native language.",
   "model" : "gemini-2.5-flash",
