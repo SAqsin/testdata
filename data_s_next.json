@@ -671,7 +671,7 @@
       "name": "Rider",
       "description": "Tiles Riders touch are awakened,granting tiled allies bonus hit and movement speed",
       "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/raider_trait.webp",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/rider_trait.webp",
       "bonuses": [
         {
           "effect": "+30% Hit and movement speed",
