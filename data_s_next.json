@@ -731,7 +731,7 @@
         {
           "effect": "+400% Hit and movement speed",
           "threshold": 4
-        },
+        }
       ]
     },
     {
