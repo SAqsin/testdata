@@ -84,30 +84,10 @@
       ]
     },
     {
-      "id": "executioner",
-      "name": "Executioner",
-      "bio": null,
-      "elixir": 3,
-      "hpLevels": "826 / 1487 / 2676 / 4817",
-      "damageLevels": "130 / 182 / 254 / 356",
-      "hp": 4817,
-      "dps": "Medium",
-      "damage": 356,
-      "hitSpeed": "1.66",
-      "range": 4,
-      "critical": 15,
-      "description": "Throws his boomerang axe at the nearest target across several Hexes",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/executioner.webp",
-      "traits": ["forest"],
-      "extraInfo": [
-        { "key": "Hex", "value": "1 / 2 / 3 / 4" }
-      ]
-    },
-    {
       "id": "magic_archer",
       "name": "Magic Archer",
       "bio": null,
-      "elixir": 3,
+      "elixir": 2,
       "hpLevels": "728 / 1019 / 1426 / 1995",
       "damageLevels": "78 / 124 / 198 / 317",
       "hp": 1995,
@@ -125,7 +105,7 @@
       "id": "goblin_cage",
       "name": "Goblin Cage",
       "bio": null,
-      "elixir": 4,
+      "elixir": 3,
       "hpLevels": "874 / 1574 / 2835 / 5098",
       "damageLevels": "78 / 124 / 198 / 317",
       "hp": 5098,
@@ -143,7 +123,7 @@
       "id": "bandit",
       "name": "Bandit",
       "bio": null,
-      "elixir": 4,
+      "elixir": 3,
       "hp": 4128,
       "hpLevels": "1008 / 1613 / 2580 / 4128",
       "damageLevels": "111 / 200 / 360 / 647",
@@ -164,7 +144,7 @@
       "id": "princess",
       "name": "Princess",
       "bio": null,
-      "elixir": 4,
+      "elixir": 2,
       "hpLevels": "672 / 1075 / 1719 / 2750",
       "damageLevels": "179 / 322 / 579 / 1042",
       "hp": 2750,
@@ -184,7 +164,7 @@
       "id": "royalghost",
       "name": "Royal Ghost",
       "bio": null,
-      "elixir": 3,
+      "elixir": 2,
       "hp": 5229,
       "hpLevels": "897 / 1614 / 2905 / 5229",
       "damageLevels": "133 / 187 / 261 / 365",
@@ -344,7 +324,7 @@
       "id": "witch",
       "name": "Witch",
       "bio": null,
-      "elixir": 4,
+      "elixir": 3,
       "hpLevels": "1063 / 1913 / 3443 / 6198",
       "damageLevels": "87 / 120 / 169 / 236",
       "hp": 6198,
@@ -379,46 +359,6 @@
       "extraInfo": [
         { "key": "Knockback Distance", "value": "2" },
         { "key": "Hit Requirement", "value": "4 / 3 / 2 / 1" }
-      ]
-    },
-    {
-      "id": "wizard",
-      "name": "Wizard",
-      "bio": null,
-      "elixir": 2,
-      "hpLevels": "999 / 1799 / 3238 / 5827",
-      "damageLevels": "149 / 269 / 483 / 869",
-      "hp": 5827,
-      "dps": "Medium",
-      "damage": 869,
-      "hitSpeed": "1.42",
-      "range": 4,
-      "extraInfo": [
-        { "key": "Attack Radius", "value": "2 Hex" }
-      ],
-      "critical": 15,
-      "description": "Throws a fireball at enemies in the area",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/wizard.webp",
-      "traits": ["clan"]
-    },
-    {
-      "id": "skeletondragons",
-      "name": "Skeleton Dragons",
-      "bio": null,
-      "elixir": 4,
-      "hpLevels": "1040 / 1664 / 2662 / 4258",
-      "damageLevels": "104 / 166 / 265 / 423",
-      "hp": 4258,
-      "dps": "Medium",
-      "damage": 423,
-      "hitSpeed": "1.42",
-      "range": 4,
-      "critical": 15,
-      "description": "Splits to create a new Skeleton Dragon after every few attacks",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/skeletondragons.webp",
-      "traits": ["undead"],
-      "extraInfo": [
-        { "key": "Attack Radius", "value": "2 Hex" }
       ]
     },
     {
