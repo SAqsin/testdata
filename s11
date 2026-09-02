@@ -183,27 +183,6 @@
     "extraInfo": null
   },
   {
-      "id": "megaknight",
-      "name": "Mega Knight",
-      "bio": null,
-      "elixir": 4,
-      "hpLevels": "1680 / 3025 / 5444 / 9799",
-      "damageLevels": "111 / 156 / 218 / 305",
-      "hp": 9799,
-      "dps": "Medium",
-      "damage": 305,
-      "hitSpeed": "1.66",
-      "range": 1,
-      "critical": 15,
-      "description": "Jumps and strikes the largest group of enemies every Few seconds, dealing Damage and stunning enemies in its Hex Radius for 2s",
-      "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/mega-knight.webp",
-      "traits" : ["boss"],
-      "extraInfo": [
-        { "key": "Cooldown", "value": "6s / 5s / 4s / 3s" },
-        { "key": "Hex", "value": "2 / 2 / 3 / 4" }
-      ]
-    },
-  {
     "id": "bandit",
     "name": "Bandit",
     "bio": null,
@@ -317,9 +296,12 @@
     "damage": 371,
     "hitSpeed": "1",
     "range": 4,
-    "extraInfo": null,
+    "extraInfo":  [
+      { "key": "Hit requirement", "value": "8 / 7 / 6 / 5" },
+      { "key": "Bounce Damage", "value": "100% / 100% / 100% / 200%" }
+    ],
     "critical": 15,
-    "description": "Who needs all that armor when you've got wicked range and hot pink hair?",
+    "description": "After a few hits, her arrows deal bonus damage for the rest of the round",
     "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/archer.webp",
     "traits": ["clan"]
   },
@@ -336,10 +318,12 @@
     "hitSpeed": "1.25",
     "range": 1,
     "critical": 15,
-    "description": "One of the toughest melee fighters in the kingdom",
+    "description": "Every few seconds taunts all enemies in range, forcing them to attack to him for s",
     "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/knight.webp",
     "traits": ["noble"],
-    "extraInfo": null
+    "extraInfo":  [
+      { "key": "Taunt duration", "value": "2s" }
+    ]
   },
   {
     "id": "goblin_demolisher",
@@ -397,28 +381,6 @@
       { "key": "Damage", "value": "200 / 400 / 800 / 1600" },
       { "key": "Radius", "value": "2 / 3 / 4 / 5" },
       { "key": "Stun duration", "value": "1 / 2 / 3 / 5" }
-    ]
-  },
-  {
-    "id": "monk",
-    "name": "Monk",
-    "bio": null,
-    "elixir": 5,
-    "hpLevels": "1625 / 3250 / 6500 / 13000",
-    "damageLevels": "87 / 120 / 169 / 236",
-    "hp": 13000,
-    "dps": "Medium",
-    "damage": 236,
-    "hitSpeed": "1",
-    "range": 1,
-    "critical": 15,
-    "description": "Creates a Shield that deflects damage onto the offender and heals Monk for a few seconds every few hits",
-    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/monk.webp",
-    "traits": ["boss"],
-    "extraInfo": [
-      { "key": "Hit Requirement", "value": "5 / 4 / 3 / 3" },
-      { "key": "Heal Percentage", "value": "20% / 30% / 50% / 100%" },
-      { "key": "Shield Damage", "value": "90%" }
     ]
   },
   {
@@ -501,44 +463,6 @@
     "extraInfo": [
       { "key": "Attack Radius", "value": "2 Hex" }
     ]
-  },
-  {
-    "id": "pekka",
-    "name": "P.E.K.K.A",
-    "bio": null,
-    "elixir": 4,
-    "hpLevels": "1891 / 3783 / 7566 / 15132",
-    "damageLevels": "413 / 660 / 1055 / 1688",
-    "hp": 15132,
-    "dps": "Very Slow",
-    "damage": 1688,
-    "hitSpeed": "2.5",
-    "range": 1,
-    "critical": 15,
-    "description": "A slow, but heavily armored melee fighter. Nothing gets past her..",
-    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/pekka.webp",
-    "traits": ["boss"],
-    "extraInfo": [
-      { "key": "Hit Requirement", "value": "4 / 3 / 2 / 1" }
-    ]
-  },
-  {
-    "id": "mini_pekka",
-    "name": "Mini Pekka",
-    "bio": null,
-    "elixir": 3,
-    "hpLevels": "874 / 1398 / 2237 / 3578",
-    "damageLevels": "224 / 404 / 726 / 1307",
-    "hp": 3578,
-    "dps": "Medium",
-    "damage": 1307,
-    "hitSpeed": "1.66",
-    "range": 1,
-    "extraInfo": null,
-    "critical": 15,
-    "description": "Cooks a pancake to level up a random ally every few hits",
-    "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/mini_pekka.webp",
-    "traits": ["boss"]
   },
   {   
     "id": "bomber",
@@ -709,7 +633,7 @@
     "id": "prince",
     "name": "Prince",
     "bio": null,
-    "elixir": 4,
+    "elixir": 5,
     "hpLevels": "1063 / 1913 / 3443 / 6198",
     "damageLevels": "141 / 226 / 361 / 577",
     "hp": 6198,
@@ -720,7 +644,7 @@
     "critical": 15,
     "description": "Combat Start: Charges at the nearest target, dealing double Damage, pushing back enemies and stunning them for 2s",
     "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/prince.webp",
-    "traits": ["noble"],
+    "traits": ["rider"],
     "extraInfo": [
       { "key": "Knockback Distance", "value": "2 / 3 / 4 / 5" }
     ]
@@ -729,7 +653,7 @@
     "id": "goldenknight",
     "name": "Golden Knight",
     "bio": null,
-    "elixir": 5,
+    "elixir": 4,
     "hpLevels": "1300 / 2340 / 4212 / 7581",
     "damageLevels": "152 / 304 / 608 / 1216",
     "hp": 7581,
@@ -749,7 +673,7 @@
     "id": "boss_bandit",
     "name": "Boss Bandit",
     "bio": null,
-    "elixir": 5,
+    "elixir": 4,
     "hpLevels": "975 / 1365 / 1911 / 2675",
     "damageLevels": "140 / 280 / 561 / 1123",
     "hp": 2675,
@@ -762,14 +686,14 @@
     "image": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/boss_bandit.webp",
     "traits": ["forest"],
     "extraInfo": [
-      { "key": "Hit Requirement", "value": "4 / 3 / 2 / 1" }
+      { "key": "Hit Requirement", "value": "4 / 3 / 2 / 2" }
     ]
   },
   {
     "id": "skeletonking",
     "name": "Skeleton King",
     "bio": null,
-    "elixir": 5,
+    "elixir": 4,
     "hpLevels": "1517 / 3034 / 6068 / 12136",
     "damageLevels": "152 / 304 / 608 / 1216",
     "hp": 12136,
@@ -786,20 +710,28 @@
 ],
   "traits" : [
     {
-      "id": "electric",
-      "name": "Electric",
-      "description": "After 6 seconds, lightning strikes all enemies once and stunned troops 3x",
+      "id": "rider",
+      "name": "Rider",
+      "description": "Tiles Riders touch are awakened,granting tiled allies bonus hit and movement speed",
       "type": "role",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/electric_trait.webp",
+      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/raider_trait.webp",
       "bonuses": [
         {
-          "effect": "Each strike deals 10% max HP damage",
+          "effect": "+30% Hit and movement speed",
           "threshold": 1
         },
         {
-          "effect": "Each strike deals 20% max HP damage",
+          "effect": "+60% Hit and movement speed",
           "threshold": 2
-        }
+        },
+        {
+          "effect": "+120% Hit and movement speed",
+          "threshold": 3
+        },
+        {
+          "effect": "+400% Hit and movement speed",
+          "threshold": 4
+        },
       ]
     },
     {
@@ -820,31 +752,6 @@
         {
           "effect": "+100% Hit Speed every 3s",
           "threshold": 6
-        }
-      ]
-    },
-    {
-      "id": "boss",
-      "name": "Boss",
-      "description": "Orb Exclusive: Bosses gain bonus damage and HP",
-      "type": "origin",
-      "icon": "https://raw.githubusercontent.com/saqsin/testdata/main/webp/boss_trait.webp",
-      "bonuses": [
-        {
-          "effect": "+50% of max HP and damage",
-          "threshold": 1
-        },
-        {
-          "effect": "+100% of max HP and damage",
-          "threshold": 2
-        },
-        {
-          "effect": "+150% of max HP and damage",
-          "threshold": 3
-        },
-        {
-          "effect": "+400% of max HP and damage",
-          "threshold": 4
         }
       ]
     },
@@ -953,7 +860,7 @@
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/tomb_queen_ruler.webp",
       "ability" : "Ability: Combat Start: Spawns a Tombstone and once it's destroyed, she rises from the building to join the fight",
       "extraInfo":[
-        {"key":"Quest","value":"Tombstone summons 3/20/60 troops in one game"}
+        {"key":"Quest","value":"Tombstone summons 3/15/50 troops in one game"}
       ]
     },
     {
@@ -1030,7 +937,7 @@
       "image" : "https://raw.githubusercontent.com/saqsin/testdata/main/webp/grand_warden_ruler.webp",
       "ability" : "Ability: Grants a random Shield to the lowest-HP% ally at 5s and 15s. The second Shield impacts a 3-tile radius upon breaking.",
       "extraInfo":[
-        {"key":"Quest","value":"Shields affect 2/8/20 troops in one game"}
+        {"key":"Quest","value":"Shields affect 3/10/20 troops in one game"}
       ]
     },
     {
